@@ -6,7 +6,7 @@ Web: [https://www.appnetos.com](https://www.appnetos.com)\
 Mail: [info@appnetos.com](mailto:info@apnetos.com)
 
 
-## The app based operating system for web applications sets new standards in development.
+## The app based operating system for web applications sets new standards in development
 
 APPNET OS offers a complete system that covers everything for your web application. Multilingual CMS make applications easy to implement in many different languages.
 
