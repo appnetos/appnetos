@@ -1,0 +1,17 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     German language strings.
+ */
+
+// Strings.
+$strings = [
+    "***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_controller"   => "Dieser String wird über den Controller ausgegeben",
+    "***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_model"        => "Dieser String wird über das Model ausgegeben",
+    "***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_view"         => "Dieser String wird über das View Template ausgegeben",
+];

@@ -1,0 +1,36 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     HTML Template App.
+ */
+
+// Language strings.
+$strings = [
+    "admin__apps__html__info" => "Здесь вы можете редактировать содержимое сгенерированного приложения HTML. Поле отображается для каждого используемого языка. Вы должны ввести контент для глобального поля и поля по умолчанию. Если вызывается приложение, и нет записи для соответствующего языка, по умолчанию загружается контент. Если контент по умолчанию отсутствует, то глобальный контент загружается. Текстовый режим содержит редактор, с помощью которого содержимое можно легко редактировать. В режиме HTML исходный код HTML и файл CSS необходимо редактировать вручную.",
+    "admin__apps__html__edit_css" => "Редактировать CSS",
+    "admin__apps__html__text_mode" => "Текстовый режим",
+    "admin__apps__html__html_mode" => "Режим HTML",
+    "admin__apps__html__warning" => "В режиме HTML можно редактировать HTML-код и CSS приложения. Если эта функция используется неправильно, вся страница может отображаться искаженной.",
+    "admin__apps__html__global" => "Глобального",
+    "admin__apps__html__save" => "Сохранить",
+];

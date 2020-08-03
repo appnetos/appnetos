@@ -1,0 +1,17 @@
+Convierta su aplicación web en un atractivo.
+Con la aplicación cambiador de fondo, puede crear fácilmente fondos cambiantes.
+Los fondos pueden tener un color simple o una imagen de fondo. Para una imagen de fondo, se puede configurar la repetición y el tamaño. Los fondos se pueden asignar individualmente o alternativamente a los contenedores de fluidos, contenedor o aplicaciones. La aplicación genera las clases CSS necesarias para esto. Estos deben agregarse a las aplicaciones en la configuración de la aplicación. Utilice esta aplicación como una aplicación estática o agréguela a la página using a través de CMS Manager.
+
+- Fácil instalación
+- Fácil configuración a través de la configuración del administrador de aplicaciones
+- Fondos se pueden añadir como fondo único o como fondo repetitivo
+- Zona de administrador en 6 idiomas. Inglés, Alemán, Español, Francés, Italiano, Ruso
+- Múltiples instalaciones y configuraciones posibles
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+Agregue a las aplicaciones estáticas o agregue como una aplicación en la página que está usando.
+Configure los fondos en la configuración del administrador de aplicaciones.
+En la configuración de la aplicación, las aplicaciones usan los fondos, agregue las clases CSS generadas.
+
+- Traducido automáticamente -

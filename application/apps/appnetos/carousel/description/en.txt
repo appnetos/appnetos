@@ -1,0 +1,20 @@
+Use the app and simply create a Bootstrap pictures carousel.
+Simply manage the pictures of the carousel from the App Administrator pane and place the app anywhere in your web application.
+The display is responsive and the size of the app is freely configurable via the app settings.
+A link can be defined for each image.
+The app is multilingual. An extra file can be used for each image, for each language.
+You can use the settings to influence display time and controls.
+
+- Easy installation
+- Easy to administrate
+- Multilingual. A separate image can be used for each language.
+- A link can be defined for each image
+- Display time and controls settings
+- Container app. Size configurable via app settings
+- Administrator area in 6 languages. English, German, Spanish, French, Italian, Russian
+- Multiple installation and configuration possible
+- Free for commercial and non-commercial projects
+
+Use:
+- Place in a suitable place
+- Configure images, links and settings via the administrator area

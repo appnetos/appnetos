@@ -1,0 +1,19 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Event revert.
+ */
+
+/**
+ * Function revert.
+ *
+ * @param int $id app ID
+ */
+function revert($id) {
+
+}

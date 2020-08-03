@@ -1,0 +1,18 @@
+L’application APPNET OS Breadcrumbs génère automatiquement de la chapelure à partir de l’URI.
+Simplement installée et placée, l’application crée une barre qui est représentée sous forme de flèches.
+Le lien de liens vers les URI infantiles respectifs de la gestion multilinugual URI.
+La couleur de fond, la couleur de la bordure, la couleur de police, et la couleur de lien sont entièrement configurables dans la section d’administrateur de l’application.
+
+- Installation facile
+- Générer automatiquement la chapelure
+- Couleurs entièrement configurables via la section administrateur
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Multilingue
+- Section Administratrice en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Installation et configuration multiples possibles
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+Placez-vous dans un endroit approprié, configurez les couleurs sur la zone de l’administrateur, fait.
+
+- Traduit automatiquement -

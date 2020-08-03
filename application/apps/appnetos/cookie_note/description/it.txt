@@ -1,0 +1,22 @@
+Cookie Note ti dà la possibilità di fornire agli utenti le impostazioni per l'uso di diversi tipi di cookie.
+L'applicazione utilizza il sistema di cookie incorporato del APPNET OS. Sono consentiti solo i cookie che l'utente accetta. Questo funziona solo per le app che utilizzano il sistema di cookie integrato.
+L'utente viene informato quando il sistema tenta di impostare un cookie non autorizzato.
+Nelle impostazioni di App Administrator è possibile specificare i tipi di cookie da bloccare.
+
+- Nota cookie generato automaticamente
+- Installazione semplice
+- Facile configurazione
+- App contenitore. Le dimensioni dell'app possono essere facilmente configurate nelle impostazioni dell'app
+- Regolazione del colore tramite classi CSS nelle impostazioni dell'app
+- Utilizza il sistema APPNET OS Cookie Blocker System
+- Informa l'utente quando il sistema tenta di impostare un cookie non autorizzato
+- Multilingua
+- Area di amministrazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Area di applicazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Aggiungi come app statica in alto o in basso
+- Configurare le impostazioni di visualizzazione nelle impostazioni di amministratore dell'app
+
+- Traduzione automatica -

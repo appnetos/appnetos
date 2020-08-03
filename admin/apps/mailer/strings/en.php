@@ -1,0 +1,150 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Mailer logs, blacklist, settings, mailboxes.
+ */
+
+// Language strings.
+$strings = [
+    "admin__mailer__mailer__logs__info" => "The APPNET OS Mailer is a simple system to control complex mail sending. Mailboxes are created in the General Mailer. These mailboxes can be used for sending the messages of apps. Sending runs exclusively on the Mailer App. The Mailer App has several measures to protect against spam. The Mailer App must be set in same URI before the app which sends a mail. The Mailer App generates a mailer ID that must be passed for each sending. This ID is changed with every sent mail or any attempt to send an email. Thus, it is ensured that the form of robots can not be copied to send spam. The Mailer App generates a log which can be read out via the admin area for every sent mail and for each failed delivery. Any attempt to send a message is matched against the shipping log. A user trying to send too many emails, the email used address on a blacklist, which no other mail delivery is possible. The blacklist can be changed at any time in the admin area.",
+    "admin__mailer__mailer__logs__header_error" => "Error log",
+    "admin__mailer__mailer__logs__header_confirm" => "Confirm log",
+    "admin__mailer__mailer__logs__datetime" => "Date-Time",
+    "admin__mailer__mailer__logs__address" => "To address",
+    "admin__mailer__mailer__logs__message" => "Message",
+    "admin__mailer__mailer__logs__word_info" => "Info",
+    "admin__mailer__mailer__logs__clear_error" => "Clear error log",
+    "admin__mailer__mailer__logs__clear_confirm" => "Clear confirm log",
+    "admin__mailer__mailer__logs__conf_clear" => "The logs has been cleared",
+    "admin__mailer__mailer__logs__blacklist" => "Blacklist matching",
+    "admin__mailer__mailer__settings__info" => "The APPNET OS Mailer is a simple system to control complex mail sending. Mailboxes are created in the General Mailer. These mailboxes can be used for sending the messages of apps. Sending runs exclusively on the Mailer App. The Mailer App has several measures to protect against spam. The Mailer App must be set in same URI before the app which sends a mail. The Mailer App generates a mailer ID that must be passed for each sending. This ID is changed with every sent mail or any attempt to send an email. Thus, it is ensured that the form of robots can not be copied to send spam. The Mailer App generates a log which can be read out via the admin area for every sent mail and for each failed delivery. Any attempt to send a message is matched against the shipping log. A user trying to send too many emails, the email used address on a blacklist, which no other mail delivery is possible. The blacklist can be changed at any time in the admin area.",
+    "admin__mailer__mailer__settings__log_error" => "Size error log",
+    "admin__mailer__mailer__settings__log_confirm" => "Size confirm log",
+    "admin__mailer__mailer__settings__emails" => "sent emails",
+    "admin__mailer__mailer__settings__mailbox" => "Standard mailbox",
+    "admin__mailer__mailer__settings__confirm" => "The settings has been edited",
+    "admin__mailer__mailer__settings__never" => "Never",
+    "admin__mailer__mailer__settings__unlimited" => "Unlimited",
+    "admin__mailer__mailer__blacklist__info" => "The APPNET OS Mailer is a simple system to control complex mail sending. Mailboxes are created in the General Mailer. These mailboxes can be used for sending the messages of apps. Sending runs exclusively on the Mailer App. The Mailer App has several measures to protect against spam. The Mailer App must be set in same URI before the app which sends a mail. The Mailer App generates a mailer ID that must be passed for each sending. This ID is changed with every sent mail or any attempt to send an email. Thus, it is ensured that the form of robots can not be copied to send spam. The Mailer App generates a log which can be read out via the admin area for every sent mail and for each failed delivery. Any attempt to send a message is matched against the shipping log. A user trying to send too many emails, the email used address on a blacklist, which no other mail delivery is possible. The blacklist can be changed at any time in the admin area.",
+    "admin__mailer__mailer__blacklist__edit_info" => "Blocked email addresses separated by a semicolon ( ; )",
+    "admin__mailer__mailer__blacklist__confirm" => "The blacklist has been edited",
+    "admin__mailer__mailer__mailboxes__info" => "The APPNET OS Mailer is a simple system to control complex mail sending. Mailboxes are created in the General Mailer. These mailboxes can be used for sending the messages of apps. Sending runs exclusively on the Mailer App. The Mailer App has several measures to protect against spam. The Mailer App must be set in same URI before the app which sends a mail. The Mailer App generates a mailer ID that must be passed for each sending. This ID is changed with every sent mail or any attempt to send an email. Thus, it is ensured that the form of robots can not be copied to send spam. The Mailer App generates a log which can be read out via the admin area for every sent mail and for each failed delivery. Any attempt to send a message is matched against the shipping log. A user trying to send too many emails, the email used address on a blacklist, which no other mail delivery is possible. The blacklist can be changed at any time in the admin area.",
+    "admin__mailer__mailer__mailboxes__add" => "Add mailbox",
+    "admin__mailer__mailer__mailboxes__name" => "Mailbox name",
+    "admin__mailer__mailer__mailboxes__mail" => "Email address",
+    "admin__mailer__mailer__mailboxes__host" => "Host",
+    "admin__mailer__mailer__mailboxes__user" => "User name",
+    "admin__mailer__mailer__mailboxes__pass" => "Password",
+    "admin__mailer__mailer__mailboxes__is_smtp" => "Send as SMTP",
+    "admin__mailer__mailer__mailboxes__smtp_auth" => "SMTP requires authentication",
+    "admin__mailer__mailer__mailboxes__err_no_name" => "No name entered",
+    "admin__mailer__mailer__mailboxes__err_name_exists" => "There is already a mailbox with that name",
+    "admin__mailer__mailer__mailboxes__err_mail" => "The email address can not be used",
+    "admin__mailer__mailer__mailboxes__err_host" => "No host entered",
+    "admin__mailer__mailer__mailboxes__err_user" => "No user name entered",
+    "admin__mailer__mailer__mailboxes__err_pass" => "No password entered",
+    "admin__mailer__mailer__mailboxes__conf_add" => "The mailbox has been added",
+    "admin__mailer__mailer__mailboxes__edit" => "Edit mailbox",
+    "admin__mailer__mailer__mailboxes__edit_info" => "Be careful when changing mailbox names. If a distributor rule uses this mailbox, then it will no longer send emails. When changing the name, the distributor needs to be reconfigured.",
+    "admin__mailer__mailer__mailboxes__conf_edit" => "The mailbox has been edited",
+    "admin__mailer__mailer__mailboxes__delete_info" => "Be careful when deleting mailboxes. If a mailbox is deleted and a distributor uses that mailbox, it will no longer be able to send mail. The distributor then needs to be reconfigured.",
+    "admin__mailer__mailer__mailboxes__conf_delete" => "The mailbox has been deleted",
+    "admin__mailer__mailer__mailboxes__delete" => "Delete mailbox",
+    "admin__mailer__mailer__mailboxes__err_delete" => "The mailbox could not be deleted",
+    "admin__mailer__mailer__mailboxes__port" => "Port",
+    "admin__mailer__mailer__mailboxes__secure" => "SMTP Secure",
+    "admin__mailer__mailer__mailboxes__none" => "none",
+    "admin__mailer__mailer__mailboxes__sent" => "Sent",
+    "admin__mailer__mailer__mailboxes__failed" => "Failed",
+    "admin__mailer__mailer__menu_header" => "Mailer",
+    "admin__mailer__mailer__menu_logs" => "Logs",
+    "admin__mailer__mailer__menu_blacklist" => "Blacklist",
+    "admin__mailer__mailer__menu_whitelist" => "Whitelist",
+    "admin__mailer__mailer__menu_settings" => "Settings",
+    "admin__mailer__mailer__menu_mailboxes" => "Mailboxes",
+    "admin__mailer__mailer__menu_header_logs" => "Mailer logs",
+    "admin__mailer__mailer__menu_header_blacklist" => "Mailer blacklist",
+    "admin__mailer__mailer__menu_header_whitelist" => "Mailer whitelist",
+    "admin__mailer__mailer__menu_header_settings" => "Mailer settings",
+    "admin__mailer__mailer__menu_header_mailboxes" => "Mailer mailboxes",
+    "admin__mailer__mailer__menu_save" => "Save",
+    "admin__mailer__mailer__settings_log_conf" => "Save",
+    "admin__mailer__mailer__settings_ip_lock" => "Post IP to blacklist",
+    "admin__mailer__mailer__minute" => "Minute",
+    "admin__mailer__mailer__minutes" => "Minutes",
+    "admin__mailer__mailer__requests" => "Requests in",
+    "admin__mailer__mailer__settings_ip_expire" => "Remove IP from Blacklist to",
+    "admin__mailer__mailer__hour" => "Hour",
+    "admin__mailer__mailer__hours" => "Hours",
+    "admin__mailer__mailer__manually" => "Manually",
+    "admin__mailer__mailer__settings_mail_lock" => "Post email address to blacklist",
+    "admin__mailer__mailer__add" => "Add",
+    "admin__mailer__mailer__close" => "Close",
+    "admin__mailer__mailer__mailboxes_no_mailboxes" => "No mailbox set up yet",
+    "admin__mailer__mailer__mailboxes_firewall" => "Mailer Firewall",
+    "admin__mailer__mailer__mailboxes_firewall_true" => "Firewall activated",
+    "admin__mailer__mailer__mailboxes_firewall_false" => "Firewall deactivated",
+    "admin__mailer__mailer__mailboxes_delete_header" => "Delete mailbox",
+    "admin__mailer__mailer__delete" => "Delete",
+    "admin__mailer__mailer__edit" => "Edit",
+    "admin__mailer__mailer__properties" => "Properties",
+    "admin__mailer__mailer__pass_info" => "Leave blank for no changes",
+    "admin__mailer__mailer__settings__none" => "None",
+    "admin__mailer__mailer__settings__error" => "The settings could not be saved",
+    "admin__mailer__mailer__whitelist__info" => "The APPNET OS Mailer has a firewall to protect against spam. The firewall automatically blocks email addresses and IP addresses that try to send messages too often. Blocked email addresses and IP addresses are blacklisted. IP addresses and email addresses that are in the whitelist are excluded from the firewall.",
+    "admin__mailer__mailer__email_or_ip" => "IP or email address",
+    "admin__mailer__mailer__no_entries" => "No entries available",
+    "admin__mailer__mailer__list_add_err" => "The entry could not be added",
+    "admin__mailer__mailer__list_add_conf" => "The entry has been added",
+    "admin__mailer__mailer__address" => "Address",
+    "admin__mailer__mailer__type" => "Type",
+    "admin__mailer__mailer__email" => "Email address",
+    "admin__mailer__mailer__ip" => "Ip",
+    "admin__mailer__mailer__remove" => "Remove",
+    "admin__mailer__mailer__err_exists" => "The entry already exists",
+    "admin__mailer__mailer__list_remove_err" => "The entry could not be removed",
+    "admin__mailer__mailer__list_remove_conf" => "The entry has been removed",
+    "admin__mailer__mailer__blacklist_static" => "Permanently lock",
+    "admin__mailer__mailer__static" => "Permanently",
+    "admin__mailer__mailer__expiration" => "Expiration",
+    "admin__mailer__mailer__mailbox" => "Mailbox",
+    "admin__mailer__mailer__logs__clear_info" => "Be careful when emptying the logs. Email addresses of new messages are matched with the logs. This determines the number of messages sent for the blacklist settings.",
+    "admin__mailer__mailer__logs__clear" => "Clear",
+    "admin__mailer__mailer__mailboxes_from_name" => "Sender Name",
+    "admin__mailer__mailer__mailboxes_not_defined" => "Undefined",
+    "admin__mailer__mailer__mailboxes__timeout" => "Timeout in seconds",
+    "appnetos__mailer__error_ip_in_blacklist" => "IP address is in the blacklist",
+    "appnetos__mailer__error_ip_to_blacklist" => "Too many requests. IP address has been blacklisted",
+    "appnetos__mailer__error_id_set" => "Mailer ID not set",
+    "appnetos__mailer__error_mailbox_set" => "Mailbox not set",
+    "appnetos__mailer__error_to_addr_set" => "Recipient email address not set",
+    "appnetos__mailer__error_body_set" => "Content not set",
+    "appnetos__mailer__error_id_match" => "Mailer ID not match",
+    "appnetos__mailer__error_to_addr" => "Recipient email address is wrong",
+    "appnetos__mailer__error_mailbox_ex" => "Mailbox not exists",
+    "appnetos__mailer__error_phpmailer" => "PHP Mailer error",
+    "appnetos__mailer__error_email_in_blacklist" => "Email address is in the blacklist",
+    "appnetos__mailer__error_email_to_blacklist" => "Too many email requests. Email address has been set on the Blacklist",
+    "appnetos__mailer__error_no_settings" => "No mailer settings available.",
+    "appnetos__mailer__error_no_mailboxes" => "There are no mailer mailboxes.",
+];

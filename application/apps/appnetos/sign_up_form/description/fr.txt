@@ -1,0 +1,21 @@
+Si vous fournissez des zones pour les utilisateurs connectés pour votre application Web, vous pouvez utiliser ce formulaire pour permettre aux nouveaux utilisateurs de s’inscrire.
+L’application utilise le système APPNET OS pour créer de nouveaux utilisateurs. Il vous donne deux façons d’enregistrer de nouveaux utilisateurs. Avec vérification par e-mail et une connexion simple sans confirmation de l’adresse e-mail.
+L’APPNET OS Mailer est utilisé pour confirmer l’adresse e-mail. L’utilisateur nouvellement connecté recevra un e-mail avec un lien pour confirmer lors de l’inscription. Dans les paramètres APPNET OS Mailer, une boîte aux lettres doit être configurée pour être affectée au formulaire d’inscription de l’administrateur APP. L’expéditeur doit être installé au-dessus de l’application. Pour des raisons de sécurité, l’APPNET OS Mailer ne doit jamais être installé statiquement.
+
+- Moyen facile de fournir à vos utilisateurs un enregistrement à votre application web
+- Configuration facile
+- Offre deux options d’inscription individuelles. Avec et sans confirmation par e-mail
+- Multilingue
+- Zone d’application en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Lors de l’inscription à la confirmation par e-mail, configurez la boîte aux lettres pour l’APPNET OS Mailer, attribuez la boîte aux lettres dans les paramètres de l’administrateur de l’application, placez l’expéditeur au-dessus de cette application.
+- Placer l’application dans un endroit approprié
+
+Dépendances:
+- APPNET OS Mailer, pour les inscriptions avec confirmation par e-mail
+
+- Machine traduite -

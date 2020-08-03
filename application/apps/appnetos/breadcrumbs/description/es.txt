@@ -1,0 +1,18 @@
+La aplicación APPNET OS Breadcrumbs genera automáticamente rutas de navegación desde el URI.
+Simplemente instalada y colocada, la aplicación crea una barra que se representa como flechas.
+Los vínculos se vinculan a los URI secundarios respectivos de la administración de URI multilinugual.
+El color de fondo, el color del borde, el color de fuente y el color del vínculo se pueden configurar completamente en la sección de administrador de la aplicación.
+
+- Fácil instalación
+- Generar automáticamente las migas de pan
+- Colores totalmente configurables a través de la sección de administrador
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Multilingual
+- Sección de administrador en 6 idiomas. Inglés, Alemán, Español, Francés, Italiano, Ruso
+- Múltiples instalaciones y configuraciones posibles
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+Colocar en un lugar adecuado, configurar los colores sobre el área de administrador, hecho.
+
+- Traducido automáticamente -

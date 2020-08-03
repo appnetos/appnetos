@@ -1,0 +1,14 @@
+Este widget elimina los datos de demostración del APPNET OS de la instalación y restablece el sistema a un soporte vacío.
+El widget aparece en el panel del primer usuario al instalar el APPNET OS.
+Al hacer clic en Eliminar, se restablece la base de datos a un sistema vacío y se eliminan todas las aplicaciones de demostración instaladas. La aplicación se elimina cuando se usa y ya no aparece en el panel.
+Por favor, no utilice la aplicación si ya ha configurado páginas o aplicaciones de CMS para APPNET OS. El uso de este widget perderá sus configuraciones anteriores.
+
+- Widget de tablero
+- Botón para restablecer los datos de demostración y eliminar las aplicaciones de demostración
+- Multilingual
+- Widget en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Añadir widget al tablero
+- Haga clic en el botón para restablecer

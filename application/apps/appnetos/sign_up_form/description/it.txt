@@ -1,0 +1,21 @@
+Se si forniscono aree per gli utenti connessi per l'applicazione Web, è possibile utilizzare questo modulo per consentire ai nuovi utenti di registrarsi.
+L'applicazione utilizza il APPNET OS per creare nuovi utenti. Ti dà due modi per registrare nuovi utenti. Con verifica e-mail e un semplice login senza una conferma dell'indirizzo e-mail.
+AppNET OS Mailer viene utilizzato per confermare l'indirizzo e-mail. L'utente appena connesso riceverà un'e-mail con un link per confermare al momento della registrazione. Nelle impostazioni di MAILer del APPNET OS, una cassetta postale deve essere configurata per essere assegnata al modulo di registrazione nell'amministratore APP. Il mailer deve essere installato sopra l'app. Per motivi di sicurezza, APPNET OS Mailer non deve mai essere installato in modo statico.
+
+- Modo semplice per fornire agli utenti una registrazione all'applicazione web
+- Facile configurazione
+- Offre due opzioni di registrazione individuali. Con e senza conferma e-mail
+- Multilingua
+- Area di applicazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Area di amministrazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Quando si registra con la conferma di posta elettronica, configurare la cassetta postale per APPNET OS Mailer, assegnare la cassetta postale nelle impostazioni di amministratore dell'applicazione, posizionare mailer sopra questa applicazione.
+- Posizionare l'app in un luogo adatto
+
+Dipendenze:
+- APPNET OS Mailer, per le registrazioni con conferma e-mail
+
+- Macchina tradotta -

@@ -1,0 +1,18 @@
+Con questa applicazione, si sarà presto installare il noto font Font Impressionante.
+https://fontawesome.com/
+
+Basta installare, impostare app come un'applicazione statica sopra, fatto.
+Il tipo di carattere popolare può quindi essere utilizzato in qualsiasi punto del progetto web.
+
+Si prega di notare le condizioni di licenza separate.
+https://fontawesome.com/v4.7.0/license/
+
+- Installazione rapida e semplice
+- Può essere utilizzato in tutto il progetto web
+
+Utilizzare:
+- Installazione
+- Attiva
+- Imposta come app statica sopra
+
+- Traduzione automatica -

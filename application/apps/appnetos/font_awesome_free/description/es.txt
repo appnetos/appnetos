@@ -1,0 +1,18 @@
+Con esta aplicación, pronto instalará la conocida fuente Font Awesome.
+https://fontawesome.com/
+
+Simplemente instale, establezca la aplicación como una aplicación estática arriba, hecho.
+La fuente popular se puede utilizar en cualquier lugar de su proyecto web.
+
+Tenga en cuenta los términos de licencia independientes.
+https://fontawesome.com/v4.7.0/license/
+
+- Instalación rápida y fácil
+- Se puede utilizar en todo el proyecto web
+
+Uso:
+- Instalar
+- Activar
+- Establecer como aplicación estática arriba
+
+- Traducido automáticamente -

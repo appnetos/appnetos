@@ -1,0 +1,15 @@
+Sichern Sie Ihre Webapplikation ab vor unerwünschten Zugriff.
+Mit dieser App können Sie Ihre komplette Webapplikation oder einzelne Seiten vor unerwünschtem Zugriff sichern. Ist ein Benutzer nicht angemeldet, dann wird eine Anmeldefenster ausgegeben. Als statische App oben hinzugefügt können nur noch angemeldete Benutzer auf Ihre komplette Webapplikation zugreifen.
+Um einzelne Seiten vor Zugriff unangemeldeter Benutzer zu sicher verbauen Sie die App einfach an oberster Stelle.
+
+- Absicherung vor unangemeldeten Benutzern
+- Einfache Umsetzung
+- Kann die komplette Webapplikation oder einzelne Seiten absichern
+- Mehrsprachig
+- Applikationsbereich-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Installieren
+- Als statische App oben festlegen um komplette Webapplikation vor unerwünschten Zugriff zu sichern
+- An oberster Stelle einer Seite festlegen um einzelne Seiten vor unerwünschten Zugriff zu sichern

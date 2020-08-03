@@ -1,0 +1,15 @@
+Secure your web application from unwanted access.
+With this app you can save your entire web application or individual pages from unwanted access. If a user is not logged on, a login window is issued. Added as a static app above, only logged-in users can access your entire web application.
+To keep individual pages safe from unregistered users' access, simply install the app at the top.
+
+- Protection against unannounced users
+- Easy implementation
+- Can secure the complete web application or individual pages
+- Multilingual
+- Application area area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Free for commercial and non-commercial projects
+
+Use:
+- Install
+- Set as static app above to protect complete web application from unwanted access
+- Set at the top of a page to protect individual pages from unwanted access

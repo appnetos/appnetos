@@ -1,0 +1,17 @@
+Utilisez ce signe sous forme pour donner à vos utilisateurs un moyen facile de vous connecter à votre application web.
+Le signe en forme est très facile à installer. L’application est une application de conteneurs et peut être construite n’importe où dans votre application web.
+La taille peut être configurée via les paramètres de l’application. Des liens supplémentaires vers la page d’enregistrement et la page d’oubli de mot de passe peuvent être définis via les Paramètres de l’administrateur de l’application.
+
+- Configuration facile
+- Installation entièrement automatique et très facile
+- Multilingue
+- Zone d’application en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Configurer les liens dans les paramètres de l’administrateur de l’application
+- Placer l’application dans un endroit approprié
+
+- Machine traduite -

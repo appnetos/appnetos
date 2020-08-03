@@ -1,0 +1,12 @@
+Lassen Sie sich nützliche App Informationen direkt in Ihre Dashboard anzeigen.
+Diese Widget zeigt Ihnen die Gesamtzahl der Apps an, wie viele Apps aktuell aktiv sind und wie viele Apps statisch verbaut sind. Mit den eingebauten Links kommen sie, mit einem Klick, direkt zu den gewünschten App Einstellungen.
+
+- Dashboard Widget
+- Zeigt Ihnen den aktuellen Status Ihrer Apps an
+- Verbaute Links um schnell zu den gewünschten App Einstellungen zu kommen
+- Mehrsprachig
+- Widget in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Widget dem Dashboard hinzufügen

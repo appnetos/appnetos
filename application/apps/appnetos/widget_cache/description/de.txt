@@ -1,0 +1,13 @@
+Behalten Sie Ihre Cache Einstellungen immer im Blick.
+Mit diesem Dashboard Widget haben Sie Ihr APPNET OS Caching voll unter Kontrolle. Sie gibt Ihnen nicht nur die Möglichkeit alle Cache Einstellungen direkt in Ihrem Dashboard einzusehen, sonder auch die Caches zu leeren.
+Die Caches können einzeln zurückgesetzt werden oder komplett geleert werden.
+
+- Dashboard Widget
+- Zeigt Ihnen den aktuellen Status Ihrer eingestellten Caches an
+- Verbaute Links Caches einzeln oder komplett zu leeren
+- Mehrsprachig
+- Widget in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Widget dem Dashboard hinzufügen

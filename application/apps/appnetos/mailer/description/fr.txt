@@ -1,0 +1,20 @@
+L’expéditeur offre à d’autres applications la possibilité d’envoyer des e-mails.
+L’APPNET OS Mailer est une application système intégrée. Les paramètres de l’expéditeur sont fixés dans la zone de l’administrateur. Les boîtes aux lettres peuvent être créées ici pour envoyer des e-mails.
+Cette application permet aux applications tierces d’envoyer des messages dans les boîtes aux lettres. Les boîtes aux lettres doivent être attribuées aux applications, généralement via l’application Paramètres de l’administrateur.
+L’APPNET OS Mailer dispose d’un pare-feu avancé qui bloque l’accès excessif et les robots. Les adresses IP et les adresses e-mail peuvent être bloquées ou autorisées de façon permanente. Un journal vous informe sur les e-mails envoyés ou bloqués.
+En outre, l’expéditeur dispose d’un widget qui vous informe sur les e-mails envoyés et bloqués dans votre tableau de bord.
+L’expéditeur doit être installé dans la zone CMS en face des applications. Nous ne recommandons pas d’utiliser l’expéditeur statiquement.
+
+- Système simple qui donne à d’autres applications la possibilité d’envoyer des e-mails
+- Réfléchi et rapide à configurer
+- Peut être utilisé avec les boîtes aux lettres POP3 et SMTP
+- Pare-feu contre un accès excessif et des robots
+- Listes pour bloquer et libérer définitivement les adresses e-mail et les adresses IP
+- Widget qui vous informe sur les e-mails envoyés et bloqués
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Configurer les boîtes aux lettres dans la zone Administr administrateur
+- Installer des applications ci-dessus qui envoient des e-mails
+
+- Machine traduite -

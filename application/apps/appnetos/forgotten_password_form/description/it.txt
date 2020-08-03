@@ -1,0 +1,22 @@
+Con questa applicazione, si dà agli utenti la possibilità di reimpostare la password.
+Immettendo l'indirizzo e-mail, all'utente viene inviato un collegamento per reimpostare la password. L'applicazione utilizza il Mailer del APPNET OS. Ciò consente di integrarlo e configurarlo rapidamente. Nelle impostazioni di Amministratore app, è necessario assegnare la cassetta postale del mailer del APPNET OS. Il mailer deve essere impostato sopra l'app.
+
+- Integrazione rapida e semplice
+- Multilingua
+- Area di amministrazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Area di applicazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- App contenitore. Le dimensioni dell'app possono essere facilmente configurate nelle impostazioni dell'app
+- Utilizza il mailer del APPNET OS
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Installare app
+- Configurare la cassetta postale di Mailer
+- Assegnare la cassetta postale Mailer nelle impostazioni di Amministratore app
+- Impostare mailer sopra l'applicazione
+
+Dipendenze:
+- APPNET OS Mailer
+
+
+- Macchina tradotta -

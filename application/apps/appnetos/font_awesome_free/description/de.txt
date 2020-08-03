@@ -1,0 +1,16 @@
+Mit dieser App installieren Sie in Kürze die bekannte Schriftart Font Awesome.
+https://fontawesome.com/
+
+Einfach installieren, App als statische App oben festlegen, fertig.
+Die beliebte Schriftart kann dann überall in Ihrem Webprojekt verwendet werden.
+
+Bitte beachten Sie die gesonderten Lizenzbedingungen.
+https://fontawesome.com/v4.7.0/license/
+
+- Schnelle und einfache installation
+- Kann im gesamten Webprojekt verwendet werden
+
+Verwendung:
+- Installieren
+- Aktivieren
+- Als statische App oben festlegen

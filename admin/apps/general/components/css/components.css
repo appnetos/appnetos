@@ -1,0 +1,221 @@
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     admin/apps/general/components/css/general.css ->    Css for admin app "General".
+*/
+
+/* Font */
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../../out/admin/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('out/admin/fonts/OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "open_sansregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0px;
+}
+.clear-both {
+    clear: both;
+}
+.word-break {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+.text-decoration-none:hover {
+    text-decoration: none;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+/* Bootstrap */
+.container {
+    max-width: 100%;
+}
+.form-check-input {
+    margin-top: 0.15rem !important;
+    margin-right: 0.75rem !important;
+}
+
+
+/* Font awesome */
+.fa-menu-size {
+    min-width :22px;
+}
+
+
+/* Header */
+.admin__header_logo {
+    width: 160px;
+}
+
+
+/* Tooltip */
+.tool-tip {
+    position: relative;
+    display: inline-block;
+}
+.tool-tip .tool-tip-text {
+    visibility: hidden;
+    width: 180px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 10000;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -130px;
+}
+.tool-tip:hover .tool-tip-text {
+    visibility: visible;
+}
+
+
+/* Sidebar fixed left */
+.sidebar {
+    margin-left: 0px;
+}
+.container-sidebar {
+    margin-top: 68px;
+}
+.navbar .form-control, .navbar option, .navbar input, .navbar .btn {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    max-width: 100%;
+}
+.fixed-left .navbar-brand {
+    margin-top: 0rem;
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        margin-left: 300px;
+    }
+    .container-sidebar {
+        padding-left: 300px;
+    }
+    .navbar .form-control, .navbar option, .navbar input, .navbar .btn {
+        margin-right: 0rem;
+    }
+    .fixed-left .navbar-brand {
+        margin-top: 0.5rem;
+    }
+}
+
+.navbar.fixed-left {
+    position: relative;
+    top: 65px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+@media (min-width: 992px) {
+    .navbar.fixed-left {
+        position: fixed;
+        top: 65px;
+        bottom: 0px;
+        width: 300px;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        overflow-y: auto;
+    }
+    .navbar.fixed-left .navbar-collapse {
+        flex-grow: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar.fixed-left .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item {
+        width: 100%;
+    }
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar.fixed-left {
+        right: auto;
+    }
+    .navbar.fixed-left .navbar-nav .nav-item .dropdown-toggle:after {
+        border-top: 0.3em solid transparent;
+        border-left: 0.3em solid;
+        border-bottom: 0.3em solid transparent;
+        border-right: none;
+        vertical-align: baseline;
+    }
+    .navbar.fixed-left .navbar-nav .nav-item .dropdown-menu {
+        left: 100%;
+    }
+}
+
+
+/* Info */
+.info-hide {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .info-hide {
+        display: block;
+    }
+}
+
+
+/* Files management */
+.admin__files__management__nav-item {
+    line-height: 1 !Important;
+}
+.admin__files__management__drop_icon {
+    font-size: 100px;
+}
+.admin__files__management__drop_zone {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.admin__files__management__margin {
+    height: 0.5rem;
+}

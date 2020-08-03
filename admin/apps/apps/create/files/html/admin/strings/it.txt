@@ -1,0 +1,36 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     HTML Template App.
+ */
+
+// Language strings.
+$strings = [
+    "admin__apps__html__info" => "Qui puoi modificare il contenuto di un'app HTML generata. Viene visualizzato un campo per ogni lingua utilizzata. È necessario inserire un contenuto per il campo globale e il campo predefinito. Se l'app viene chiamata e non vi è alcuna voce per la rispettiva lingua, il contenuto predefinito viene caricato per primo. Se non ci sono contenuti predefiniti, viene caricato il contenuto globale. La modalità testo contiene un editor con il quale il contenuto può essere facilmente modificato. In modalità HTML, il codice sorgente HTML e il file CSS devono essere modificati manualmente.",
+    "admin__apps__html__edit_css" => "Modifica CSS",
+    "admin__apps__html__text_mode" => "Modalità testo",
+    "admin__apps__html__html_mode" => "Modalità HTML",
+    "admin__apps__html__warning" => "In modalità HTML, è possibile modificare il codice HTML e i CSS dell'applicazione. Se questa funzione viene utilizzata in modo errato, la pagina completa può essere visualizzata confusa.",
+    "admin__apps__html__global" => "Globale",
+    "admin__apps__html__save" => "Salvare",
+];

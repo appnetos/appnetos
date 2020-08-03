@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="100"
+   height="100"
+   viewBox="0 0 75.000003 75.000003"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg6">
+  <defs
+     id="defs10" />
+  <g
+     id="layer1"
+     transform="translate(0,6.8378602e-6)">
+    <rect
+       style="fill:#eeeeee;stroke-width:0.38721997"
+       id="rect3722"
+       width="75"
+       height="75"
+       x="3.0000001e-06"
+       y="-6.8378604e-06"
+       rx="7.5000005"
+       ry="7.5000005" />
+  </g>
+  <g
+     transform="matrix(0.00468786,0,0,-0.00468786,10.451049,67.49992)"
+     id="g4"
+     style="fill:#333333;stroke:none">
+    <path
+       d="M 5440,12700 C 5115,12602 1121,11402 387,11182 L -2,11065 5,10925 C 50,9901 112,9178 226,8365 610,5620 1448,3506 2737,2028 2871,1874 3190,1549 3335,1420 4023,804 4784,353 5660,40 l 114,-40 81,26 c 426,141 923,368 1320,604 1610,957 2776,2577 3499,4860 453,1433 738,3145 850,5110 9,146 18,310 22,365 l 6,100 -389,117 c -323,97 -1416,425 -5058,1519 -181,54 -332,99 -335,98 -3,0 -151,-45 -330,-99 z"
+       id="path2"
+       style="fill:#333333" />
+  </g>
+  <g
+     id="layer3">
+    <rect
+       style="fill:#eeeeee;stroke-width:0.75000006"
+       id="rect3744"
+       width="13.303197"
+       height="12.10471"
+       x="30.871841"
+       y="24.487598"
+       rx="2.25"
+       ry="2.25" />
+  </g>
+  <g
+     id="layer4">
+    <rect
+       style="fill:#333333;stroke-width:0.77217233"
+       id="rect3747"
+       width="9.5279646"
+       height="11.205846"
+       x="32.759457"
+       y="26.165478"
+       rx="1.1925"
+       ry="1.125" />
+  </g>
+  <g
+     id="layer2">
+    <rect
+       style="fill:#eeeeee;stroke-width:0.65755206"
+       id="rect3740"
+       width="17.191969"
+       height="16.233179"
+       x="28.927456"
+       y="34.081799"
+       rx="2.0630362"
+       ry="1.9479815" />
+  </g>
+  <g
+     id="layer5">
+    <rect
+       style="fill:#333333;stroke-width:0.55766159"
+       id="rect3750"
+       width="4.5"
+       height="4.5"
+       x="35.273441"
+       y="37.365643"
+       rx="0.56321061"
+       ry="0.55216724" />
+    <rect
+       style="fill:#333333;stroke-width:0.75000006"
+       id="rect3752"
+       width="1.9175779"
+       height="4.7340202"
+       x="36.564651"
+       y="41.326328"
+       rx="0.56321025"
+       ry="0.55216724" />
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+Donnez à vos utilisateurs la possibilité de choisir la langue si vous utilisez plusieurs langues pour votre application Web.
+Cette application est idéale pour cela. Il est facile à intégrer et fonctionne entièrement automatiquement. L’application fournit aux utilisateurs les langues que vous avez définies dans les paramètres à choisir. En tant qu’application de conteneur, elle peut être installée à n’importe quel endroit. Il peut également être facilement inséré dans d’autres applications.
+
+- Menu langues faciles à inclure
+- Entièrement automatique, l’utilisateur donne la sélection des langues définies dans les paramètres
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Installation et configuration multiples possibles
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Installer dans un endroit approprié ou intégrer via une autre application
+
+- Machine traduite -

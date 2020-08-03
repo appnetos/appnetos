@@ -1,0 +1,20 @@
+Avec cette application, vous ajoutez le popup jQuery plugin Magnific de la manière la plus simple.
+Magnific Popup est un popbox jQuery avec de nombreuses grandes possibilités.
+
+De plus amples informations sur la fonction peuvent être trouvées sur la page d’accueil.
+https://dimsemenov.com/plugins/magnific-popup/
+
+Grâce au téléchargement et à l’installation, vous disposez immédiatement de nombreux nouveaux outils disponibles pour votre contenu HTML.
+
+- Image unique Lightbox
+- Galerie Lightbox
+- Galerie Zoom
+- Pop-up avec vidéo ou cartes
+- Dialogue avec CSS Animation
+- Pop-up avec forme
+- AJAX pop-up
+- Pop-up modal
+
+Utiliser:
+Placez l’application en haut d’une page.
+Si vous utilisez le cache CSS et JavaScript, aucun placement n’est nécessaire. L’application n’a qu’à être activée dans ce cas.

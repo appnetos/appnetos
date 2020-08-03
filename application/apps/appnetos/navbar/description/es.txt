@@ -1,0 +1,21 @@
+Cree un menú en varios idiomas para su aplicación web en poco tiempo.
+El menú utiliza la barra de navegación de Bootstrap y se puede configurar completamente desde el área Administración de aplicaciones. Introduzca solo el texto para el idioma adecuado y el vínculo. Los links pueden utilizar los ID CMS, así que siempre se emite correctamente en cualquier idioma.
+En la configuración del administrador de aplicaciones, a cada parte del menú se le puede asignar un color de arranque, por lo que siempre se ajusta a su tema actual.
+Además, el menú tiene un botón de inicio de sesión y un formulario de inicio de sesión integrado que permite a los usuarios iniciar sesión en la aplicación web.
+La aplicación es una aplicación contenedora. Simplemente establezca el tamaño deseado a través de la configuración de la aplicación. La caché de aplicaciones almacena el resultado de la salida en la base de datos, lo que hace que la representación y la salida sean extremadamente rápidas.
+
+- Barra de menú rápida y fácil de configurar
+- Botón de registro con formulario de registro integrado
+- Multilingual, menú se puede crear por separado para cada idioma
+- Colores totalmente configurables a través del área de administrador
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Zona de administrador en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Múltiples instalaciones y configuraciones posibles
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Configurar el menú a través de la configuración del administrador de aplicaciones
+- Al configurar el menú, asegúrese de desactivar la configuración de la caché de la aplicación, de lo contrario el resultado almacenado en la memoria caché se mostrará
+- Colocar la aplicación en un lugar adecuado
+
+- Máquina traducida -

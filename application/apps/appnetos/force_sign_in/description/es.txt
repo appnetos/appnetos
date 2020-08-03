@@ -1,0 +1,17 @@
+Proteja su aplicación web del acceso no deseado.
+Con esta aplicación puede guardar toda su aplicación web o páginas individuales de acceso no deseado. Si un usuario no ha iniciado sesión, se emite una ventana de inicio de sesión. Añadido como una aplicación estática anterior, solo los usuarios que han iniciado sesión pueden acceder a toda la aplicación web.
+Para mantener las páginas individuales a salvo del acceso de los usuarios no registrados, simplemente instale la aplicación en la parte superior.
+
+- Protección contra usuarios no anunciados
+- Fácil implementación
+- Puede asegurar la aplicación web completa o páginas individuales
+- Multilingual
+- Zona de aplicación en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Instalar
+- Establecer como aplicación estática anterior para proteger la aplicación web completa de acceso no deseado
+- Establecer en la parte superior de una página para proteger las páginas individuales del acceso no deseado
+
+- Máquina traducida -

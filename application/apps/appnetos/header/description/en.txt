@@ -1,0 +1,15 @@
+With the APPNET OS header you get a possibility to easily create a great header area for your web application.
+You can set a logo and animated icons for your social media. The app is multilingual. Logo icons and links can be defined separately for each language. The colors of the app can be easily changed via the App Administrator Settings. The app uses the colors specified by Bootstrap, so the look always fits your current design.
+
+- Quick and easy to configure header
+- Animated icons for social media
+- Colors fully configurable via the app administrator section
+- Container app. Size configurable via app settings
+- Multilingual, for each language you can define your own logo and separate icons for social media
+- Administrator area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Multiple installation and configuration possible
+- Free for commercial and non-commercial projects
+
+Use:
+- Place in a suitable place
+- Configure logo, icons for social media and colors via App Administrator settings

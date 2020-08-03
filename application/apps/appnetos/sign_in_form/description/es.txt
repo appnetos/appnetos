@@ -1,0 +1,17 @@
+Use este formulario de inicio de sesión para proporcionar a los usuarios una forma sencilla de iniciar sesión en la aplicación web.
+El formulario de inicio de sesión es muy fácil de instalar. La aplicación es una aplicación contenedora y se puede compilar en cualquier lugar de la aplicación web.
+El tamaño se puede configurar a través de la configuración de la aplicación. Se pueden definir enlaces adicionales a la página de registro y a la página de olvido de contraseñas a través de la configuración del administrador de aplicaciones.
+
+- Fácil configuración
+- Instalación totalmente automática, muy fácil
+- Multilingual
+- Zona de aplicación en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Zona de administrador en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Configurar enlaces en la configuración del administrador de la aplicación
+- Colocar la aplicación en un lugar adecuado
+
+- Máquina traducida -

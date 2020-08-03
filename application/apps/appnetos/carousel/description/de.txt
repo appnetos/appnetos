@@ -1,0 +1,19 @@
+Nutzen Sie die App und erstellen Sie einfach ein Bootstrap Bilder Karussell.
+Verwalten Sie einfach die Bilder des Karussells über den App Administrator-Bereich und platzieren Sie die App überall in Ihrer Webanwendung.
+Die Darstellung ist responsive und die Größe der App ist über die App-Einstellungen frei konfigurierbar.
+Für jedes Bild kann ein Link definiert werden. Die App ist Mehrsprachig. Es kann für jedes Bild, zur jeder Sprache, eine extra Datei verwendet werden.
+Über die Einstellungen können Sie die Anzeigezeit, und Steuerelemente beeinflussen.
+
+- Einfache Einbau
+- Einfach zum Administrieren
+- Mehrsprachig. Für jede Sprache kann ein separates Bild verwendet werden.
+- Für jedem Bild kann ein Link definiert werden
+- Einstellungen für Anzeigezeit und Steuerelemente
+- Container App. Größe über App Einstellungen konfigurierbar
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Mehrfachinstallation und konfiguration möglich
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- An geeigneter Stelle Platzieren
+- Bilder, Links und Darstellung über den Administrator-Bereich konfigurieren

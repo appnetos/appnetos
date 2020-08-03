@@ -1,0 +1,20 @@
+Il mailer offre ad altre app la possibilità di inviare e-mail.
+APPNET OS Mailer è un'app di sistema integrata. Le impostazioni del mailer sono fisse nell'area dell'amministratore. Le cassette postali possono essere create qui per inviare messaggi di posta elettronica.
+Questa applicazione consente alle applicazioni di terze parti di inviare messaggi attraverso le cassette postali. Le cassette postali devono essere assegnate alle app, in genere tramite l'app Impostazioni amministratore.
+Il Mailer del APPNET OS ha un firewall avanzato che blocca l'accesso eccessivo e i robot. Gli indirizzi IP e gli indirizzi e-mail possono essere bloccati o consentiti in modo permanente. Un registro ti informa sulle e-mail inviate o bloccate.
+Inoltre, il mailer ha un widget che ti informa sulle e-mail inviate e bloccate nella tua dashboard.
+Il mailer deve essere installato nell'area CMS di fronte alle app. Si sconsiglia di utilizzare il mailer in modo statico.
+
+- Sistema semplice che dà ad altre applicazioni la possibilità di inviare e-mail
+- Premuroso e veloce da configurare
+- Può essere utilizzato con cassette postali POP3 e SMTP
+- Firewall contro l'accesso eccessivo e robot
+- Elenchi per bloccare e rilasciare in modo permanente gli indirizzi e-mail e gli indirizzi IP
+- Widget che ti informa sulle e-mail inviate e bloccate
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Configurare le cassette postali nell'area Amministratore
+- Installare le applicazioni di cui sopra che inviano e-mail
+
+- Macchina tradotta -

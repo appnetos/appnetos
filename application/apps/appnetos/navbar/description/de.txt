@@ -1,0 +1,19 @@
+Bauen Sie in kürzester Zeit ein mehrsprachiges Menü für Ihre Webanwendung.
+Das Menü verwendet die Bootstrap Navbar und kann komplett über den App Administrationsbereich konfiguriert werden. Geben Sie hier nur den Text für die entsprechende Sprache und den Link an. Links können CMS Ids verwenden, so wird er in jeder Sprache immer richtig ausgegeben.
+In den App Administrator Einstellungen kann jedem Teil des Menüs eine Bootstrap Farbe zugewiesen werden, somit passt es immer zu Ihrem aktuellen Design.
+Zusätzlich hat das Menü einen Anmelde Button und ein integriertes Anmeldeformular, mit den Ihre Benutzer sich auf Ihrer Webanwendung anmelden können.
+Die App ist eine Container App. Stellen Sie die gewünschte Größe einfach über die App Einstellungen ein. Mit dem App Cache wird das Ergebnis der Ausgabe in der Datenbank gespeichert, was das Rendering und die Ausgabe enorm schnell macht.
+
+- Schnell und einfach konfigurierbare Menüleiste
+- Anmelde Button mit integriertem Anmeldeformular
+- Mehrsprachig, Menü kann für jede Sprache separat angelegt werden
+- Farben über den Administrator-Bereich voll konfigurierbar
+- Container App. Größe über App Einstellungen konfigurierbar
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Mehrfachinstallation und Konfiguration möglich
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Menü über die App Administrator Einstellungen konfigurieren
+- Beim Konfigurieren des Menüs darauf achten das Sie die App Cache Einstellungen deaktivieren, da sonst da im Cache gespeicherte Ergebnis ausgegeben wird
+- App an geeigneter Stelle Platzieren

@@ -1,0 +1,19 @@
+With this app, you give your users the ability to reset the password.
+By entering the email address, a link to reset the password is sent to the user. The app uses the APPNET OS Mailer. This allows it to be quickly integrated and configured. In the App Administrator settings, the mailbox of the APPNET OS mailer must be assigned. The mailer must be set above the app.
+
+- Fast and uncomplicated integration
+- Multilingual
+- Administrator area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Application area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Container app. Size of the app can be easily configured in the app settings
+- Uses the APPNET OS Mailer
+- Free for commercial and non-commercial projects
+
+Use:
+- Install app
+- Configure Mailer Mailbox
+- Assign Mailer mailbox in the App Administrator settings
+- Set mailer above the app
+
+Dependencies:
+- APPNET OS Mailer

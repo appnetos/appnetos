@@ -1,0 +1,34 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Model description.
+ */
+
+// Namespace.
+namespace ***NAMESPACE***;
+
+// Use.
+use core\objects;
+
+// Model ***NAMESPACE***\***FORMATTED_NAME***_model.
+class ***FORMATTED_NAME***__model
+{
+
+    /**
+     * Get string over model.
+     *
+     * @param string $key.
+     * @return string.
+     */
+    public function getStringFromModel($key)
+    {
+        // Get object strings.
+        $strings = objects::get("strings");
+        return $strings->get($key);
+    }
+}

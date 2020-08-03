@@ -1,0 +1,20 @@
+Mit dieser App fügen Sie auf einfachste Art das jQuery Plugin Magnific Popup hinzu.
+Magnific Popup ist eine jQuery Lightbox mit vielen Tollen Möglichkeiten.
+
+Weiter Informationen zur Funktion finden Sie auf der Homepage.
+https://dimsemenov.com/plugins/magnific-popup/
+
+Durch den Download und die Installation haben sofort viele neue Werkzeuge für Ihre HTML Inhalte zur Verfügung.
+
+- Einzelbild Lightbox
+- Lightbox Galerie
+- Zoom Galerie
+- Popup mit Video oder Karten
+- Dialog mit CSS Animation
+- Popup mit Formular
+- AJAX Popup
+- Modal Popup
+
+Verwendung:
+Platzieren Sie die App oben an einer Seite.
+Wenn die den CSS und JavaScript Cache verwenden ist keine Platzierung notwendig. Die App muss in dem Fall nur aktiviert sein.

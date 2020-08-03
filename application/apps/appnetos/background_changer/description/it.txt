@@ -1,0 +1,17 @@
+Rendi la tua applicazione web un eye-catcher.
+Con l'app cambia sfondo, puoi creare facilmente sfondi mutevoli.
+Gli sfondi possono avere un colore semplice o un'immagine di sfondo. Per un'immagine di sfondo, è possibile configurare la ripetizione e le dimensioni. Gli sfondi possono essere assegnati singolarmente o alternativamente ai contenitori fluidi, al contenitore o alle app. L'app genera le classi CSS necessarie per questo. Questi devono essere aggiunti alle app nelle impostazioni dell'app. Utilizzare questa applicazione come un'applicazione statica o aggiungerlo alla pagina di utilizzo tramite CMS Manager.
+
+- Installazione semplice
+- Facile configurazione tramite le impostazioni di amministratore dell'applicazione
+- Sfondi possono essere aggiunti come sfondo singolo o come sfondo ripetitivo
+- Area di amministrazione in 6 lingue. Inglese, Tedesco, Spagnolo, Francese, Italiano, Russo
+- Installazione e configurazione multiple possibili
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+Aggiungi alle app statiche o come app nella pagina in uso.
+Configurare gli sfondi nelle impostazioni dell'amministratore dell'app.
+Nelle impostazioni dell'app, le app usano gli sfondi, aggiungi le classi CSS generate.
+
+- Traduzione automatica -

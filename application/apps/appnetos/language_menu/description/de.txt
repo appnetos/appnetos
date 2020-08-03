@@ -1,0 +1,11 @@
+Geben Sie Ihren Benutzern die Möglichkeit die Sprache zu wählen, wenn Sie mehrere Sprachen für Ihre Webanwendung verwenden.
+Dafür eignet sich diese App hervorragend. Sie ist einfach einzubinden und läuft vollautomatisch. Die App bietet den Benutzern die Sprachen, die Sie in den Einstellungen definiert haben zur Auswahl. Als Container App lässt sie sich an jeder stelle verbauen. Sie kann auch einfach in andere Apps eingefügt werden.
+
+- Einfach einzubindendes Sprachen Menü
+- Vollautomatisch, gibt Benutzer die Auswahl der Sprachen die in den Einstellungen definiert sind
+- Container App. Größe über App Einstellungen konfigurierbar
+- Mehrfachinstallation und Konfiguration möglich
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- An geeigneter Stelle verbauen oder über andere App einbinden

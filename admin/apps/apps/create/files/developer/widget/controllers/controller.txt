@@ -1,0 +1,54 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Controller description.
+ */
+
+// Namespace.
+namespace ***NAMESPACE***;
+
+// Use.
+use core\objects;
+
+// Controller ***NAMESPACE***\***FORMATTED_NAME***.
+class ***FORMATTED_NAME***
+{
+
+    /**
+     * ***NAMESPACE***\***FORMATTED_NAME***__model.
+     *
+     * @param object.
+     */
+    public $***FORMATTED_NAME***__model = null;
+
+    /**
+     * constructor.
+     */
+    public function __construct()
+    {
+        // Define ***NAMESPACE***\***FORMATTED_NAME***__model
+        $this->***FORMATTED_NAME***__model = objects::getNew('***NAMESPACE***/***FORMATTED_NAME***__model');
+
+        // Add ***NAMESPACE***\***FORMATTED_NAME***__model to object render
+        $render = objects::get("render");
+        $render->assign("***FORMATTED_NAMESPACE******FORMATTED_NAME***__model", $this->***FORMATTED_NAME***__model);
+    }
+
+    /**
+     * Get string over controller.
+     *
+     * @param string $key.
+     * @return string.
+     */
+    public function getStringFromController($key)
+    {
+        // Get object strings
+        $strings = objects::get("strings");
+        return $strings->get($key);
+    }
+}

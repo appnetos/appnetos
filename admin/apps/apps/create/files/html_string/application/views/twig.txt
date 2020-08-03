@@ -1,0 +1,7 @@
+{# Get strings #}
+<div>
+    {{strings.get("html_string__***FORMATTED_NAME***__string_one")}}
+</div>
+<div>
+    {{strings.get("html_string__***FORMATTED_NAME***__string_two")}}
+</div>

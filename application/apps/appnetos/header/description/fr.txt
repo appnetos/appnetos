@@ -1,0 +1,17 @@
+Avec l’en-tête APPNET OS vous obtenez la possibilité de créer facilement une grande zone d’en-tête pour votre application web.
+Vous pouvez définir un logo et des icônes animées pour vos médias sociaux. L’application est multilingue. Les icônes et les liens du logo peuvent être définis séparément pour chaque langue. Les couleurs de l’application peuvent être facilement modifiées via les paramètres de l’administrateur de l’application. L’application utilise les couleurs spécifiées par Bootstrap, de sorte que le look correspond toujours à votre conception actuelle.
+
+- Rapide et facile à configurer la zone de tête
+- Icônes animées pour les médias sociaux
+- Couleurs entièrement configurables via la zone administratrice
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Multilingue, pour chaque langue, vous pouvez définir votre propre logo et des icônes séparées pour les médias sociaux
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Installation et configuration multiples possibles
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Placer dans un endroit approprié
+- Configurer logo, icônes pour les médias sociaux et les couleurs via les paramètres de l’administrateur de l’application
+
+- Machine traduite -

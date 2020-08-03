@@ -1,0 +1,18 @@
+Avec cette application, vous installerez bientôt la police bien connue Font Awesome.
+https://fontawesome.com/
+
+Il suffit d’installer, définir l’application comme une application statique ci-dessus, fait.
+La police populaire peut alors être utilisée n’importe où dans votre projet web.
+
+Veuillez noter les conditions de licence séparées.
+https://fontawesome.com/v4.7.0/license/
+
+- Installation rapide et facile
+- Peut être utilisé tout au long du projet web
+
+Utiliser:
+- Installation
+- Activer
+- Définir comme application statique ci-dessus
+
+- Traduit automatiquement -

@@ -1,0 +1,17 @@
+Con l'intestazione del APPNET OS si ha la possibilità di creare facilmente un'area di intestazione ideale per l'applicazione web.
+È possibile impostare un logo e icone animate per i social media. L'app è multilingue. Le icone e i collegamenti del logo possono essere definiti separatamente per ogni lingua. I colori dell'app possono essere facilmente modificati tramite le impostazioni dell'amministratore dell'app. L'applicazione utilizza i colori specificati da Bootstrap, in modo che l'aspetto si adatta sempre il vostro design attuale.
+
+- Area della testa veloce e facile da configurare
+- Icone animate per i social media
+- Colori completamente configurabili tramite l'area di amministrazione
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Multilingue, per ogni lingua è possibile definire il proprio logo e icone separate per i social media
+- Area di amministrazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Installazione e configurazione multiple possibili
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Posizionare in un luogo adatto
+- Configurare il logo, icone per i social media e colori tramite le impostazioni di amministratore dell'app
+
+- Macchina tradotta -

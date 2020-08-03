@@ -1,0 +1,12 @@
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+*/
+
+// JavaScript.
+function ***FORMATTED_NAMESPACE******FORMATTED_NAME***__javascript() {
+    alert ("JavaScript");
+}

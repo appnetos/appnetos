@@ -1,0 +1,14 @@
+Vea información útil de la aplicación directamente en su panel de control.
+Este widget muestra el número total de aplicaciones, cuántas aplicaciones están activas actualmente y cuántas aplicaciones se instalan estáticamente. Con los enlaces integrados, puede acceder directamente a la configuración de la aplicación deseada con un solo clic.
+
+- Widget de tablero
+- Muestra el estado actual de sus aplicaciones
+- Enlaces incorporados para llegar rápidamente a la configuración de la aplicación deseada
+- Multilingual
+- Widget en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Añadir widget al tablero
+
+- Máquina traducida -

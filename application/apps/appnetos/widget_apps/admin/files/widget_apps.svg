@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="75pt"
+   height="75pt"
+   viewBox="0 0 75 75"
+   version="1.1"
+   id="svg847">
+  <g
+     id="#ffff00ff"
+     transform="scale(0.075)"
+     style="fill:#ffffff">
+    <path
+       d="m 0,0 h 295 c -0.03,98.32 0.05,196.64 -0.04,294.96 C 196.64,295.05 98.32,294.97 0,295 Z"
+       id="path835"
+       style="opacity:1;fill:#ffffff"/>
+  </g>
+  <g
+     id="#0000ffff"
+     transform="scale(0.075)"
+     style="fill:#ffffff">
+    <path
+       d="m 360,0 h 640 V 295 C 786.68,294.97 573.36,295.06 360.05,294.95 359.94,196.64 360.03,98.32 360,0 Z"
+       id="path838"
+       style="opacity:1;fill:#ffffff"/>
+  </g>
+  <g
+     id="#00ff00ff"
+     transform="scale(0.075)"
+     style="fill:#ffffff">
+    <path
+       d="m 0,360 c 98.32,0.03 196.64,-0.06 294.95,0.05 0.11,213.31 0.02,426.63 0.05,639.95 H 0 Z"
+       id="path841"
+       style="opacity:1;fill:#ffffff"/>
+  </g>
+  <g
+     id="#ff0000ff"
+     transform="scale(0.075)"
+     style="fill:#ffffff">
+    <path
+       d="M 360.05,360.05 C 573.36,359.94 786.68,360.03 1000,360 v 640 H 360 c 0.03,-213.32 -0.06,-426.64 0.05,-639.95 z"
+       id="path844"
+       style="opacity:1;fill:#ffffff"/>
+  </g>
+</svg>

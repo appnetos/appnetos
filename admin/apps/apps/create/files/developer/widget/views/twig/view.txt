@@ -1,0 +1,40 @@
+{#
+ # START LICENSE HEADER
+ #
+ # Your license header.
+ #
+ # END LICENSE HEADER
+ #
+ # @description     View description.
+#}
+
+{# Widget #}
+<div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mt-4">
+    <div class="card border border-dark">
+
+        <br>
+
+        {# Get string from view #}
+        {{strings.get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_view")}}
+        <br><br>
+
+        {# Get string from controller #}
+        {{***FORMATTED_NAMESPACE******FORMATTED_NAME***.getStringFromController("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_controller")}}
+        <br><br>
+
+        {# Get string from model #}
+        {{***FORMATTED_NAMESPACE******FORMATTED_NAME***__model.getStringFromModel("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_model")}}
+        <br><br>
+
+        {# Include a template #}
+        {{render.include("application/apps/***DIRECTORY***/***FORMATTED_NAME***/admin/widget/views/***FORMATTED_NAME***__include.twig")}}
+
+        {# CSS #}
+        <div class="***FORMATTED_NAMESPACE******FORMATTED_NAME***__css">CSS</div>
+        <br>
+
+        {# JavaScript #}
+        <button type="button" class="btn btn-primary" onclick="***FORMATTED_NAMESPACE******FORMATTED_NAME***__javascript()">JavaScript</button>
+
+    </div>
+</div>

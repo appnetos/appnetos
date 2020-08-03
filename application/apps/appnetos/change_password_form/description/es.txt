@@ -1,0 +1,16 @@
+Utilice este formulario para dar a los usuarios la capacidad de cambiar la contraseña.
+Simplemente coloque esta aplicación en la ubicación adecuada en su área de usuario.
+La aplicación es totalmente automática. No es necesaria ninguna configuración adicional.
+
+- Fácil instalación
+- Totalmente automático. No es necesaria una administración
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Multilingual
+- Zona de administrador en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Zona de aplicación en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Colocar en un lugar adecuado
+
+- Traducido automáticamente -

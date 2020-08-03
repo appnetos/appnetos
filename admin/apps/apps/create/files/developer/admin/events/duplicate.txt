@@ -1,0 +1,19 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Event duplicate.
+ */
+
+/**
+ * Function duplicate.
+ *
+ * @param int $id app ID
+ */
+function duplicate($id) {
+
+}

@@ -1,0 +1,15 @@
+Mantenga un ojo en la configuración de la memoria caché.
+Con este widget de panel, tiene el almacenamiento en caché del APPNET OS bajo control total. No solo le da la capacidad de ver toda la configuración de caché directamente en el panel, sino que también borra las cachés.
+Las memorias caché se pueden restablecer individualmente o vaciar completamente.
+
+- Widget de tablero
+- Muestra el estado actual de las cachés establecidas
+- Con los enlaces incorporados puede vaciar los cachés de forma individual o completa
+- Multilingual
+- Widget en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Añadir widget al tablero
+
+- Máquina traducida -

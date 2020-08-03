@@ -1,0 +1,23 @@
+Utilizza questo semplice modulo di contatto per dare ai tuoi utenti l'opportunità di contattarti in modo sicuro.
+Grazie all'APPNET OS Mailer, questo modulo di contatto è installato rapidamente e facilmente nella tua applicazione web. L'indirizzo e-mail usato non è visibile all'utente e non può essere letto dai robot.
+L'installazione è molto semplice. Configurare una cassetta postale nel riquadro Amministratore e assegnarla a Impostazioni amministratore app. Posizionare l'app Mailer davanti a questa app nella pagina desiderata.
+
+- Installazione semplice
+- Facile da configurare
+- Protegge il tuo indirizzo e-mail dall'accesso indesiderato
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Multilingua
+- Area di amministrazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Area di applicazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Configurare una cassetta postale per il mailer del APPNET OS
+- Assegnare la cassetta postale nelle impostazioni dell'amministratore dell'app- Assign the mailbox in the App Administrator Settings
+- Posizionare il mailer di fronte a questa applicazione.
+- Posizionare l'applicazione in una posizione adatta.
+
+Dipendenze:
+- APPNET OS Mailer
+
+- Traduzione automatica -

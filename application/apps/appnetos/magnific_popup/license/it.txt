@@ -1,0 +1,23 @@
+La licenza MIT
+
+Copyright (c) 2020 xtrose Media Studio
+
+Questo è gratuito, qualsiasi persona che ottiene una copia del Software
+e la documentazione associata (il "Software") che è
+l'autorizzazione all'uso senza restrizioni,
+il diritto di utilizzarli, copiarli, modificare, unire,
+disperdersi, distribuire, sottolicenze e/o vendite, e
+persone che ricevono questo software per dare questi diritti, sotto
+le seguenti condizioni:
+
+La suddetta nota sul copyright e questa nota di autorizzazione sono
+tutte le copie o parziali del Software.
+
+IL SOFTWARE SARÀ SENZA OGNI GARANZIA ESPRESSA O IMPLICITA
+INCLUDING IL GARANZIA DA UTILIZZARE PER IL
+INTENDED O UNO SCOPO SPECIFICO, COME COME COME QUALSIASI
+INFRAZIONE, MA NON LIMITATO AD ESSO. IN NESSUN CASO IL
+L'AUTORE O IL PROPRIETARIO DEL COPYRIGHT PER QUALSIASI DANNO O ALTRO
+CLAIM TO BE HELD LIABLE AS TO WHETHER, AS A RESULT OF THE FULFILMENT OF A
+CONTRATTO, UN REATO O COMUNQUE IN RELAZIONE ALL'USO DEL CONTRATTO,
+O ALTRI USI DEL SOFTWARE.

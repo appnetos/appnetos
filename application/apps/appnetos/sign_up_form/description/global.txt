@@ -1,0 +1,19 @@
+If you provide areas for logged-in users for your Web application, you can use this form to allow new users to register.
+The app uses the APPNET OS system to create new users. It gives you two ways to register new users. With email verification and a simple registration without a confirmation of the email address.
+The APPNET OS Mailer is used to confirm the email address. The newly logged in user will receive an email with a link to confirm when registering. In the APPNET OS Mailer settings, a mailbox must be configured to be assigned to the registration form in the APP Administrator. The mailer must be installed above the app. For security reasons, the APPNET OS Mailer should never be installed statically.
+
+- Easy way to provide your users with a registration to your web application
+- Easy configuration
+- Offers two individual registration options. With and without email confirmation
+- Multilingual
+- Application area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Administrator area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Container app. Size configurable via app settings
+- Free for commercial and non-commercial projects
+
+Use:
+- When registering with email confirmation, configure mailbox for the APPNET OS Mailer, assign mailbox in the app administrator settings of the app, place mailer above this app.
+- Place the app in a suitable place
+
+Dependencies:
+- APPNET OS Mailer, for registrations with email verification

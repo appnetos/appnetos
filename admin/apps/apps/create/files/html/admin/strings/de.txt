@@ -1,0 +1,36 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     HTML Template App.
+ */
+
+// Language strings.
+$strings = [
+    "admin__apps__html__info" => "Hier kann der Inhalt einer erzeugten HTML App bearbeitet werden. Für jede verwendete Sprache wird ein Feld ausgegeben. Für das Feld Global und das Feld Standard muss ein Inhalt eingegeben werden. Wenn die App aufgerufen wird und kein Eintrag für die jeweilige Sprache vorhanden ist, so wird zuerst der Standard Inhalt geladen. Ist kein Standard Inhalt vorhanden ist, dann wird der Globale Inhalt geladen. Der Text Modus enthält einen Editor mit dem der Inhalt einfach bearbeitet werden kann. Im HTML Modus muss der HTML Quellcode und die CSS Datei manuell bearbeitet werden.",
+    "admin__apps__html__edit_css" => "CSS bearbeiten",
+    "admin__apps__html__text_mode" => "Text Modus",
+    "admin__apps__html__html_mode" => "HTML Modus",
+    "admin__apps__html__warning" => "Im HTML Modus kann der HTML Code und das CSS der App bearbeitet werden. Bei falscher Anwendung dieser Funktion kann die komplette Seite verstümmelt dargestellt werden.",
+    "admin__apps__html__global" => "Global",
+    "admin__apps__html__save" => "Speichern",
+];

@@ -1,0 +1,18 @@
+Der Mailer bietet anderen Apps die Möglichkeit Emails zu versenden.
+Der APPNET OS Mailer ist eine integrierte System App. Die Einstellungen des Mailers sind im Administrator Bereich fest verbaut. Hier können Postfächer zum versenden von Emails angelegt werden.
+Über diese App können dann dritte Apps Nachrichten über die Postfächer versenden. Die Postfächer müssen, in der Regel über die App Administrator Einstellungen, den Apps zugewiesen werden.
+Der APPNET OS Mailer hat eine erweiterte Firewall, welche übermäßigen Zugriff und Robots blockiert. IP Adressen und Email Adressen können dauerhaft blockiert oder zugelassen werden. Ein Log informiert Sie über versendete oder blockierte Emails.
+Zusätzlich verfügt der Mailer über ein Widget, dass Sie in Ihrem Dashboard über versendete und blockierte Emails informiert.
+Der Mailer muss im CMS Bereich vor den Apps verbaut sein. Wir empfehlen den Mailer nicht statisch zu verwenden.
+
+- Einfaches System, dass anderen Apps die Möglichkeit gibt Emails zu versenden
+- Durchdacht und schnell zu konfigurieren
+- Kann mit POP3 und SMTP Postfächer verwendet werden
+- Firewall gegen übermäßigen Zugriff und Robots
+- Listen zum blockieren und dauerhaft freigeben von Email Adressen und IP Adressen
+- Widget das Sie über versendete und blockierte Emails informiert
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Im Administrator Bereich Postfächer konfigurieren
+- Oberhalb von Apps, welche Emails versenden, verbauen

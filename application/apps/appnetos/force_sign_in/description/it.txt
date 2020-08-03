@@ -1,0 +1,17 @@
+Proteggi la tua applicazione web da accessi indesiderati.
+Con questa applicazione è possibile salvare l'intera applicazione web o singole pagine da accesso indesiderato. Se un utente non è connesso, viene emessa una finestra di accesso. Aggiunta come app statica precedente, solo gli utenti connessi possono accedere all'intera applicazione Web.
+Per proteggere le singole pagine dall'accesso degli utenti non registrati, è sufficiente installare l'app nella parte superiore.
+
+- Protezione contro gli utenti non annunciati
+- Implementazione semplice
+- Può proteggere l'applicazione web completa o singole pagine
+- Multilingua
+- Area di applicazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Installazione
+- Imposta come app statica sopra per proteggere l'applicazione web completa dall'accesso indesiderato
+- Impostare nella parte superiore di una pagina per proteggere le singole pagine da accesso indesiderato
+
+- Macchina tradotta -

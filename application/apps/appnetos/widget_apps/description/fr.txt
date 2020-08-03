@@ -1,0 +1,14 @@
+Affichez des informations utiles sur l’application directement dans votre tableau de bord.
+Ce widget vous montre le nombre total d’applications, le nombre d’applications actuellement actives et le nombre d’applications installées de façon statique. Avec les liens intégrés, vous pouvez vous rendre directement aux paramètres de l’application souhaités en un seul clic.
+
+- Widget de tableau de bord
+- Vous montre l’état actuel de vos applications
+- Des liens intégrés pour accéder rapidement aux paramètres de l’application souhaités
+- Multilingue
+- Widget en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Ajouter le widget au tableau de bord
+
+- Machine traduite -

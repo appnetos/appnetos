@@ -1,0 +1,11 @@
+Give your users the ability to choose the language if you are using multiple languages for your Web application.
+This app is ideal for this. It is easy to integrate and runs fully automatically. The app provides users with the languages you have defined in the settings to choose from. As a container app, it can be installed at any location. It can also be easily integrated into other apps.
+
+- Easy-to-include languages menu
+- Fully automatic, user gives the selection of languages defined in the settings
+- Container app. Size configurable via app settings
+- Multiple installation and configuration possible
+- Free for commercial and non-commercial projects
+
+Use:
+- Install in a suitable place or integrate via other app

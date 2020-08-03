@@ -1,0 +1,18 @@
+Mit dieser App geben Sie Ihren Benutzern die Möglichkeit das Passwort zurückzusetzen.
+Durch die Eingabe der Email Adresse wird dem Benutzer ein Link zum zurücksetzten des Passwortes zugesandt. Die App verwendet den APPNET OS Mailer. Dadurch ist sie schnell integriert und Konfiguriert. In den App Administrator Einstellungen muss das Postfach des APPNET OS Mailers zugewiesen werden. Der Mailer muss oberhalb der App festgelegt werden.
+
+- Schnelle und unkomplizierte Einbindung
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Applikationsbereich-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Container App. Größe der App kann einfach in den App Einstellungen konfiguriert werden
+- Verwendet den APPNET OS Mailer
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- App Installieren
+- Mailer Postfach konfigurieren
+- Mailer Postfach in den App Administrator Einstellungen zuweisen
+- Mailer oberhalb der App festlegen
+
+Abhängigkeiten:
+- APPNET OS Mailer

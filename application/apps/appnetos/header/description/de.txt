@@ -1,0 +1,15 @@
+Mit dem APPNET OS Header bekommen Sie eine Möglichkeit einfach einen tollen Kopfbereich für Ihre Webanwendung zu erstellen.
+Sie Können ein Logo und Animierte Icons für Ihre Sozialen Medien Festlegen. Die App ist mehrsprachig. Logo Icons und Links können für jeder Sprache Separat definiert werden. Die Farben der App können über die App Administrator Einstellungen einfach geändert werden. Die App verwendet die von Bootstrap vorgegebenen Farben, so passt das Aussehen immer zu Ihrem aktuellen Design.
+
+- Schnell und einfach konfigurierbarer Kopfbereich
+- Animierte Icons für Soziale Medien
+- Farben über den Administrator-Bereich voll konfigurierbar
+- Container App. Größe über App Einstellungen konfigurierbar
+- Mehrsprachig, für jede Sprache kann ein eigenes Logo und separate Icons für Soziale Medien definiert werden
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Mehrfachinstallation und Konfiguration möglich
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- An geeigneter Stelle platzieren
+- Logo, Icons für Soziale Medien und Farben über App Administrator Einstellungen konfigurieren

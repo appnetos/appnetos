@@ -1,0 +1,17 @@
+Utilizzare questo modulo di accesso per offrire agli utenti un modo semplice per accedere all'applicazione Web.
+Il modulo sign in è molto facile da installare. L'app è un'app contenitore e può essere compilata in qualsiasi punto dell'applicazione Web.The app is a container app and can be built anywhere in your web application.
+La dimensione può essere configurata tramite le impostazioni dell'app. Ulteriori collegamenti alla pagina di registrazione e alla pagina di recupero della password possono essere definiti tramite le impostazioni dell'amministratore dell'app.
+
+- Facile configurazione
+- Installazione completamente automatica, molto semplice
+- Multilingua
+- Area di applicazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Area di amministrazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Configurare i collegamenti nelle impostazioni dell'amministratore dell'app- Configure links in the app administrator settings
+- Posizionare l'app in un luogo adatto
+
+- Macchina tradotta -

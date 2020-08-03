@@ -1,0 +1,22 @@
+Utilice la aplicación y simplemente crear un carrusel de imágenes de Bootstrap.
+Simplemente administre las imágenes del carrusel desde el panel Administrador de aplicaciones y coloque la aplicación en cualquier lugar de la aplicación web.
+La pantalla es sensible y el tamaño de la aplicación se puede configurar libremente a través de la configuración de la aplicación.
+Se puede definir un enlace para cada imagen.
+La aplicación es multilinguista. Se puede utilizar un archivo adicional para cada imagen, para cada idioma.
+Puede utilizar la configuración para influir en el tiempo de visualización y los controles.
+
+- Fácil instalación
+- Fácil de administrar
+- Multilingual. Se puede utilizar una imagen independiente para cada idioma.
+- Se puede definir un enlace para cada imagen
+- Tiempo de visualización y ajustes de controles
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Zona de administrador en 6 idiomas. Inglés, Alemán, Español, Francés, Italiano, Ruso
+- Múltiples instalaciones y configuraciones posibles
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Colocar en un lugar adecuado
+- Configurar imágenes, enlaces y ajustes a través del área de administrador
+
+- Traducido automáticamente -

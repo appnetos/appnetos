@@ -1,0 +1,21 @@
+Construisez un menu multilingue pour votre application web en un rien de temps.
+Le menu utilise le Bootstrap Navbar et peut être configuré complètement à partir de la zone App Administration. Entrez uniquement le texte pour la langue appropriée et le lien. Les liens peuvent utiliser des ids CMS, de sorte qu’il est toujours sortie correctement dans n’importe quelle langue.
+Dans les paramètres de l’administrateur de l’application, chaque partie du menu peut être attribuée à une couleur bootstrap, de sorte qu’il correspond toujours à votre thème actuel.
+En outre, le menu dispose d’un bouton de connexion et d’une forme de connexion intégrée qui permet à vos utilisateurs de se connecter à votre application Web.
+L’application est une application de conteneurs. Définissez simplement la taille désirée via les Paramètres de l’application. L’App Cache stocke le résultat de la sortie dans la base de données, ce qui rend le rendu et la sortie extrêmement rapide.
+
+- Barre de menu rapide et facile à configurer
+- Bouton d’inscription avec formulaire d’inscription intégré
+- Multilingue, menu peut être créé séparément pour chaque langue
+- Couleurs entièrement configurables via la zone administratrice
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Installation et configuration multiples possibles
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Configurer le menu via les Paramètres de l’administrateur de l’application
+- Lors de la configuration du menu, assurez-vous que vous désactivez les paramètres de cache de l’application, sinon le résultat stocké dans le cache sera la sortie
+- Placer l’application dans un endroit approprié
+
+- Machine traduite -

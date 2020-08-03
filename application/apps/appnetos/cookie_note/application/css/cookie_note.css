@@ -1,0 +1,10 @@
+/**
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ */
+
+/* Current color */
+.appnetos__cookie_note__current_color {
+    color: currentColor !important;
+}

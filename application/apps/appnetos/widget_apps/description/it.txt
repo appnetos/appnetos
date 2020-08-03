@@ -1,0 +1,14 @@
+Visualizza informazioni utili sull'app direttamente nella tua dashboard.
+Questo widget mostra il numero totale di app, quante app sono attualmente attive e quante app sono installate staticamente. Con i link incorporati, puoi accedere direttamente alle impostazioni dell'app desiderate con un clic.
+
+- Widget dashboard
+- Mostra lo stato corrente delle app
+- Collegamenti integrati per ottenere rapidamente le impostazioni dell'app desiderate
+- Multilingua
+- Widget in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Aggiungi widget alla dashboard
+
+- Macchina tradotta -

@@ -1,0 +1,13 @@
+Ofrezca a los usuarios la posibilidad de elegir el idioma si utiliza varios idiomas para la aplicación web.
+Esta aplicación es ideal para esto. Es fácil de integrar y se ejecuta completamente automáticamente. La aplicación proporciona a los usuarios los idiomas que ha definido en la configuración para elegir. Como aplicación contenedora, se puede instalar en cualquier ubicación. También se puede insertar fácilmente en otras aplicaciones.
+
+- Menú de idiomas fácil de incluir
+- Totalmente automático, el usuario da la selección de idiomas definidos en los ajustes
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Múltiples instalaciones y configuraciones posibles
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Instalar en un lugar adecuado o integrar a través de otra aplicación
+
+- Máquina traducida -

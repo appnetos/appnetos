@@ -1,0 +1,22 @@
+Utilisez l’application et créez simplement un carrousel d’images Bootstrap.
+Il suffit de gérer les photos du carrousel à partir de la vitre App Administrator et de placer l’application n’importe où dans votre application web.
+L’écran est réactif et la taille de l’application est librement configurable via les paramètres de l’application.
+Un lien peut être défini pour chaque image.
+L’application est multilingue. Un fichier supplémentaire peut être utilisé pour chaque image, pour chaque langue.
+Vous pouvez utiliser les paramètres pour influencer le temps d’affichage et les contrôles.
+
+- Installation facile
+- Facile à administrer
+- Multilingue. Une image distincte peut être utilisée pour chaque langue.
+- Un lien peut être défini pour chaque image
+- Affichage du temps et des paramètres de contrôle
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Installation et configuration multiples possibles
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Placer dans un endroit approprié
+- Configurer des images, des liens et des paramètres via la zone de l’administrateur
+
+- Traduit automatiquement -

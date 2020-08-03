@@ -1,0 +1,15 @@
+Mit diesem Anmeldeformular geben Sie Ihren Benutzer eine einfache Möglichkeit sich an Ihrer Webanwendung anzumelden.
+Das Anmeldeformular ist sehr einfach zu verbauen. Die App ist eine Container App und kann überall in Ihrer Webanwendung eingebaut werden.
+Die Größe kann über die App Einstellungen konfiguriert werden. Über die App Administrator Einstellungen können zusätzliche Links zur Registrierungsseite und zur Passwort-Vergessen-Seite definiert werden.
+
+- Einfache Konfiguration
+- Vollautomatisch, sehr einfacher Einbau
+- Mehrsprachig
+- Applikations-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Container App. Größe über App Einstellungen konfigurierbar
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Links in den App Administrator Einstellungen konfigurieren
+- App an geeigneter Stelle platzieren

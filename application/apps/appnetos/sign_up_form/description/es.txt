@@ -1,0 +1,21 @@
+Si proporciona áreas para los usuarios que han iniciado sesión para la aplicación web, puede usar este formulario para permitir que los nuevos usuarios se registren.
+La aplicación utiliza el APPNET OS para crear nuevos usuarios. Le ofrece dos maneras de registrar nuevos usuarios. Con verificación de correo electrónico y un simple inicio de sesión sin una confirmación de la dirección de correo electrónico.
+El APPNET OS Mailer se utiliza para confirmar la dirección de correo electrónico. El usuario recién iniciado sesión recibirá un correo electrónico con un enlace para confirmar al registrarse. En la configuración de APPNET OS Mailer, se debe configurar un buzón para que se asigne al formulario de registro en el Administrador de aplicaciones. El correo debe estar instalado encima de la aplicación. Por razones de seguridad, el APPNET OS Mailer nunca debe instalarse estáticamente.
+
+- Forma fácil de proporcionar a sus usuarios un registro en su aplicación web
+- Fácil configuración
+- Ofrece dos opciones de registro individuales. Con y sin confirmación por correo electrónico
+- Multilingual
+- Zona de aplicación en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Zona de administrador en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Al registrarse con la confirmación de correo electrónico, configurar buzón para el APPNET OS Mailer, asignar buzón en la configuración de administrador de la aplicación, colocar mailer por encima de esta aplicación.
+- Colocar la aplicación en un lugar adecuado
+
+Dependencias:
+- APPNET OS Mailer, para registros con confirmación por correo electrónico
+
+- Máquina traducida -

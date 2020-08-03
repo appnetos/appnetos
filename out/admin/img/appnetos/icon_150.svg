@@ -1,0 +1,60 @@
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="150mm"
+   height="149.99998mm"
+   viewBox="0 0 150 149.99999"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(1.4901161e-8,-147)">
+    <rect
+       style="fill:#629635;fill-opacity:1;stroke:#cccccc;stroke-width:0.11690418;stroke-opacity:1"
+       id="rect815"
+       width="49.883099"
+       height="49.883083"
+       x="0.058452073"
+       y="247.05846"
+       rx="0.031271022"
+       ry="0.035606261" />
+    <rect
+       style="fill:#ff6325;fill-opacity:1;stroke:#cccccc;stroke-width:0.11690418;stroke-opacity:1"
+       id="rect815-3"
+       width="49.883099"
+       height="49.883083"
+       x="0.058452073"
+       y="197.05846"
+       rx="0.031271022"
+       ry="0.035606261" />
+    <rect
+       style="fill:#dd3121;fill-opacity:1;stroke:#cccccc;stroke-width:0.11690418;stroke-opacity:1"
+       id="rect815-3-6"
+       width="49.883099"
+       height="49.883083"
+       x="50.058456"
+       y="247.05846"
+       rx="0.031271022"
+       ry="0.035606261" />
+    <rect
+       style="fill:#0684e7;fill-opacity:1;stroke:#cccccc;stroke-width:0.11690418;stroke-opacity:1"
+       id="rect815-3-6-7"
+       width="49.883099"
+       height="49.883083"
+       x="50.058456"
+       y="147.05846"
+       rx="0.031271022"
+       ry="0.035606261" />
+    <rect
+       style="fill:#ffbe0c;fill-opacity:1;stroke:#cccccc;stroke-width:0.11690418;stroke-opacity:1"
+       id="rect815-3-6-7-5"
+       width="49.883099"
+       height="49.883083"
+       x="100.05845"
+       y="197.05846"
+       rx="0.031271022"
+       ry="0.035606261" />
+  </g>
+</svg>

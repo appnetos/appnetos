@@ -1,0 +1,19 @@
+<?php
+// Strings.
+$strings = [
+    "html_string__demo_home__appnetos_header_two" => "Das App basierende Betriebssystem für Webanwendungen setzt neue Maßstäbe in der Entwicklung.",
+    "html_string__demo_home__appnetos_text_one" => "APPNET OS bietet ein komplettes System, dass alles für Ihre Webanwendung abdeckt. Mit dem Multilingualen CMS sind Anwendungen in vielen verschiedenen Sprachen einfach umzusetzen.",
+    "html_string__demo_home__appnetos_text_two" => "Durch die Verwendung von Apps, als Elemente, ist das Erstellen von Webanwendungen einfache als je zuvor. Über den Administratorbereich können die Bauteile einzeln konfiguriert und den Seiten zugewiesen werden. Die meisten Apps sind multilingual und können sofort mehreren Sprachen verwalten. Durch die Größeneinstellungen ist Ihre Webanwendung mit wenigen Klicks responsive. In unserem Marktplatz finden Sie viele tolle Apps mit vielen Anwendungsmöglichkeiten.",
+    "html_string__demo_home__appnetos_text_three" => "Benutzerverwaltung, Benutzergruppen, multilinguales CMS, App-Verwaltung, App-Installer, App-Creator, App-Marktplatz, Dateimanager, Mailer, erweitertes Cache System und vieles mehr.",
+    "html_string__demo_home__appnetos_text_four" => "Einfacher kann Entwickeln nicht sein. APPNET OS als Framework lässt keine Wünsche offen. Das geniale System setzt auf die einfachste Logik, wodurch sich große Projekte schnell umsetzten lassen. Die Möglichkeiten sind dabei unendlich. Let yourself be inspired and take a look at our extensive documentation.",
+    "html_string__demo_home__appnetos_text_five" => "Lizenziert unter der Apache2 Lizenz ist der APPNET OS Quelltext offen und für alle Projekte kostenlos.",
+    "html_string__demo_home__tools_header" => "Das Beste von allem vereint",
+    "html_string__demo_home__tools_header_two" => "APPNET OS vereint die besten Werkzeuge um einfach, schnell und Effizient ans Ziel zu kommen.",
+    "html_string__demo_home__tools_text_one" => "APPNET OS verwendet die weit verbreitete Skriptsprache PHP. PHP eignet sich perfekt zum erzeugen von dynamischen Webanwendungen. Die Programmiersprache ist leicht zu erlernen und einfach anzuwenden.  APPNET OS macht den Umgang mit PHP noch einfacher. Das APP System bereitet das meiste bereits vor, so dass das Entwickeln zu einer Leichtigkeit wird.",
+    "html_string__demo_home__tools_text_two" => "Die weiterverwendete JavaScript Bibliothek jQuery ist ebenfalls fester Bestandteil von APPNET OS. jQuery vereinfacht viele JavaScript Aktionen enorm. Dank zahlreicher Plugins lässt es sich nahezu unendlich erweitern. Auch ist es für JavaScript-Anfänger relativ einfach möglich, für jQuery-Code zu schreiben.",
+    "html_string__demo_home__tools_text_three" => "Mit Bootstrap setzt APPNET OS auf ein starkes CSS Framework. Durch die Verwendung von Bootstrap können Sie das Aussehen Ihrer Webanwendung in Schnelle anpassen. Das eingebaute Grid-System ermöglicht Ihnen eine Individuell Anpassung der Größe Ihrer Apps. Mit nur wenigen Klicks individualisieren Sie die Ausgabe und erzeugen ein perfektes Responsive Ergebnis.",
+    "html_string__demo_home__tools_text_four" => "Egal wie Sie Ihre Ausgabe am liebsten verarbeiten, APPNET OS kann mit allem umgehen. Mit Smarty und Twig sind zwei beliebte und einfache Template Engines mit dabei. Oder bauen Sie Ihre Ausgabe mit einem PHP Template oder als einfaches HTML. APPNET OS rendert alles.",
+    "html_string__demo_home__more_information" => "Weitere Informationen",
+    "html_string__demo_home__appnetos_on_github" => "APPNET OS auf GitHub",
+    "html_string__demo_home__download" => "Download",
+];

@@ -1,0 +1,23 @@
+Utilice este sencillo formulario de contacto para dar a sus usuarios la oportunidad de ponerse en contacto con usted de forma segura.
+Gracias a APPNET OS Mailer, este formulario de contacto se instala rápida y fácilmente en su aplicación web. La dirección de correo electrónico utilizada no es visible para el usuario y no puede ser leída por robots.
+La instalación es muy sencilla. Configure un buzón de correo en el panel Administrador y asígnelo a La configuración del administrador de aplicaciones. Coloque la aplicación Mailer delante de esta aplicación en la página deseada.
+
+- Fácil instalación
+- Fácil de configurar
+- Protege su dirección de correo electrónico del acceso no deseado
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Multilingual
+- Zona de administrador en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Zona de aplicación en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Configurar un buzón para el APPNET OS Mailer
+- Asignar el buzón en la configuración del administrador de aplicaciones
+- Coloque el correo delante de esta aplicación.
+- Coloque la aplicación en un lugar adecuado.
+
+Dependencias:
+- APPNET OS Mailer
+
+- Traducido automáticamente -

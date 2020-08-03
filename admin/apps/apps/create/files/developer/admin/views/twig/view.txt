@@ -1,0 +1,42 @@
+{#
+ # START LICENSE HEADER
+ #
+ # Your license header.
+ #
+ # END LICENSE HEADER
+ #
+ # @description     View description.
+#}
+
+{# Including menu #}
+{{render.include("application/apps/***DIRECTORY***/***FORMATTED_NAME***/admin/views/***FORMATTED_NAME***__menu.tpl")}}
+<div class="container-sidebar">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                <br>
+
+                {# get string from view #}
+                {{strings.get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_view")}}
+                <br><br>
+
+                {# get string from controller #}
+                {{***FORMATTED_NAMESPACE******FORMATTED_NAME***.getStringFromController("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_controller")}}
+                <br><br>
+
+                {# get string from model #}
+                {{***FORMATTED_NAMESPACE******FORMATTED_NAME***__model.getStringFromModel("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_model")}}
+                <br><br>
+
+                {# css #}
+                <div class="***FORMATTED_NAMESPACE******FORMATTED_NAME***__css">CSS</div>
+                <br>
+
+                {# JavaScript #}
+                <button type="button" class="btn btn-primary" onclick="***FORMATTED_NAMESPACE******FORMATTED_NAME***__javascript()">JavaScript</button>
+
+            </div>
+        </div>
+    </div>
+</div>

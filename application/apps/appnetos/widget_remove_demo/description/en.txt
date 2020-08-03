@@ -1,0 +1,14 @@
+This widget deletes the APPNET OS demo data of the installation and resets the system to an empty stand.
+The widget appears on the first user's dashboard when you install APPNET OS.
+Clicking Delete resets the database to an empty system and deletes all installed demo apps. The app deletes itself when used and no longer appears in your dashboard.
+Please do not use the app if you have already configured CMS pages or apps for APPNET OS. Using this widget will lose your previous configurations.
+
+- Dashboard widget
+- Button to reset the demo data and delete the demo apps
+- Multilingual
+- Widget in 6 languages. English, german, Spanish, French, Italian, Russian
+- Free for commercial and non-commercial projects
+
+Use:
+- Add widget to dashboard
+- Click the button to reset

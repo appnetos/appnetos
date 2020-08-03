@@ -1,0 +1,18 @@
+L'app NAVIGAZIONE del sistema operativo APPNET genera automaticamente breadcrumb dall'URI.
+Semplicemente installato e posizionato, l'applicazione crea una barra che è rappresentato come frecce.
+I collegamenti si collegano ai rispettivi URI figlio dalla gestione URI Multilinugual.
+Il colore di sfondo, il colore del bordo, il colore del carattere e il colore del collegamento sono completamente configurabili nella sezione dell'amministratore dell'app.
+
+- Installazione semplice
+- Genera automaticamente i breadcrumb
+- Colori completamente configurabili tramite la sezione dell'amministratore
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Multilingua
+- Sezione Amministratore in 6 lingue. Inglese, Tedesco, Spagnolo, Francese, Italiano, Russo
+- Installazione e configurazione multiple possibili
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+Posizionare in un luogo adatto, configurare i colori sopra l'area di amministrazione, fatto.
+
+- Traduzione automatica -

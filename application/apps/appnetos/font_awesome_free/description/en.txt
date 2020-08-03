@@ -1,0 +1,16 @@
+With this app, you will soon install the well-known font Font Awesome.
+https://fontawesome.com/
+
+Simply install, set app as a static app above, done.
+The popular font can then be used anywhere in your web project.
+
+Please note the separate license terms.
+https://fontawesome.com/v4.7.0/license/
+
+- Quick and easy installation
+- Can be used throughout the web project
+
+Use:
+- Install
+- Activate
+- Set as static app above

@@ -1,0 +1,23 @@
+Utilisez ce formulaire de contact simple pour donner à vos utilisateurs la possibilité de vous contacter en toute sécurité.
+Grâce à l’APPNET OS Mailer, ce formulaire de contact est rapidement et facilement installé dans votre application web. L’adresse e-mail utilisée n’est pas visible pour l’utilisateur et ne peut pas être lue par des robots.
+L’installation est très simple. Configurez une boîte aux lettres dans le volet De l’administrateur et attribuez-la aux Paramètres de l’administrateur de l’application. Placez l’application Mailer devant cette application sur la page désirée.
+
+- Installation facile
+- Facile à configurer
+- Sécurise votre adresse e-mail à partir d’un accès non désiré
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Multilingue
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Zone d’application en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Configurer une boîte aux lettres pour l’APPNET OS Mailer
+- Affecter la boîte aux lettres dans les paramètres de l’administrateur de l’application
+- Placez l’expéditeur devant cette application.
+- Placez l’application dans un emplacement approprié.
+
+Dépendances:
+- APPNET OS Mailer
+
+- Traduit automatiquement -

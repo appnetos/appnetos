@@ -1,0 +1,14 @@
+Dieses Widget löscht die APPNET OS Demo Daten der Installation und setzt das System auf einen leeren Stand zurück.
+Das Widget wird bei der Installation von APPNET OS auf dem Dashbord des ersten Benutzers angezeigt.
+Ein klick auf löschen setzt die Datenbank auf ein leeres System zurück und löscht alle installierten Demo Apps. Die App löscht sich bei Verwendung selbst und erscheint nicht mehr in Ihrem Dashboard.
+Bitte verwenden Sie die App nicht wenn Sie bereits schon CMS Seiten oder Apps für APPNET OS konfiguriert haben. Mit der Verwendung dieses Widgets gehen Ihre bisherigen Konfigurationen verloren.
+
+- Dashboard Widget
+- Button zum zurücksetzen der Demo Daten und löschen der Demo Apps
+- Mehrsprachig
+- Widget in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Widget dem Dashboard hinzufügen
+- Button zum zurücksetzen klicken

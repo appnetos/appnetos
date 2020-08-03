@@ -1,0 +1,16 @@
+Die APPNET OS Breadcrumbs App erzeugt automatisch aus der URI Breadcrumbs.
+Einfach installiert und platziert erzeugt die App eine Leiste die als Pfeile dargestellt werden.
+Die Links verlinken auf die jeweiligen untergeordneten URIs aus der Multilinugualen URI Verwaltung.
+Hintergrundfarbe, Rahmenfarbe, Schriftfarbe und Linkfarbe sind im Administrator-Bereich der App voll konfigurierbar.
+
+- Einfache Einbau
+- Automatisches erzeugen der Breadcrumbs
+- Farben über den Administrator-Bereich voll konfigurierbar
+- Container App. Größe über App Einstellungen konfigurierbar
+- Mehrsprachig
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Mehrfachinstallation und konfiguration möglich
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+An geeigneter Stelle platzieren, Farben über den Administrator-Bereich konfigurieren, fertig.

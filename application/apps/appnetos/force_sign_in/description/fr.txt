@@ -1,0 +1,17 @@
+Sécurisez votre application Web à partir d’un accès non désiré.
+Avec cette application, vous pouvez enregistrer toute votre application Web ou des pages individuelles à partir d’un accès indésirable. Si un utilisateur n’est pas connecté, une fenêtre de connexion est émise. Ajouté comme une application statique ci-dessus, seuls les utilisateurs connectés peuvent accéder à l’ensemble de votre application Web.
+Pour protéger les pages individuelles de l’accès des utilisateurs non enregistrés, installez simplement l’application en haut.
+
+- Protection contre les utilisateurs inopinés
+- Mise en œuvre facile
+- Peut sécuriser l’application Web complète ou des pages individuelles
+- Multilingue
+- Zone d’application en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Installation
+- Définissez comme application statique ci-dessus pour protéger l’application Web complète contre l’accès non désiré
+- Définir en haut d’une page pour protéger les pages individuelles contre l’accès non désiré
+
+- Machine traduite -

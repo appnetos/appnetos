@@ -1,0 +1,19 @@
+Build a multilingual menu for your web application fastest time.
+The menu uses the Bootstrap Navbar and can be configured completely from the App Administration area. Enter only the text for the appropriate language and the link. Links can use CMS ids, so it is always output correctly in any language.
+In the App Administrator settings, each part of the menu can be assigned a bootstrap color, so it always fits your current theme.
+In addition, the menu has a login button and an integrated sign-in form that allows your users to log in to your web application.
+The app is a container app. Simply set the desired size via the App Settings. The App Cache stores the result of the output in the database, which makes rendering and output extremely fast. 
+
+- Quick and easy to configure menu bar
+- Registration button with integrated registration form
+- Multilingual, menu can be created separately for each language
+- Colors fully configurable via the administrator area
+- Container app. Size configurable via app settings
+- Administrator area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Multiple installation and configuration possible
+- Free for commercial and non-commercial projects
+
+Use:
+- Configure menu via the App Administrator Settings
+- When configuring the menu, make sure that you disable the app cache settings, otherwise the result stored in the cache will be output
+- Place the app in a suitable place

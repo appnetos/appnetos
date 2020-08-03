@@ -1,0 +1,10 @@
+APPNET OS Fin del contenedor es una importante aplicación del sistema.
+El componente termina un contenedor responsivo y obliga al sistema a crear uno nuevo.
+Si esta aplicación se coloca entre varias aplicaciones de contenedor, se crea un contenedor independiente para cada aplicación.
+Esto hace que la aplicación sea un componente importante del sistema.
+La aplicación se puede instalar y utilizar tantas veces como se desee.
+
+La aplicación es un componente estándar del sistema y está presente en todas las versiones del sistema operativo APPNET OS.
+Si la aplicación no está disponible o perdida, se puede descargar o renovar aquí de forma gratuita en cualquier momento.
+
+- Máquina traducida -

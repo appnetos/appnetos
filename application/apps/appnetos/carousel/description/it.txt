@@ -1,0 +1,22 @@
+Utilizzare l'applicazione e semplicemente creare un carosello immagini Bootstrap.
+È sufficiente gestire le immagini del carosello dal riquadro Amministratore app e posizionare l'app in qualsiasi punto dell'applicazione Web.
+Il display è reattivo e le dimensioni dell'app sono liberamente configurabili tramite le impostazioni dell'app.
+È possibile definire un collegamento per ogni immagine.
+L'app è multilingue. È possibile utilizzare un file aggiuntivo per ogni immagine, per ogni lingua.
+È possibile utilizzare le impostazioni per influenzare il tempo di visualizzazione e i controlli.
+
+- Installazione semplice
+- Facile da amministrare
+- Multilingua. Per ogni lingua è possibile utilizzare un'immagine separata.
+- È possibile definire un collegamento per ogni immagine
+- Impostazioni del tempo di visualizzazione e dei controlli
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Area di amministrazione in 6 lingue. Inglese, Tedesco, Spagnolo, Francese, Italiano, Russo
+- Installazione e configurazione multiple possibili
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Posizionare in un luogo adatto
+- Configurare immagini, collegamenti e impostazioni tramite l'area dell'amministratore
+
+- Traduzione automatica -

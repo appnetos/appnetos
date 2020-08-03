@@ -1,0 +1,19 @@
+Wenn Sie für Ihre Webanwendung Bereiche für angemeldete Benutzer bereitstellen, dann können Sie dieses Formular verbauen, dass sich neue Benutzer registrieren können.
+Die App verwendet das APPNET OS System um neue Benutzer anzulegen. Es bietet Ihnen zwei Möglichkeiten der Registrierung neuer Benutzer. Mit Email Verifizierung und eine einfache Anmeldung ohne eine Bestätigung der Email Adresse.
+Für die Bestätigung der Email Adresse wird der APPNET OS Mailer verwendet. Der neu angemeldete Benutzer bekommt bei der Registrierung eine Email mit einem Link zum bestätigen. In den APPNET OS Mailer Einstellungen muss ein Postfach konfiguriert sein, dass in den APP Administrator Einstellungen dem Registrierungsformular zugewiesen wird. Der Mailer muss oberhalb der App verbaut werden. Aus Sicherheitsgrüngen sollte der APPNET OS Mailer niemals statisch verbaut werden.
+
+- Einfache Möglichkeit Ihren Benutzern eine Registrierung an Ihrer Webanwendung bereitzustellen
+- Einfache Konfiguration
+- Bietet zwei individuelle Möglichkeiten der Registrierung. Mit und ohne Email Bestätigung
+- Mehrsprachig
+- Applikations-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Container App. Größe über App Einstellungen konfigurierbar
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Bei Registrierung mit Email Bestätigung, Postfach für den APPNET OS Mailer konfigurieren, Postfach in den App Administrator Einstellungen der App zuweisen, Mailer oberhalb dieser App platzieren.
+- App an geeigneter Stelle platzieren
+
+Abhängigkeiten:
+- APPNET OS Mailer, für Registrierungen mit Email Bestätigung

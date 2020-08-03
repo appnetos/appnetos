@@ -1,0 +1,41 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     View description.
+*/
+ ?>
+
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+        <br>
+
+        <?php /* Get string from view */?>
+        <?php echo $strings->get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_view")?>
+        <br><br>
+
+        <?php /* Get string from controller */ ?>
+        <?php echo $***FORMATTED_NAMESPACE******FORMATTED_NAME***->getStringFromController("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_controller")?>
+        <br><br>
+
+        <?php /* Get string from model */ ?>
+        <?php echo $***FORMATTED_NAMESPACE******FORMATTED_NAME***__model->getStringFromModel("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_model")?>
+        <br><br>
+
+        <?php /* Include a template */ ?>
+        <?php $render->include("application/apps/***DIRECTORY***/***FORMATTED_NAME***/views/***FORMATTED_NAME***__include.php")?>
+
+        <?php /* CSS */ ?>
+        <div class="***FORMATTED_NAMESPACE******FORMATTED_NAME***__css">CSS</div>
+        <br>
+
+        <?php /* JavaScript */ ?>
+        <button type="button" class="btn btn-primary" onclick="***FORMATTED_NAMESPACE******FORMATTED_NAME***__javascript()">JavaScript</button>
+
+    </div>
+</div>

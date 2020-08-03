@@ -1,0 +1,14 @@
+Use this form to give your users the ability to change the password.
+Simply place this app in the appropriate location in your user area.
+The app is fully automatic. No further configuration is necessary.
+
+- Easy installation
+- Fully automatic. No administration necessary
+- Container app. Size configurable via app settings
+- Multilingual
+- Administrator area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Application area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Free for commercial and non-commercial projects
+
+Use:
+- Place in a suitable place

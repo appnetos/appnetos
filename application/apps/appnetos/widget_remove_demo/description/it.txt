@@ -1,0 +1,14 @@
+Questo widget elimina i dati dimostrativi del APPNET OS dell'installazione e reimposta il sistema su un supporto vuoto.
+Il widget viene visualizzato nel dashboard del primo utente quando si installa il APPNET OS.
+Facendo clic su Elimina, il database viene reimpostato su un sistema vuoto ed vengono eliminate tutte le app demo installate. L'app si elimina quando viene utilizzata e non viene più visualizzata nel dashboard.
+Si prega di non utilizzare l'applicazione se avete già configurato pagine CMS o applicazioni per il APPNET OS. L'utilizzo di questo widget perderà le configurazioni precedenti.
+
+- Widget dashboard
+- Pulsante per reimpostare i dati demo ed eliminare le applicazioni demo
+- Multilingua
+- Widget in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Aggiungi widget alla dashboard
+- Fare clic sul pulsante per ripristinare

@@ -1,0 +1,21 @@
+Con esta aplicación, usted da a sus usuarios la capacidad de restablecer la contraseña.
+Al introducir la dirección de correo electrónico, se envía al usuario un vínculo para restablecer la contraseña. La aplicación utiliza EL APPNET OS Mailer. Esto permite que se integre y configure rápidamente. En la configuración del Administrador de aplicaciones, se debe asignar el buzón del correo del sistema operativo APPNET. El correo debe estar por encima de la aplicación.
+
+- Integración rápida y sin complicaciones
+- Multilingual
+- Zona de administrador en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Zona de aplicación en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Aplicación contenedora. El tamaño de la aplicación se puede configurar fácilmente en la configuración de la aplicación
+- Utiliza el APPNET OS Mailer
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Instalar la aplicación
+- Configurar el buzón de correo
+- Asignar buzón de Correo en la configuración del administrador de la aplicación
+- Establecer correo por encima de la aplicación
+
+Dependencias:
+- APPNET OS Mailer
+
+- Máquina traducida -

@@ -1,0 +1,14 @@
+Mit diesem Formular geben Sie Ihren Benutzern die Möglichkeit Ihr Passwort zu ändern.
+Platzieren Sie diese App einfach an geeigneter Stelle in Ihrem Benutzerbereich.
+Die App ist vollautomatisch. Es ist keine weiter Konfiguration notwendig.
+
+- Einfacher Einbau
+- Vollautomatisch. Keine Administration notwendig
+- Container App. Größe über App Einstellungen konfigurierbar
+- Mehrsprachig
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Applikationsbereich-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- An geeigneter Stelle platzieren

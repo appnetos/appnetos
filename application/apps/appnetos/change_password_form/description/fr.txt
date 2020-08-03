@@ -1,0 +1,16 @@
+Utilisez ce formulaire pour donner à vos utilisateurs la possibilité de modifier le mot de passe.
+Il suffit de placer cette application à l’emplacement approprié dans votre zone utilisateur.
+L’application est entièrement automatique. Aucune autre configuration n’est nécessaire.
+
+- Installation facile
+- Entièrement automatique. Aucune administration nécessaire
+- Application de conteneurs. Taille configurable via les paramètres de l’application
+- Multilingue
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Zone d’application en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Placer dans un endroit approprié
+
+- Traduit automatiquement -

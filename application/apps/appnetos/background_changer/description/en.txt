@@ -1,0 +1,15 @@
+Make your web application an eye-catcher.
+With the background changer app, you can easily create changing backgrounds.
+The backgrounds can have a simple color or a background image. For a background image, repetition and size can be configured. The backgrounds can be assigned either individually or alternately to the fluid-containers, container or apps. The app generates the necessary CSS classes for this. These must be added to the apps in the app settings. Use this app as a static app or add it to the using page's via CMS Manager.
+
+- Easy installation
+- Easy configuration via the App Administrator Settings
+- Backgrounds can be added as single background or as repetitive background
+- Administrator area in 6 languages. English, German, Spanish, French, Italian, Russian
+- Multiple installation and configuration possible
+- Free for commercial and non-commercial projects
+
+Use:
+Either add to the static apps or add as an app in the page you are using.
+Configure backgrounds in the App Administrator Settings.
+At the app settings, the apps use the backgrounds, add the generated CSS classes.

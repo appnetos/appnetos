@@ -1,0 +1,21 @@
+Mit diesem einfachen Kontaktformular geben Sie Ihren Benutzern die Möglichkeit Sie sicher zu kontaktieren.
+Durch den APPNET OS Mailer ist dieses Kontaktformular schnell und einfach in Ihrer Webanwendung verbaut. Die verwendete Email Adresse ist für den Benutzer dabei nicht sichtbar und kann von Robotern nicht ausgelesen werden.
+Der Einbau ist sehr einfach. Konfigurieren Sie ein Mailer Postfach im Administrator Bereich und weisen Sie es in den App Administrator Einstellungen zu. Platzieren Sie die Mailer App vor dieser App auf der gewünschten Seite.
+
+- Einfacher Einbau
+- Einfach zum konfigurieren
+- Sichert Ihre Email Adresse vor unerwünschtem Zugriff
+- Container App. Größe über die App Einstellungen konfigurierbar
+- Mehrsprachig
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Applikationsbereich-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+- Konfigurieren Sie ein Postfach für den APPNET OS Mailer
+- Weisen Sie das Postfach in den App Administrator Einstellungen zu
+- Platzieren Sie den Mailer vor dieser App.
+- Platzieren Sie die App an geeigneter Stelle.
+
+Abhängigkeiten:
+- APPNET OS Mailer

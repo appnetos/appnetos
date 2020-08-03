@@ -1,0 +1,15 @@
+Gardez un œil sur les paramètres de votre cache.
+Avec ce widget de tableau de bord, vous avez votre mise en cache APPNET OS sous contrôle total. Non seulement il vous donne la possibilité de visualiser tous les paramètres de cache directement dans votre tableau de bord, mais aussi effacer les caches.
+Les caches peuvent être réinitialisées individuellement ou vidées complètement.
+
+- Widget de tableau de bord
+- Vous montre l’état actuel de vos caches d’ensemble
+- Avec les liens intégrés, vous pouvez vider les caches individuellement ou complètement
+- Multilingue
+- Widget en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Ajouter le widget au tableau de bord
+
+- Machine traduite -

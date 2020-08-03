@@ -1,0 +1,9 @@
+APPNET OS Fine contenitore è un'importante app di sistema.
+Il componente termina un contenitore reattivo e forza il sistema a costruirne uno nuovo.
+Se questa app viene posizionata tra più app contenitore, viene creato un contenitore separato per ogni app.
+Questo rende l'app un componente importante del sistema.<br>L'applicazione può essere installata e utilizzata tutte le volte che si desidera.
+
+L'applicazione è un componente di sistema standard ed è presente in ogni versione del sistema operativo APPNET.
+Se l'app non è disponibile o persa, può essere scaricata o rinnovata qui gratuitamente in qualsiasi momento.
+
+- Macchina tradotta -

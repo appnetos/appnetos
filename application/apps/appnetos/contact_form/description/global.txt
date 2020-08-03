@@ -1,0 +1,21 @@
+Use this simple contact form to give your users the opportunity to contact you securely.
+Thanks to the APPNET OS Mailer, this contact form is quickly and easily installed in your web application. The used email address is not visible to the user and cannot be read by robots.
+The installation is very simple. Configure a mailer mailbox in the Administrator pane and assign it to The App Administrator Settings. Place the Mailer app in front of this app on the desired page.
+
+- Easy installation
+- Easy to configure
+- Secures your email address from unwanted access
+- Container app. Size configurable via app settings
+- Multilingual
+- Administrator area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Application area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Free for commercial and non-commercial projects
+
+Use:
+- Configure a mailbox for the APPNET OS Mailer
+- Assign the mailbox in the App Administrator Settings
+- Place the mailer in front of this app.
+- Place the app in a suitable location.
+
+Dependencies:
+- APPNET OS Mailer

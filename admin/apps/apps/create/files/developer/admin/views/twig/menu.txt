@@ -1,0 +1,27 @@
+{#
+ # START LICENSE HEADER
+ #
+ # Your license header.
+ #
+ # END LICENSE HEADER
+ #
+ # @description     Menu description.
+#}
+
+{# Menu #}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-left">
+    <div class="navbar-brand text-light">{{strings.get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__header")}}</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#***FORMATTED_NAMESPACE******FORMATTED_NAME***" aria-controls="***FORMATTED_NAMESPACE******FORMATTED_NAME***" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="***FORMATTED_NAMESPACE******FORMATTED_NAME***">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">{{strings.get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__menu_1")}}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">{{strings.get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__menu_2")}}</a>
+            </li>
+        </ul>
+    </div>
+</nav>

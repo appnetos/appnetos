@@ -1,0 +1,8 @@
+APPNET OS Container End is an important system app.
+The component terminates a responsive container and forces the system to build a new one.
+If this app is placed between multiple container apps, a separate container is created for each app.
+This makes the app an important component of the system.
+The app can be installed and used as often as desired.
+
+The app is a standard system component and is present in every APPNET OS version.
+If the app is not available or lost, it can be downloaded or renewed here free of charge at any time.

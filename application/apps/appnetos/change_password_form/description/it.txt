@@ -1,0 +1,16 @@
+Utilizzare questo modulo per consentire agli utenti di modificare la password.
+Basta posizionare questa applicazione nella posizione appropriata nella vostra zona utente.
+L'applicazione è completamente automatica. Non è necessaria alcuna ulteriore configurazione.
+
+- Installazione semplice
+- Completamente automatico. Nessuna amministrazione necessaria
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Multilingua
+- Area di amministrazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Area di applicazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Posizionare in un luogo adatto
+
+- Traduzione automatica -

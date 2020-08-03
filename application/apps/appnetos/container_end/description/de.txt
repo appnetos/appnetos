@@ -1,0 +1,8 @@
+APPNET OS Container Ende ist eine wichtige System App.
+Die Komponente beendet einen Responsive Container und zwingt das System einen neuen zu bauen.
+Wird diese App zwischen mehreren Container Apps platziert, dann wird für jede App ein eigener Container erstellt.
+Das macht die App zu einem wichtigen Bauteil des Systems.
+Die App kann beliebig oft verbaut und verwendet werden.
+
+Die App ist eine Standard Systemkomponente und ist in jeder APPNET OS Version vorhanden.
+Falls die App nicht vorhanden ist oder verloren ging, kann sie hier jederzeit kostenlos heruntergeladen oder erneuert werden.

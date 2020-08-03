@@ -1,0 +1,20 @@
+{# Demo Sign Up #}
+<div class="row mt-5">
+    <div class="offset-0 col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-6 offset-lg-1 col-lg-5 offset-xl-2 col-xl-4 mb-5">
+        <h3>
+            {{ strings.get("html_string__demo_sign_up__string_one") }}
+        </h3>
+        <h5>
+            {{ strings.get("html_string__demo_sign_up__string_two")}}
+        </h5>
+        <div>
+            {{ strings.get("html_string__demo_sign_up__string_three")|raw }}
+        </div>
+        <div class="mt-4">
+            {{ strings.get("html_string__demo_sign_up__string_four")|raw }}
+        </div>
+    </div>
+    <div class="offset-0 col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-6 offset-lg-0 col-lg-5 offset-xl-0 col-xl-4">
+        {{ render.include(2) }}
+    </div>
+</div>

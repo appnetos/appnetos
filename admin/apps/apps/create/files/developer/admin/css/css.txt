@@ -1,0 +1,12 @@
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+*/
+
+/* CSS */
+.***FORMATTED_NAMESPACE******FORMATTED_NAME***__css {
+    color: red;
+}

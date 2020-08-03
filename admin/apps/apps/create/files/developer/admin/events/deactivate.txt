@@ -1,0 +1,19 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Event deactivate.
+ */
+
+/**
+ * Function deactivate.
+ *
+ * @param int $id app ID
+ */
+function deactivate($id) {
+
+}

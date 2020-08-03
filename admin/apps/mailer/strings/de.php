@@ -1,0 +1,150 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Mailer logs, blacklist, settings, mailboxes.
+ */
+
+// Language strings.
+$strings = [
+    "admin__mailer__mailer__logs__info" => "Der APPNET OS Mailer ist ein einfaches System um den komplexen Mailversand zu steuern.  Im allgemeinen Mailer werden Postfächer angelegt. Diese Postfächer werden, für den Versand der Nachrichten, von Apps verwendet. Der Versand läuft damit ausschließlich über die Mailer App. Die Mailer App hat mehrere Vorkehrungen um vor Spam zu schützen. Die Mailer muss in derselben URI, vor der App die eine Mail versendet, verbaut sein. Die Mailer App erzeugt eine Mailer ID welche für jeden Versand übergeben werden muss. Diese ID ändert sich bei jeder versendeten Mail oder bei jedem Versuch eine Mail zu versenden. Dadurch ist gewährleistet, dass die Form nicht von Robotern kopiert werden kann um Spam zu versenden. Die Mailer App erzeugt für jede versendete Mail und für jeden fehlgeschlagenen Versand einen Log, der über den Admin Bereich ausgelesen werden kann. Jeder Versuch eine Mail zu versenden wird mit dem Versand Log abgeglichen. Versuche ein Benutzer zu viele Mails zu versenden, dann wird die E-Mail Adresse auf eine Blacklist gesetzt, wodurch kein weiterer Mail Versand mehr möglich ist. Die Blacklist kann im Admin Bereich jederzeit geändert werden.",
+    "admin__mailer__mailer__logs__header_error" => "Fehler Log",
+    "admin__mailer__mailer__logs__header_confirm" => "Bestätigungs Log",
+    "admin__mailer__mailer__logs__datetime" => "Datum Zeit",
+    "admin__mailer__mailer__logs__address" => "Zu Adresse",
+    "admin__mailer__mailer__logs__message" => "Nachricht",
+    "admin__mailer__mailer__logs__word_info" => "Info",
+    "admin__mailer__mailer__logs__clear_error" => "Fehler Log leeren",
+    "admin__mailer__mailer__logs__clear_confirm" => "Bestätigungs Log leeren",
+    "admin__mailer__mailer__logs__conf_clear" => "Die Logs wurden geleert",
+    "admin__mailer__mailer__logs__blacklist" => "Blacklist Abgleich",
+    "admin__mailer__mailer__settings__info" => "Der APPNET OS Mailer ist ein einfaches System um den komplexen Mailversand zu steuern.  Im allgemeinen Mailer werden Postfächer angelegt. Diese Postfächer werden, für den Versand der Nachrichten, von Apps verwendet. Der Versand läuft damit ausschließlich über die Mailer App. Die Mailer App hat mehrere Vorkehrungen um vor Spam zu schützen. Die Mailer muss in derselben URI, vor der App die eine Mail versendet, verbaut sein. Die Mailer App erzeugt eine Mailer ID welche für jeden Versand übergeben werden muss. Diese ID ändert sich bei jeder versendeten Mail oder bei jedem Versuch eine Mail zu versenden. Dadurch ist gewährleistet, dass die Form nicht von Robotern kopiert werden kann um Spam zu versenden. Die Mailer App erzeugt für jede versendete Mail und für jeden fehlgeschlagenen Versand einen Log, der über den Admin Bereich ausgelesen werden kann. Jeder Versuch eine Mail zu versenden wird mit dem Versand Log abgeglichen. Versuche ein Benutzer zu viele Mails zu versenden, dann wird die E-Mail Adresse auf eine Blacklist gesetzt, wodurch kein weiterer Mail Versand mehr möglich ist. Die Blacklist kann im Admin Bereich jederzeit geändert werden.",
+    "admin__mailer__mailer__settings__log_error" => "Größe der Fehler-Logdatei",
+    "admin__mailer__mailer__settings__log_confirm" => "Größe der Bestätigung-Logdatei",
+    "admin__mailer__mailer__settings__emails" => "versendeten E-Mails",
+    "admin__mailer__mailer__settings__mailbox" => "Standard Postfach",
+    "admin__mailer__mailer__settings__confirm" => "Die Einstellungen wurden gespeichert",
+    "admin__mailer__mailer__settings__never" => "Nie",
+    "admin__mailer__mailer__settings__unlimited" => "Unendlich",
+    "admin__mailer__mailer__blacklist__info" => "Der APPNET OS Mailer hat eine Firewall um vor Spam zu schützen. Die Firewall sperrt automatisch Email Adressen und IP Adressen welche zu oft versuchen Nachrichten zu versenden. Gesperrte Email Adressen und IP Adressen werden auf eine Blacklist gesetzt. Je nach Einstellungen werden Einträge nach bestimmter Zeit automatisch aus der Liste entfernt. In diesem Bereich kann die Blacklist angepasst werden.",
+    "admin__mailer__mailer__blacklist__edit_info" => "Gesperrte E-Mail Adressen getrennt durch ein Semikolon ( ; )",
+    "admin__mailer__mailer__blacklist__confirm" => "Die Blacklist wurde bearbeitet",
+    "admin__mailer__mailer__mailboxes__info" => "Der APPNET OS Mailer ist ein einfaches System um den komplexen Mailversand zu steuern.  Im allgemeinen Mailer werden Postfächer angelegt. Diese Postfächer werden, für den Versand der Nachrichten, von Apps verwendet. Der Versand läuft damit ausschließlich über die Mailer App. Die Mailer App hat mehrere Vorkehrungen um vor Spam zu schützen. Die Mailer muss in derselben URI, vor der App die eine Mail versendet, verbaut sein. Die Mailer App erzeugt eine Mailer ID welche für jeden Versand übergeben werden muss. Diese ID ändert sich bei jeder versendeten Mail oder bei jedem Versuch eine Mail zu versenden. Dadurch ist gewährleistet, dass die Form nicht von Robotern kopiert werden kann um Spam zu versenden. Die Mailer App erzeugt für jede versendete Mail und für jeden fehlgeschlagenen Versand einen Log, der über den Admin Bereich ausgelesen werden kann. Jeder Versuch eine Mail zu versenden wird mit dem Versand Log abgeglichen. Versuche ein Benutzer zu viele Mails zu versenden, dann wird die E-Mail Adresse auf eine Blacklist gesetzt, wodurch kein weiterer Mail Versand mehr möglich ist. Die Blacklist kann im Admin Bereich jederzeit geändert werden.",
+    "admin__mailer__mailer__mailboxes__add" => "Postfach hinzufügen",
+    "admin__mailer__mailer__mailboxes__name" => "Mailbox Name",
+    "admin__mailer__mailer__mailboxes__mail" => "E-Mail Adresse",
+    "admin__mailer__mailer__mailboxes__host" => "Host",
+    "admin__mailer__mailer__mailboxes__user" => "Benutzername",
+    "admin__mailer__mailer__mailboxes__pass" => "Passwort",
+    "admin__mailer__mailer__mailboxes__is_smtp" => "SMTP Versand",
+    "admin__mailer__mailer__mailboxes__smtp_auth" => "SMTP erfordert Authentifizierung",
+    "admin__mailer__mailer__mailboxes__err_no_name" => "Kein Name eingegeben",
+    "admin__mailer__mailer__mailboxes__err_name_exists" => "Es bereits eine Mailbox mit diesem Namen vorhanden",
+    "admin__mailer__mailer__mailboxes__err_mail" => "Die E-Mail Adresse kann nicht verwendet werden",
+    "admin__mailer__mailer__mailboxes__err_host" => "Kein Host eingegeben",
+    "admin__mailer__mailer__mailboxes__err_user" => "Kein Benutzername eingegeben",
+    "admin__mailer__mailer__mailboxes__err_pass" => "Kein Passwort eingegeben",
+    "admin__mailer__mailer__mailboxes__conf_add" => "Das Postfach wurde hinzugefügt",
+    "admin__mailer__mailer__mailboxes__edit" => "Postfach bearbeiten",
+    "admin__mailer__mailer__mailboxes__edit_info" => "Vorsicht beim ändern von Postfach Namen. Wenn ein Verteiler dieses Postfach verwendet, dann wird dieser keine E-Mails mehr versenden. Beim ändern des Namens muss der Verteiler neu konfiguriert werden.",
+    "admin__mailer__mailer__mailboxes__conf_edit" => "Das Postfach wurde bearbeiten",
+    "admin__mailer__mailer__mailboxes__delete_info" => "Vorsicht beim löschen von Postfächern. Wenn ein Postfach gelöscht wird und ein Verteiler dieses Postfach verwendet, dann kann dieser keine Mails mehr versenden. Der Verteiler muss dann neu konfiguriert werden.",
+    "admin__mailer__mailer__mailboxes__conf_delete" => "Das Postfach wurde gelöscht",
+    "admin__mailer__mailer__mailboxes__delete" => "Postfach löschen",
+    "admin__mailer__mailer__mailboxes__err_delete" => "Das Postfach konnte nicht gelöscht werden",
+    "admin__mailer__mailer__mailboxes__port" => "Port",
+    "admin__mailer__mailer__mailboxes__secure" => "SMTP Sicherheit",
+    "admin__mailer__mailer__mailboxes__none" => "keine",
+    "admin__mailer__mailer__mailboxes__sent" => "Versendet",
+    "admin__mailer__mailer__mailboxes__failed" => "Fehlgeschlagen",
+    "admin__mailer__mailer__menu_header" => "Mailer",
+    "admin__mailer__mailer__menu_logs" => "Logs",
+    "admin__mailer__mailer__menu_blacklist" => "Blacklist",
+    "admin__mailer__mailer__menu_whitelist" => "Whitelist",
+    "admin__mailer__mailer__menu_settings" => "Einstellungen",
+    "admin__mailer__mailer__menu_mailboxes" => "Postfächer",
+    "admin__mailer__mailer__menu_header_logs" => "Mailer Logs",
+    "admin__mailer__mailer__menu_header_blacklist" => "Mailer Blacklist",
+    "admin__mailer__mailer__menu_header_whitelist" => "Mailer Whitelist",
+    "admin__mailer__mailer__menu_header_settings" => "Mailer Einstellungen",
+    "admin__mailer__mailer__menu_header_mailboxes" => "Mailer Postfächer",
+    "admin__mailer__mailer__menu_save" => "Speichern",
+    "admin__mailer__mailer__settings_log_conf" => "Speichern",
+    "admin__mailer__mailer__settings_ip_lock" => "Setze IP auf Blackliste nach",
+    "admin__mailer__mailer__minute" => "Minute",
+    "admin__mailer__mailer__minutes" => "Minuten",
+    "admin__mailer__mailer__requests" => "Anfragen in",
+    "admin__mailer__mailer__settings_ip_expire" => "Entferne IP aus Blacklist nach",
+    "admin__mailer__mailer__hour" => "Stunde",
+    "admin__mailer__mailer__hours" => "Stunden",
+    "admin__mailer__mailer__manually" => "Manuell",
+    "admin__mailer__mailer__settings_mail_lock" => "Setze E-Mail Adresse auf Blackliste nach",
+    "admin__mailer__mailer__add" => "Hinzufügen",
+    "admin__mailer__mailer__close" => "Schließen",
+    "admin__mailer__mailer__mailboxes_no_mailboxes" => "Noch kein Postfach eingerichtet",
+    "admin__mailer__mailer__mailboxes_firewall" => "Mailer Firewall",
+    "admin__mailer__mailer__mailboxes_firewall_true" => "Firewall aktivert",
+    "admin__mailer__mailer__mailboxes_firewall_false" => "Firewall deaktiviert",
+    "admin__mailer__mailer__mailboxes_delete_header" => "Postfach löschen",
+    "admin__mailer__mailer__delete" => "Löschen",
+    "admin__mailer__mailer__edit" => "Bearbeiten",
+    "admin__mailer__mailer__properties" => "Eigenschaften",
+    "admin__mailer__mailer__pass_info" => "Leer lassen um nicht zu ändern",
+    "admin__mailer__mailer__settings__none" => "Keine",
+    "admin__mailer__mailer__settings__error" => "Die Einstellungen konnten nicht gespeichert werden",
+    "admin__mailer__mailer__whitelist__info" => "Der APPNET OS Mailer hat eine Firewall um vor Spam zu schützen. Die Firewall sperrt automatisch Email Adressen und IP Adressen welche zu oft versuchen Nachrichten zu versenden. Gesperrte Email Adressen und IP Adressen werden auf eine Blacklist gesetzt. IP Adressen und Email Adressen die in der Whitelist sind werden von der Firewall ausgenommen.",
+    "admin__mailer__mailer__email_or_ip" => "IP oder Email Adresse",
+    "admin__mailer__mailer__no_entries" => "Keine Einträge vorhanden",
+    "admin__mailer__mailer__list_add_err" => "Der Eintrag konnte nicht hinzugefügt werden",
+    "admin__mailer__mailer__list_add_conf" => "Der Eintrag wurde hinzugefügt",
+    "admin__mailer__mailer__address" => "Adresse",
+    "admin__mailer__mailer__type" => "Typ",
+    "admin__mailer__mailer__email" => "Email Adresse",
+    "admin__mailer__mailer__ip" => "IP",
+    "admin__mailer__mailer__remove" => "Entfernen",
+    "admin__mailer__mailer__err_exists" => "Der Eintrag existiert bereits",
+    "admin__mailer__mailer__list_remove_err" => "Der Eintrag konnte nicht entfernt werden",
+    "admin__mailer__mailer__list_remove_conf" => "Der Eintrag wurde entfernt",
+    "admin__mailer__mailer__blacklist_static" => "Dauerhaft sperren",
+    "admin__mailer__mailer__static" => "Dauerhaft",
+    "admin__mailer__mailer__expiration" => "Ablaufzeit",
+    "admin__mailer__mailer__mailbox" => "Postfach",
+    "admin__mailer__mailer__logs__clear_info" => "Vorsicht beim leeren der Logs. E-Mail Adressen neuer Nachrichten werden mit den Logs abgeglichen. Damit wird Anzahl versendeter Nachrichten für die Blacklist Einstellungen ermittelt.",
+    "admin__mailer__mailer__logs__clear" => "Leeren",
+    "admin__mailer__mailer__mailboxes_from_name" => "Absender Name",
+    "admin__mailer__mailer__mailboxes_not_defined" => "Nicht definiert",
+    "admin__mailer__mailer__mailboxes__timeout" => "Timeout in Sekunden",
+    "appnetos__mailer__error_id_set" => "Mailer ID nicht gesetzt",
+    "appnetos__mailer__error_mailbox_set" => "Postfach nicht gesetzt",
+    "appnetos__mailer__error_to_addr_set" => "Empfänger Adresse Empfänger nicht gesetzt",
+    "appnetos__mailer__error_body_set" => "Inhalt nicht gesetzt",
+    "appnetos__mailer__error_id_match" => "Mailer ID stimmt nicht überein",
+    "appnetos__mailer__error_to_addr" => "E-Mail Adresse Empfänger nicht richtig",
+    "appnetos__mailer__error_mailbox_ex" => "Postfach existiert nicht",
+    "appnetos__mailer__error_phpmailer" => "PHP Mailer Fehler",
+    "appnetos__mailer__error_email_in_blacklist" => "Email Adresse ist in der Blacklist",
+    "appnetos__mailer__error_email_to_blacklist" => "Zu viele E-Mail Anfragen. E-Mail Adresse wurde auf die Blacklist gesetzt",
+    "appnetos__mailer__error_ip_in_blacklist" => "IP Adresse ist in der Blacklist",
+    "appnetos__mailer__error_ip_to_blacklist" => "Zu viele Anfragen. IP Adresse wurde auf die Blacklist gesetzt",
+    "appnetos__mailer__error_no_settings" => "Keine Mailer Einstellungen vorhanden.",
+    "appnetos__mailer__error_no_mailboxes" => "Keine Mailer Postfächer vorhanden.",
+];

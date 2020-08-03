@@ -1,0 +1,44 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     View description.
+*/
+?>
+
+<?php /* Including menu */ ?>
+<?php $render->include("application/apps/***DIRECTORY***/***FORMATTED_NAME***/admin/views/***FORMATTED_NAME***__menu.php")?>
+<div class="container-sidebar">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                <br>
+
+                <?php /* Get string from view */ ?>
+                <?php echo $strings->get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_view")?>
+                <br><br>
+
+                <?php /* Get string from controller */ ?>
+                <?php echo $***FORMATTED_NAMESPACE******FORMATTED_NAME***->getStringFromController("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_controller")?>
+                <br><br>
+
+                <?php /* Get string from model */ ?>
+                <?php echo $***FORMATTED_NAMESPACE******FORMATTED_NAME***__model->getStringFromModel("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_model")?>
+                <br><br>
+
+                <?php /* CSS */ ?>
+                <div class="***FORMATTED_NAMESPACE******FORMATTED_NAME***__css">CSS</div>
+                <br>
+
+                <?php /* JavaScript */ ?>
+                <button type="button" class="btn btn-primary" onclick="***FORMATTED_NAMESPACE******FORMATTED_NAME***__javascript()">JavaScript</button>
+
+            </div>
+        </div>
+    </div>
+</div>

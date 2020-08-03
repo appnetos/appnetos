@@ -1,0 +1,21 @@
+{*
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     View description.
+*}
+
+{* Get string from view *}
+{$strings->get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_view")}
+<br><br>
+
+{* Get string from controller *}
+{$***FORMATTED_NAMESPACE******FORMATTED_NAME***->getStringFromController("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_controller")}
+<br><br>
+
+{* Get string from model *}
+{$***FORMATTED_NAMESPACE******FORMATTED_NAME***__model->getStringFromModel("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_model")}
+<br><br>

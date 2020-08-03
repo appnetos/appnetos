@@ -1,0 +1,19 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Event Activate.
+ */
+
+/**
+ * Function activate.
+ *
+ * @param int $id app ID
+ */
+function activate($id) {
+
+}

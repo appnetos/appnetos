@@ -1,0 +1,18 @@
+The mailer offers other apps the possibility to send emails.
+The APPNET OS Mailer is an integrated system app. The settings of the mailer are fixed in the administrator area. Mailboxes can be created here to send e-mails.
+This app allows third-party apps to send messages through the mailboxes. The mailboxes must be assigned to the apps, usually through the Administrator Settings app.
+The APPNET OS Mailer has an advanced firewall that blocks excessive access and robots. IP addresses and email addresses can be permanently blocked or allowed. A log informs you about sent or blocked emails.
+In addition, the mailer has a widget that informs you about sent and blocked emails in your dashboard.
+The mailer must be installed in the CMS area in front of the apps. We do not recommend using the mailer statically.
+
+- Simple system that gives other apps the ability to send emails
+- Thoughtful and quick to configure
+- Can be used with POP3 and SMTP mailboxes
+- Firewall against excessive access and robots
+- Lists to block and permanently release email addresses and IP addresses
+- Widget that informs you about sent and blocked emails
+- Free for commercial and non-commercial projects
+
+Use:
+- Configure mailboxes in the Administrator area
+- Install above apps that send emails

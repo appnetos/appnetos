@@ -1,0 +1,17 @@
+Faites de votre application web un accrocheur.
+Avec l’application de changement de fond, vous pouvez facilement créer des arrière-plans changeants.
+Les arrière-plans peuvent avoir une couleur simple ou une image de fond. Pour une image de fond, la répétition et la taille peuvent être configurées. Les arrière-plans peuvent être assignés individuellement ou alternativement aux contenants de fluide, conteneur ou applications. L’application génère les classes CSS nécessaires pour cela. Celles-ci doivent être ajoutées aux applications dans les paramètres de l’application. Utilisez cette application comme une application statique ou ajoutez-la à la page d’utilisation via CMS Manager.
+
+- Installation facile
+- Configuration facile via les Paramètres de l’Administrateur De l’Application
+- Les arrière-plans peuvent être ajoutés comme arrière-plan unique ou comme arrière-plan répétitif
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Installation et configuration multiples possibles
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+Ajoutez-y aux applications statiques ou ajoutez-le sous forme d’application dans la page que vous utilisez.
+Configurer les arrière-plans dans les paramètres de l’administrateur de l’application.
+Dans les paramètres de l’application, les applications utilisent les arrière-plans, ajoutent les classes CSS générées.
+
+- Traduit automatiquement -

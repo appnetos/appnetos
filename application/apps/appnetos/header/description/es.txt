@@ -1,0 +1,17 @@
+Con el encabezado del APPNET OS se obtiene la posibilidad de crear fácilmente un área de encabezado excelente para su aplicación web.
+Puedes establecer un logotipo e iconos animados para tus redes sociales. La aplicación es multilinguista. Los iconos y enlaces de logotipos se pueden definir por separado para cada idioma. Los colores de la aplicación se pueden cambiar fácilmente a través de la configuración del administrador de la aplicación. La aplicación utiliza los colores especificados por Bootstrap, por lo que el aspecto siempre se ajusta a su diseño actual.
+
+- Rápido y fácil de configurar el área de la cabeza
+- Iconos animados para las redes sociales
+- Colores totalmente configurables a través del área de administrador
+- Aplicación contenedora. Tamaño configurable a través de la configuración de la aplicación
+- Multilingual, para cada idioma se puede definir su propio logotipo e iconos separados para las redes sociales
+- Zona de administrador en 6 idiomas. Inglés, alemán, español, francés, italiano, ruso
+- Múltiples instalaciones y configuraciones posibles
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Colocar en un lugar adecuado
+- Configurar logotipo, iconos para las redes sociales y colores a través de la configuración del administrador de la aplicación
+
+- Máquina traducida -

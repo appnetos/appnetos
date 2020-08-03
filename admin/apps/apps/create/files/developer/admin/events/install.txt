@@ -1,0 +1,17 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Event install.
+ */
+
+/**
+ * Function install.
+ */
+function install() {
+
+}

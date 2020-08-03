@@ -1,0 +1,19 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Event remove.
+ */
+
+/**
+ * Function remove.
+ *
+ * @param int $id app ID
+ */
+function remove($id) {
+
+}

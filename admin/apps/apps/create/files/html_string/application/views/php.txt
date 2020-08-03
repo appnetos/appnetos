@@ -1,0 +1,9 @@
+<?php
+// Get strings.
+?>
+<div>
+    <?php echo $strings->get("html_string__***FORMATTED_NAME***__string_one");?>
+</div>
+<div>
+    <?php echo $strings->get("html_string__***FORMATTED_NAME***__string_two");?>
+</div>

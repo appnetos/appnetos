@@ -1,0 +1,14 @@
+Ce widget supprime les données de démonstration d’APPNET OS de l’installation et réinitialise le système sur un support vide.
+Le widget apparaît sur le tableau de bord du premier utilisateur lorsque vous installez APPNET OS.
+En cliquant sur Supprimer réinitialise la base de données dans un système vide et supprime toutes les applications de démonstration installées. L’application se supprime lorsqu’elle est utilisée et n’apparaît plus dans votre tableau de bord.
+N’utilisez pas l’application si vous avez déjà configuré des pages CMS ou des applications pour APPNET OS. L’utilisation de ce widget perdra vos configurations précédentes.
+
+- Widget tableau de bord
+- Bouton pour réinitialiser les données de démonstration et supprimer les applications de démonstration
+- Multilingue
+- Widget en 6 langues. Anglais, allemand, espagnol, Français, italien, russe
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Ajouter un widget au tableau de bord
+- Cliquez sur le bouton pour réinitialiser

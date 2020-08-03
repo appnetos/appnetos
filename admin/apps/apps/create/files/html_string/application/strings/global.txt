@@ -1,0 +1,16 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Global strings (Fallback if strings for language not exists).
+ */
+
+// Strings.
+$strings = [
+    "html_string__***FORMATTED_NAME***__string_one" => "My first string",
+    "html_string__***FORMATTED_NAME***__string_two" => "My second string",
+];

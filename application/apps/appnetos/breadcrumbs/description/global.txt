@@ -1,0 +1,16 @@
+The APPNET OS Breadcrumbs app automatically generates breadcrumbs from the URI.
+Simply installed and placed, the app creates a bar that is represented as arrows.
+The links link to the respective child URIs from the Multilinugual URI management.
+Background color, border color, font color, and link color are fully configurable in the administrator section of the app.
+
+- Easy installation
+- Automatically generate the breadcrumbs
+- Colors fully configurable via the administrator section
+- Container app. Size configurable via app settings
+- Multilingual
+- Administrator section in 6 languages. English, German, Spanish, French, Italian, Russian
+- Multiple installation and configuration possible
+- Free for commercial and non-commercial projects
+
+Use:
+Place in a suitable place, configure colors over the administrator area, done.

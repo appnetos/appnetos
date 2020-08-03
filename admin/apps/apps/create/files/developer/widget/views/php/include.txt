@@ -1,0 +1,23 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * Your license header.
+ *
+ * END LICENSE HEADER
+ *
+ * @description     View description.
+*/
+?>
+
+<?php /* Get string from view */ ?>
+<?php echo $strings->get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_view")?>
+<br><br>
+
+<?php /* Get string from controller */ ?>
+<?php echo $***FORMATTED_NAMESPACE******FORMATTED_NAME***->getStringFromController("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_controller")?>
+<br><br>
+
+<?php /* Get string from model */ ?>
+<?php echo $***FORMATTED_NAMESPACE******FORMATTED_NAME***__model->getStringFromModel("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_model")?>
+<br><br>

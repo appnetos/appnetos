@@ -1,0 +1,13 @@
+Keep an eye on your cache settings.
+With this dashboard widget, you have your APPNET OS caching under full control. Not only does it give you the ability to view all cache settings directly in your dashboard, but also clear the caches.
+The caches can be reset individually or emptied completely.
+
+- Dashboard widget
+- Shows you the current status of your set caches
+- With the built-in links you can empty the caches individually or completely
+- Multilingual
+- Widget in 6 languages. English, german, Spanish, French, Italian, Russian
+- Free for commercial and non-commercial projects
+
+Use:
+- Add widget to dashboard

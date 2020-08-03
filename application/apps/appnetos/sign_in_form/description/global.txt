@@ -1,0 +1,15 @@
+Use this sign in form to give your users an easy way to sign in to your web application.
+The sign in form is very easy to install. The app is a container app and can be built anywhere in your web application.
+The size can be configured via the app settings. Additional links to the registration page and password forgetting page can be defined via the App Administrator Settings.
+
+- Easy configuration
+- Fully automatic, very easy installation
+- Multilingual
+- Application area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Administrator area in 6 languages. English, german, Spanish, French, Italian, Russian
+- Container app. Size configurable via app settings
+- Free for commercial and non-commercial projects
+
+Use:
+- Configure links in the app administrator settings
+- Place the app in a suitable place

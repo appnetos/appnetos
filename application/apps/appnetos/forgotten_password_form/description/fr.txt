@@ -1,0 +1,21 @@
+Avec cette application, vous donnez à vos utilisateurs la possibilité de réinitialiser le mot de passe.
+En entrant l’adresse e-mail, un lien pour réinitialiser le mot de passe est envoyé à l’utilisateur. L’application utilise l’APPNET OS Mailer. Cela lui permet d’être rapidement intégré et configuré. Dans les paramètres de l’administrateur de l’application, la boîte aux lettres de l’expéditeur APPNET OS doit être attribuée. L’expéditeur doit être placé au-dessus de l’application.
+
+- Intégration rapide et simple
+- Multilingue
+- Zone d’administrateur en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Zone d’application en 6 langues. Anglais, Allemand, Espagnol, Français, Italien, Russe
+- Application de conteneurs. La taille de l’application peut être facilement configurée dans les paramètres de l’application
+- Utilise l’APPNET OS Mailer
+- Gratuit pour les projets commerciaux et non commerciaux
+
+Utiliser:
+- Installer l’application
+- Configurer Mailer Mailbox
+- Assigner la boîte aux lettres Mailer dans les paramètres de l’administrateur de l’application
+- Réglez l’expéditeur au-dessus de l’application
+
+Dépendances:
+- APPNET OS Mailer
+
+- Machine traduite -

@@ -1,0 +1,378 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     HTML Template App.
+ */
+
+// Namespace.
+namespace appnetos\html\***FORMATTED_NAME***;
+
+// Use.
+use core\objects;
+
+// Controller.
+class ***FORMATTED_NAME***
+{
+
+    /**
+     * App name.
+     *
+     * @var string.
+     */
+    public $name = "***FORMATTED_NAME***";
+
+    /**
+     * App ID.
+     *
+     * @var int.
+     */
+    public $id = null;
+
+    /**
+     * Is HTML editor.
+     *
+     * @var bool.
+     */
+    public $html = true;
+
+    /**
+     * Directory views.
+     *
+     * @var string.
+     */
+    public $directoryViews = null;
+
+    /**
+     * Directory CSS.
+     *
+     * @var string.
+     */
+    public $directoryCss = null;
+
+    /**
+     * Active language.
+     *
+     * @var string.
+     */
+    public $active = null;
+
+    /**
+     * Default language.
+     *
+     * @var string.
+     */
+    public $default = null;
+
+    /**
+     * Active languages.
+     *
+     * @var \stdClass.
+     */
+    public $languages = null;
+
+    /**
+     * Templates.
+     *
+     * @var array.
+     */
+    public $templates = [];
+
+    /**
+     * Error message.
+     *
+     * @var string.
+     */
+    public $errorMsg = null;
+
+    /**
+     * Confirm message.
+     *
+     * @var string.
+     */
+    public $confirmMsg = null;
+
+    /**
+     * If is error.
+     *
+     * @var bool.
+     */
+    public $error = false;
+
+    /**
+     * constructor.
+     */
+    public function __construct()
+    {
+        // Initialize ID.
+        $this->Init();
+
+        // Do some actions.
+        if ($this->error) {
+            return;
+        }
+        $this->action();
+
+        // Initialize.
+        if ($this->error) {
+            return;
+        }
+        $this->initContent();
+
+        // Add external.
+        if ($this->error) {
+            return;
+        }
+        $this->AddExternal();
+    }
+
+    /**
+     * Initialize.
+     */
+    private function init()
+    {
+        // Get ID by seo index.
+        $uri = objects::get("uri");
+        $index = $uri->getRequestIndex();
+
+        // If index exists.
+        if (isset($index[3])) {
+            $this->id = (int)$index[3];
+
+            // If is HTML.
+            if (isset($index[4])) {
+                $this->html = false;
+            }
+        }
+
+        // If index not exists.
+        else {
+            $this->error = true;
+        }
+    }
+
+    /**
+     * Initialize content.
+     */
+    private function initContent()
+    {
+        // Get object "core\languages".
+        $languages = objects::get("languages");
+        $this->active = $languages->active;
+        $this->default = $languages->default;
+        $this->languages = $languages->languages;
+
+        // Get views.
+        $this->directoryViews = str_replace("admin/controllers", "", str_replace(DIRECTORY_SEPARATOR, "/", __DIR__)) . "application/views/";
+        $this->directoryCss = str_replace("admin/controllers", "", str_replace(DIRECTORY_SEPARATOR, "/", __DIR__)) . "application/css/";
+        $templates = glob($this->directoryViews . "*.tpl");
+        foreach ($templates as $template) {
+            if (strpos($template, "/" . $this->name . ".tpl") === false) {
+                array_push($this->templates, $template);
+            }
+        }
+    }
+
+    /**
+     * Add external scripts and styles.
+     */
+    private function addExternal()
+    {
+        // Get object "core\config".
+        $config = objects::get("config");
+
+        // Add external scripts and styles.
+        $js = objects::get("js");
+        $js->add($config->getUrl() . "/out/nicedit/nicedit.js");
+        $js->add($config->getUrl() . "/out/codemirror/codemirror.js");
+        $js->add($config->getUrl() . "/out/codemirror/modes/css/css.js");
+        $js->add($config->getUrl() . "/out/codemirror/modes/htmlmixed/htmlmixed.js");
+        $css = objects::get("css");
+        $css->add($config->getUrl() . "/out/codemirror/codemirror.css");
+    }
+
+    /**
+     * Do some actions.
+     */
+    private function action()
+    {
+        // Get POST parameters.
+        $post = objects::get("post");
+        $action = $post->get("appnetos__html__action");
+
+        // If action is set.
+        if ($action === "edit") $this->edit();
+    }
+
+    /**
+     * Edit all templates.
+     */
+    private function edit()
+    {
+        // Get object "core\languages".
+        $languages = objects::get("languages");
+        $this->languages = $languages->languages;
+        $array = (array)$this->languages;
+
+        // Get POST parameters.
+        $post = objects::get("post");
+        $all = $post->getAll();
+
+        // Set global template.
+        if (isset($all["appnetos__html__global"])) {
+            $this->editTemplate("global", $all["appnetos__html__global"]);
+        }
+
+        // Set language templates.
+        foreach ($array as $value) {
+            if (isset($all["appnetos__html__" . $value->key])) {
+                $this->editTemplate($value->key, $all["appnetos__html__" . $value->key]);
+            }
+        }
+
+        // Set CSS file.
+        if (isset($all["appnetos__html__css"])) {
+            $this->editCss($all["appnetos__html__css"]);
+        }
+    }
+
+    /**
+     * Edit template file.
+     *
+     * @param $key string language key.
+     * @param $content string content.
+     */
+    private function editTemplate($key, $content)
+    {
+        // Get template in directory.
+        $this->directoryViews = str_replace("admin/controllers", "", str_replace(DIRECTORY_SEPARATOR, "/", __DIR__)) . "application/views/";
+        $content = trim($content);
+
+        // If template exists.
+        if ($content !== "" && $content !== "<br>") {
+            file_put_contents ($this->directoryViews . $key . ".tpl", $content);
+        }
+
+        // If template not exists.
+        else {
+            if ($key === "global") {
+                file_put_contents ($this->directoryViews . $key . ".tpl", $content);
+            }
+            else {
+                if (file_exists($this->directoryViews . $key . ".tpl")) {
+                    unlink($this->directoryViews . $key . ".tpl");
+                }
+            }
+        }
+    }
+
+    /**
+     * Edit CSS file.
+     *
+     * @param $content string.
+     */
+    public function editCss($content)
+    {
+        // Get CSS file in directory.
+        $this->directoryCss = str_replace("admin/controllers", "", str_replace(DIRECTORY_SEPARATOR, "/", __DIR__)) . "application/css/";
+        $content = trim($content);
+
+        // If directory exists.
+        if ($content === "") {
+            $source = "admin/apps/apps/create/files/html/css/css.txt";
+            if (file_exists($source)) {
+                $content = file_get_contents($source);
+            }
+        }
+
+        // Create CSS file.
+        file_put_contents($this->directoryCss . "***FORMATTED_NAME***.css", $content);
+    }
+
+    /**
+     * Get global template content.
+     *
+     * @return string or null.
+     */
+    public function getGlobal()
+    {
+        if (file_exists($this->directoryViews . "global.tpl")) {
+            return file_get_contents($this->directoryViews . "global.tpl");
+        }
+    }
+
+    /**
+     * Get languages as array.
+     *
+     * @return array.
+     */
+    public function getLanguages()
+    {
+        $array = (array)$this->languages;
+        if (count($array)) {
+            return $array;
+        }
+    }
+
+    /**
+     * Get template content by language key.
+     *
+     * @param string $key language key.
+     * @return string or null.
+     */
+    public function getContent($key)
+    {
+        $languages = (array)$this->languages;
+        foreach ($languages as $language) {
+            if ($language->key === $key) {
+                if (file_exists($this->directoryViews . $key . ".tpl")) {
+                    return file_get_contents($this->directoryViews . $key . ".tpl");
+                }
+                return null;
+            }
+        }
+    }
+
+    /**
+     * Get CSS.
+     *
+     * @return string or null.
+     */
+    public function getCss()
+    {
+        if (file_exists($this->directoryCss . "***FORMATTED_NAME***.css")) {
+            return file_get_contents($this->directoryCss . "***FORMATTED_NAME***.css");
+        }
+    }
+
+    /**
+     * Get language name.
+     *
+     * @param string $key language key.
+     * @return string.
+     */
+    public function getName($key)
+    {
+        $languages = objects::get("languages");
+        return $languages->getName($key);
+    }
+}

@@ -1,0 +1,21 @@
+Crea un menu multilingue per la tua applicazione web in pochissimo tempo.
+Il menu utilizza la barra di navigazione Bootstrap e può essere configurato completamente dall'area Amministrazione App. Immettere solo il testo per la lingua appropriata e il collegamento. I collegamenti possono utilizzare gli ID CMS, quindi viene sempre emesso correttamente in qualsiasi lingua.
+Nelle impostazioni dell'amministratore dell'app, a ogni parte del menu può essere assegnato un colore bootstrap, in modo che si adatti sempre al tema corrente.
+Inoltre, il menu dispone di un pulsante di accesso e di un modulo di accesso integrato che consente agli utenti di accedere all'applicazione Web.
+L'app è un'app contenitore. Basta impostare la dimensione desiderata tramite le impostazioni dell'app. App Cache archivia il risultato dell'output nel database, rendendo il rendering e l'output estremamente veloci.
+
+- Barra dei menu rapida e facile da configurare
+- Pulsante di registrazione con modulo di registrazione integrato
+- Multilingue, menu può essere creato separatamente per ogni lingua
+- Colori completamente configurabili tramite l'area di amministrazione
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Area di amministrazione in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Installazione e configurazione multiple possibili
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Menu Configura tramite le impostazioni dell'amministratore dell'app
+- Quando si configura il menu, assicurarsi di disabilitare le impostazioni della cache dell'app, altrimenti il risultato memorizzato nella cache verrà emesso
+- Posizionare l'app in un luogo adatto
+
+- Macchina tradotta -

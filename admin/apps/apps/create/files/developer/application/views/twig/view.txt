@@ -1,0 +1,39 @@
+{#
+ # START LICENSE HEADER
+ #
+ # Your license header.
+ #
+ # END LICENSE HEADER
+ #
+ # @description     View description.
+#}
+
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+        <br>
+
+        {# Get string from view #}
+        {{strings.get("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_view")}}
+        <br><br>
+
+        {# Get string from controller #}
+        {{***FORMATTED_NAMESPACE******FORMATTED_NAME***.getStringFromController("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_controller")}}
+        <br><br>
+
+        {# Get string from model #}
+        {{***FORMATTED_NAMESPACE******FORMATTED_NAME***__model.getStringFromModel("***FORMATTED_NAMESPACE******FORMATTED_NAME***__string_from_model")}}
+        <br><br>
+
+        {# Include a template #}
+        {{render.include("application/apps/***DIRECTORY***/***FORMATTED_NAME***/views/***FORMATTED_NAME***__include.twig")}}
+
+        {# CSS #}
+        <div class="***FORMATTED_NAMESPACE******FORMATTED_NAME***__css">CSS</div>
+        <br>
+
+        {# JavaScript #}
+        <button type="button" class="btn btn-primary" onclick="***FORMATTED_NAMESPACE******FORMATTED_NAME***__javascript()">JavaScript</button>
+
+    </div>
+</div>

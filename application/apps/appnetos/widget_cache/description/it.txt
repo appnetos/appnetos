@@ -1,0 +1,15 @@
+Tieni d'occhio le impostazioni della cache.
+Con questo widget dashboard, hai la memorizzazione nella cache del APPNET OS sotto il controllo completo. Non solo ti dà la possibilità di visualizzare tutte le impostazioni della cache direttamente nel tuo dashboard, ma anche cancellare le cache.
+Le cache possono essere reimpostate singolarmente o svuotate completamente.
+
+- Widget dashboard
+- Mostra lo stato corrente delle cache impostate
+- Con i link incorporati è possibile svuotare le cache singolarmente o completamente
+- Multilingua
+- Widget in 6 lingue. Inglese, tedesco, spagnolo, francese, italiano, russo
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Aggiungi widget alla dashboard
+
+- Macchina tradotta -

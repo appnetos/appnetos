@@ -1,0 +1,64 @@
+Copyright 2019 xtrose Media Studio
+xtrose Media Studio
+Moses Rivera
+Im Wiesengrund 24
+73540 Heubach
+Deutschland
+Web: http://www.xtrose.com
+Email: media.studio@xtrose.com
+
+Licenciado bajo la Licencia Apache Versión 2.0 (la "Licenza"); non è possibile utilizzare questo file se non in conformità con la licenza. È possibile ottenere una copia della licenza all'indirizzo http://www.apache.org/licenses/LICENSE-2.0.
+La licenza è distribuita "COSÌ COM'È", SENZA GARANZIE O CONDIZIONI DI QUALSIASI BAMBINO, espresse o implicite. Vedere la Licenza per la lingua specifica che disciplina i permessi e le limitazioni sotto la Licenza.
+
+
+Licencia de Apache
+Versión 2.0, Enero de 2004
+http://www.apache.org/licenses/
+
+TÉRMINOS Y CONDICIONES DE USO, REPRODUCCIÓN Y DISTRIBUCIÓN
+
+Traduzione automatica.
+Valido è sempre la versione inglese del testo della licenza.
+
+1. Definiciones.
+"Licencia" significará los términos y condiciones de uso, reproducción y distribución tal como se definen en las Secciones 1 a 9 de este documento.
+"Licenciante" significará el propietario de los derechos de autor o entidad.
+"Persona jurídica" significará la unión de la entidad que actúa y todas las demás entidades que están controladas por, o están bajo control común con esa entidad. Para los fines de esta definición, "control" significa (i) el poder, directo o indirecto, para provocar la dirección o gestión de dicha entidad, ya sea por contrato o de otra manera, o (ii) propiedad del cincuenta por ciento (50%) o más de las acciones en circulación, o (iii) titularidad real de dicha entidad.
+"Usted" (o "Su") significará una persona física o jurídica que ejerza los privilegios otorgados por esta Licencia.
+La forma "Fuente" significará la forma preferida para realizar modificaciones, que incluyen, entre otras, el código fuente del software, la fuente de la documentación y los archivos de configuración.
+Forma de "objeto" significará cualquier forma que resulte de la transformación mecánica o la traducción de una forma de origen, incluidos, entre otros, código de objeto compilado, documentación generada y conversiones a otros tipos de medios.
+"Trabajo" significa el trabajo de autoría, ya sea en forma de fuente u objeto, disponible bajo la Licencia, como lo indica un aviso de copyright que se incluye o se adjunta al trabajo.
+"Trabajos derivados" significará cualquier trabajo, ya sea en forma de fuente o de objeto, que se base en (o se derive de) el trabajo para el cual las revisiones editoriales, anotaciones, elaboraciones u otras modificaciones de autoría. Para los fines de esta Licencia, los Trabajos Derivados no se interpretarán como "separables o simplemente un enlace (o enlace por su nombre) a las Interfaces de los Trabajos y Trabajos Derivados".
+"Contribución" significará cualquier trabajo de autoría, incluida la versión original del Trabajo y los Trabajos Derivados, o los Trabajos Derivados del mismo, que el titular del derecho de autor o un individuo o una Persona jurídica autorizada para presentar en nombre del propietario de los derechos de autor. Para los fines de esta definición, "enviado" significa cualquier forma de comunicación electrónica, verbal o escrita al Licenciante o su representante, que incluye, entre otros, la comunicación en listas de correo electrónico, sistemas de control de código fuente y sistemas de seguimiento de problemas que por el propietario de los derechos de autor como "No es una contribución".
+"Contribuidor" significará que el Licenciante ha recibido al Licenciante y a cualquier persona física o jurídica en nombre de una Contribución.
+
+2. Concesión de la licencia de derechos de autor.
+Licencia, licencia, derechos de autor, licencia irrevocable de derechos de autor para reproducir, preparar trabajos derivados, exhibir públicamente, realizar públicamente, Sublicenciar, y Distribuir el Trabajo y los Trabajos Derivados en forma de Fuente u Objeto.
+
+3. Concesión de licencia de patente.
+Patente para hacer, ha hecho, patentado, no exclusivo, sin cargo, sin royalties, irrevocable (excepto como se indica en esta sección) usar, ofrecer vender, vender, importar y transferir el trabajo, cuando dicha licencia se aplique solo a las reclamaciones de patentes en virtud de su (s) contribución (es) solo (s) o mediante la combinación de su (s) contribución (es) con El trabajo al que dichas aportaciones aportan. Si inicia un litigio de patente contra cualquier entidad (incluido un reclamo cruzado o una reconvención en una demanda) El trabajo terminará a partir de la fecha en que se presente el litigio de búsqueda.
+
+4. Redistribución.
+Puede reproducir y distribuir copias del trabajo o trabajos derivados del mismo en cualquier medio, con o sin modificaciones, y en forma de fuente u objeto, siempre que cumpla con las siguientes condiciones:
+Debe proporcionar a cualquier otro destinatario del Trabajo o Trabajos Derivados una copia de esta Licencia; y
+Debe hacer que los archivos modificados contengan avisos prominentes que indiquen que ha cambiado los archivos; y
+Debe conservar, en la Fuente de cualquier Trabajo Derivado que Distribuya, todos los derechos de autor, patentes, marcas registradas y avisos de atribución de la Fuente del Trabajo, que no constituyen ninguna parte de los Trabajos Derivados; y
+Si el trabajo incluye un archivo de texto de "AVISO", entonces cualquier trabajo derivado que tenga que distribuir debe ser una copia legible de los avisos de atribución incluidos en este archivo de AVISO. Trabajos Derivados, al menos uno de los siguientes lugares: dentro de un archivo de texto NOTICE distribuido como parte de los Trabajos Derivados; dentro del formulario de origen o la documentación, si se proporciona junto con los Trabajos Derivados; o, en una pantalla generada por los Trabajos Derivados, si y dondequiera que aparezcan normalmente los avisos de terceros. El contenido del archivo NOTICE es solo para fines informativos y no modifica la licencia. Puede agregar sus propios avisos de atribución dentro de los Trabajos derivados que usted distribuye, así como como un anexo al texto de AVISO del trabajo, que proporcionó avisos de atribución adicionales que no pueden interpretarse como modificaciones de la licencia.
+Obras derivadas en su conjunto, su uso, reproducción y distribución de El Trabajo cumple con las condiciones establecidas en esta Licencia.
+
+5. Presentación de contribuciones.
+A menos que se presente a la Licencia, se considera que se encuentra sin ningún término o condición adicional. Sin perjuicio de lo anterior, ninguna parte reemplazará ni modificará los términos de ningún acuerdo de licencia por separado.
+
+6. Marcas.
+Esta Licencia no otorga permiso para usar los nombres comerciales, marcas comerciales, marcas de servicio o nombres de productos del Licenciante, excepto cuando sea necesario para un uso razonable y habitual al describir el origen del trabajo y reproducir el contenido del archivo de NOTICE.
+
+7. Descargo de responsabilidad de la garantía.
+El Licenciante proporciona el Trabajo (y su Contribuidor proporciona sus Contribuciones) "TAL CUAL", SIN GARANTÍAS O CONDICIONES DE CUALQUIER NIÑO, ya sea explícita o implícita, incluyendo, sin limitación, cualquier Garantías o condiciones de TÍTULO, NO INFRACCIÓN, COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Usted es responsable de determinar si es apropiado usar o redistribuir el trabajo.
+
+8. Limitación de responsabilidad.
+En ningún caso ni teoría legal, ya sea por agravio (incluida la negligencia), contrato u otro, a menos que lo exija la ley aplicable (como actos deliberados y actos de negligencia grave); daños, incluidos los daños directos, indirectos, especiales, incidentales o emergentes de cualquier carácter como resultado de esta Licencia , falla o mal funcionamiento de la computadora, o cualquier otro daño o pérdida comercial), incluso si dicho colaborador ha sido informado de la posibilidad de tal daño.
+
+9. Aceptación de garantía o responsabilidad adicional.
+Mientras redistribuye el Trabajo o los Trabajos Derivados del mismo, puede optar por ofrecer y cobrar una tarifa por la aceptación, garantía, indemnización u otras obligaciones de responsabilidad. Sin embargo, al aceptar tales obligaciones, puede actuar únicamente en nombre de cualquier otro Colaborador, y no por él, y solo o reclamaciones en contra, busque el Colaborador por el motivo de su aceptación de dicha garantía o responsabilidad adicional.
+
+FIN DE TÉRMINOS Y CONDICIONES

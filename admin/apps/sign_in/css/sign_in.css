@@ -1,0 +1,15 @@
+/**
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+*/
+
+.admin__sign_in__logo {
+    width: 200px;
+}
+#admin__sign_in__error {
+    display: none;
+}
+.admin__sign_in__eye {
+    width: 20px;
+}

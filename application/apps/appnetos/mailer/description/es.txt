@@ -1,0 +1,20 @@
+El mailer ofrece a otras aplicaciones la posibilidad de enviar correos electrónicos.
+APPNET OS Mailer es una aplicación de sistema integrada. La configuración del correo se fija en el área de administrador. Los buzones se pueden crear aquí para enviar correos electrónicos.
+Esta aplicación permite a las aplicaciones de terceros enviar mensajes a través de los buzones de correo. Los buzones deben asignarse a las aplicaciones, normalmente a través de la aplicación Configuración del administrador.
+El APPNET OS Mailer tiene un firewall avanzado que bloquea el acceso excesivo y robots. Las direcciones IP y las direcciones de correo electrónico se pueden bloquear o permitir de forma permanente. Un registro le informa sobre los correos electrónicos enviados o bloqueados.
+Además, el correo tiene un widget que le informa sobre los correos electrónicos enviados y bloqueados en su panel de control.
+El correo debe estar instalado en el área CMS delante de las aplicaciones. No se recomienda utilizar el correo estáticamente.
+
+- Sistema simple que da a otras aplicaciones la capacidad de enviar correos electrónicos
+- Pensado y rápido de configurar
+- Se puede utilizar con buzones POP3 y SMTP
+- Cortafuegos contra accesos excesivos y robots
+- Listas para bloquear y liberar permanentemente direcciones de correo electrónico y direcciones IP
+- Widget que te informa sobre correos electrónicos enviados y bloqueados
+- Gratis para proyectos comerciales y no comerciales
+
+Uso:
+- Configurar buzones en el área Administrador
+- Instalar aplicaciones anteriores que envían correos electrónicos
+
+- Máquina traducida -

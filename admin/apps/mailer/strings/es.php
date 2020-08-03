@@ -1,0 +1,150 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Mailer logs, blacklist, settings, mailboxes.
+ */
+
+// Language strings.
+$strings = [
+    "admin__mailer__mailer__logs__info" => "El APPNET OS Mailer es un sistema simple para controlar el envío de correo complejo. Los buzones se crean en el General Mailer. Estos buzones se pueden utilizar para enviar los mensajes de las aplicaciones. El envío se ejecuta exclusivamente en la aplicación Mailer. La aplicación Mailer tiene varias medidas para protegerse contra el spam. La aplicación Mailer debe configurarse en el mismo URI antes de la aplicación que envía un correo. La aplicación Mailer genera un ID de correo que debe pasarse para cada envío. Esta identificación se cambia con cada correo enviado o cualquier intento de enviar un correo electrónico. Por lo tanto, se garantiza que la forma de los robots no se puede copiar para enviar correo no deseado. La aplicación Mailer genera un registro que se puede leer a través del área de administración para cada correo enviado y para cada entrega fallida. Cualquier intento de enviar un mensaje coincide con el registro de envío. Un usuario que intenta enviar demasiados correos electrónicos, la dirección de correo electrónico utilizada en una lista negra, que no es posible ninguna otra entrega de correo. La lista negra se puede cambiar en cualquier momento en el área de administración.",
+    "admin__mailer__mailer__logs__header_error" => "Registro de errores",
+    "admin__mailer__mailer__logs__header_confirm" => "Confirmar registro",
+    "admin__mailer__mailer__logs__datetime" => "Fecha y hora",
+    "admin__mailer__mailer__logs__address" => "Dirigirse",
+    "admin__mailer__mailer__logs__message" => "Mensaje",
+    "admin__mailer__mailer__logs__word_info" => "Información",
+    "admin__mailer__mailer__logs__clear_error" => "Borrar registro de errores",
+    "admin__mailer__mailer__logs__clear_confirm" => "Borrar registro de confirmación",
+    "admin__mailer__mailer__logs__conf_clear" => "Los registros se han borrado",
+    "admin__mailer__mailer__logs__blacklist" => "Coincidencia de lista negra",
+    "admin__mailer__mailer__settings__info" => "El APPNET OS Mailer es un sistema simple para controlar el envío de correo complejo. Los buzones se crean en el General Mailer. Estos buzones se pueden utilizar para enviar los mensajes de las aplicaciones. El envío se ejecuta exclusivamente en la aplicación Mailer. La aplicación Mailer tiene varias medidas para protegerse contra el spam. La aplicación Mailer debe configurarse en el mismo URI antes de la aplicación que envía un correo. La aplicación Mailer genera un ID de correo que debe pasarse para cada envío. Esta identificación se cambia con cada correo enviado o cualquier intento de enviar un correo electrónico. Por lo tanto, se garantiza que la forma de los robots no se puede copiar para enviar correo no deseado. La aplicación Mailer genera un registro que se puede leer a través del área de administración para cada correo enviado y para cada entrega fallida. Cualquier intento de enviar un mensaje coincide con el registro de envío. Un usuario que intenta enviar demasiados correos electrónicos, la dirección de correo electrónico utilizada en una lista negra, que no es posible ninguna otra entrega de correo. La lista negra se puede cambiar en cualquier momento en el área de administración.",
+    "admin__mailer__mailer__settings__log_error" => "Registro de errores de tamaño",
+    "admin__mailer__mailer__settings__log_confirm" => "Tamaño confirmar registro",
+    "admin__mailer__mailer__settings__emails" => "correos electrónicos enviados",
+    "admin__mailer__mailer__settings__mailbox" => "Buzón estándar",
+    "admin__mailer__mailer__settings__confirm" => "La configuración ha sido editada.",
+    "admin__mailer__mailer__settings__never" => "Nunca",
+    "admin__mailer__mailer__settings__unlimited" => "Ilimitado",
+    "admin__mailer__mailer__blacklist__info" => "El APPNET OS Mailer es un sistema simple para controlar el envío de correo complejo. Los buzones se crean en el General Mailer. Estos buzones se pueden utilizar para enviar los mensajes de las aplicaciones. El envío se ejecuta exclusivamente en la aplicación Mailer. La aplicación Mailer tiene varias medidas para protegerse contra el spam. La aplicación Mailer debe configurarse en el mismo URI antes de la aplicación que envía un correo. La aplicación Mailer genera un ID de correo que debe pasarse para cada envío. Esta identificación se cambia con cada correo enviado o cualquier intento de enviar un correo electrónico. Por lo tanto, se garantiza que la forma de los robots no se puede copiar para enviar correo no deseado. La aplicación Mailer genera un registro que se puede leer a través del área de administración para cada correo enviado y para cada entrega fallida. Cualquier intento de enviar un mensaje coincide con el registro de envío. Un usuario que intenta enviar demasiados correos electrónicos, la dirección de correo electrónico utilizada en una lista negra, que no es posible ninguna otra entrega de correo. La lista negra se puede cambiar en cualquier momento en el área de administración.",
+    "admin__mailer__mailer__blacklist__edit_info" => "Direcciones de correo electrónico bloqueadas separadas por un punto y coma ( ; )",
+    "admin__mailer__mailer__blacklist__confirm" => "La lista negra ha sido editada.",
+    "admin__mailer__mailer__mailboxes__info" => "El APPNET OS Mailer es un sistema simple para controlar el envío de correo complejo. Los buzones se crean en el General Mailer. Estos buzones se pueden utilizar para enviar los mensajes de las aplicaciones. El envío se ejecuta exclusivamente en la aplicación Mailer. La aplicación Mailer tiene varias medidas para protegerse contra el spam. La aplicación Mailer debe configurarse en el mismo URI antes de la aplicación que envía un correo. La aplicación Mailer genera un ID de correo que debe pasarse para cada envío. Esta identificación se cambia con cada correo enviado o cualquier intento de enviar un correo electrónico. Por lo tanto, se garantiza que la forma de los robots no se puede copiar para enviar correo no deseado. La aplicación Mailer genera un registro que se puede leer a través del área de administración para cada correo enviado y para cada entrega fallida. Cualquier intento de enviar un mensaje coincide con el registro de envío. Un usuario que intenta enviar demasiados correos electrónicos, la dirección de correo electrónico utilizada en una lista negra, que no es posible ninguna otra entrega de correo. La lista negra se puede cambiar en cualquier momento en el área de administración.",
+    "admin__mailer__mailer__mailboxes__add" => "Añadir buzón",
+    "admin__mailer__mailer__mailboxes__name" => "Nombre del buzón",
+    "admin__mailer__mailer__mailboxes__mail" => "Dirección de correo electrónico",
+    "admin__mailer__mailer__mailboxes__host" => "Anfitrión",
+    "admin__mailer__mailer__mailboxes__user" => "Nombre de usuario",
+    "admin__mailer__mailer__mailboxes__pass" => "Contraseña",
+    "admin__mailer__mailer__mailboxes__is_smtp" => "Enviar como SMTP",
+    "admin__mailer__mailer__mailboxes__smtp_auth" => "SMTP requiere autenticación",
+    "admin__mailer__mailer__mailboxes__err_no_name" => "Sin nombre introducido",
+    "admin__mailer__mailer__mailboxes__err_name_exists" => "Ya existe un buzón con ese nombre.",
+    "admin__mailer__mailer__mailboxes__err_mail" => "La dirección de correo electrónico no puede ser utilizada",
+    "admin__mailer__mailer__mailboxes__err_host" => "Ningún host ingresó",
+    "admin__mailer__mailer__mailboxes__err_user" => "Ningún nombre de usuario introducido",
+    "admin__mailer__mailer__mailboxes__err_pass" => "Sin contraseña ingresada",
+    "admin__mailer__mailer__mailboxes__conf_add" => "El buzón ha sido agregado",
+    "admin__mailer__mailer__mailboxes__edit" => "Editar buzón",
+    "admin__mailer__mailer__mailboxes__edit_info" => "Tenga cuidado al cambiar los nombres de los buzones. Si una regla de distribuidor usa este buzón, ya no enviará correos electrónicos. Al cambiar el nombre, el distribuidor necesita ser reconfigurado.",
+    "admin__mailer__mailer__mailboxes__conf_edit" => "El buzón ha sido editado.",
+    "admin__mailer__mailer__mailboxes__delete_info" => "Tenga cuidado al eliminar buzones. Si se elimina un buzón de correo y un distribuidor lo utiliza, ya no podrá enviar correo. El distribuidor entonces necesita ser reconfigurado.",
+    "admin__mailer__mailer__mailboxes__conf_delete" => "El buzón ha sido eliminado",
+    "admin__mailer__mailer__mailboxes__delete" => "Borrar buzón",
+    "admin__mailer__mailer__mailboxes__err_delete" => "El buzón no pudo ser eliminado",
+    "admin__mailer__mailer__mailboxes__port" => "Puerto",
+    "admin__mailer__mailer__mailboxes__secure" => "SMTP Secure",
+    "admin__mailer__mailer__mailboxes__none" => "Ninguna",
+    "admin__mailer__mailer__mailboxes__sent" => "Expedido",
+    "admin__mailer__mailer__mailboxes__failed" => "Ha fallado",
+    "admin__mailer__mailer__menu_header" => "Mailer",
+    "admin__mailer__mailer__menu_logs" => "Registros",
+    "admin__mailer__mailer__menu_blacklist" => "Lista negra",
+    "admin__mailer__mailer__menu_whitelist" => "Lista blanca",
+    "admin__mailer__mailer__menu_settings" => "Configuración",
+    "admin__mailer__mailer__menu_mailboxes" => "Buzones",
+    "admin__mailer__mailer__menu_header_logs" => "Registros de Mailer",
+    "admin__mailer__mailer__menu_header_blacklist" => "Lista negra de Mailer",
+    "admin__mailer__mailer__menu_header_whitelist" => "Lista blanca de Mailer",
+    "admin__mailer__mailer__menu_header_settings" => "Configuración del Mailer",
+    "admin__mailer__mailer__menu_header_mailboxes" => "Buzones de correo de Correo",
+    "admin__mailer__mailer__menu_save" => "Salvar",
+    "admin__mailer__mailer__settings_log_conf" => "Salvar",
+    "admin__mailer__mailer__settings_ip_lock" => "Publicar IP en la lista negra",
+    "admin__mailer__mailer__minute" => "Minuto",
+    "admin__mailer__mailer__minutes" => "Minutos",
+    "admin__mailer__mailer__requests" => "Solicitudes en",
+    "admin__mailer__mailer__settings_ip_expire" => "Eliminar IP de la lista negra para",
+    "admin__mailer__mailer__hour" => "Hora",
+    "admin__mailer__mailer__hours" => "Horas",
+    "admin__mailer__mailer__manually" => "Manualmente",
+    "admin__mailer__mailer__settings_mail_lock" => "Publicar la dirección de correo electrónico en la lista negra",
+    "admin__mailer__mailer__add" => "Añadir",
+    "admin__mailer__mailer__close" => "Cerca",
+    "admin__mailer__mailer__mailboxes_no_mailboxes" => "Aún no hay ningún buzón configurado",
+    "admin__mailer__mailer__mailboxes_firewall" => "Firewall de Mailer",
+    "admin__mailer__mailer__mailboxes_firewall_true" => "Firewall activado",
+    "admin__mailer__mailer__mailboxes_firewall_false" => "Firewall desactivado",
+    "admin__mailer__mailer__mailboxes_delete_header" => "Eliminar buzón",
+    "admin__mailer__mailer__delete" => "Eliminar",
+    "admin__mailer__mailer__edit" => "Editar",
+    "admin__mailer__mailer__properties" => "Propiedades",
+    "admin__mailer__mailer__pass_info" => "Deje en blanco sin cambios",
+    "admin__mailer__mailer__settings__none" => "Ninguno",
+    "admin__mailer__mailer__settings__error" => "No se pudo guardar la configuración",
+    "admin__mailer__mailer__whitelist__info" => "El APPNET OS Mailer tiene un firewall para proteger contra el spam. El firewall bloquea automáticamente las direcciones de correo electrónico y las direcciones IP que intentan enviar mensajes con demasiada frecuencia. Las direcciones de correo electrónico y las direcciones IP bloqueadas están en la lista negra. Las direcciones IP y las direcciones de correo electrónico que se encuentran en la lista blanca se excluyen del firewall.",
+    "admin__mailer__mailer__email_or_ip" => "IP o dirección de correo electrónico",
+    "admin__mailer__mailer__no_entries" => "No hay entradas disponibles",
+    "admin__mailer__mailer__list_add_err" => "No se pudo añadir la entrada",
+    "admin__mailer__mailer__list_add_conf" => "La entrada se ha añadido",
+    "admin__mailer__mailer__address" => "Dirección",
+    "admin__mailer__mailer__type" => "Tipo",
+    "admin__mailer__mailer__email" => "Dirección de correo electrónico",
+    "admin__mailer__mailer__ip" => "IP",
+    "admin__mailer__mailer__remove" => "Eliminar",
+    "admin__mailer__mailer__err_exists" => "La entrada ya existe",
+    "admin__mailer__mailer__list_remove_err" => "No se pudo eliminar la entrada",
+    "admin__mailer__mailer__list_remove_conf" => "La entrada se ha eliminado",
+    "admin__mailer__mailer__blacklist_static" => "Bloqueo permanente",
+    "admin__mailer__mailer__static" => "Permanentemente",
+    "admin__mailer__mailer__expiration" => "Expiración",
+    "admin__mailer__mailer__mailbox" => "Buzón",
+    "admin__mailer__mailer__logs__clear_info" => "Tenga cuidado al vaciar los registros. Las direcciones de correo electrónico de los mensajes nuevos coinciden con los registros. Esto determina el número de mensajes enviados para la configuración de la lista negra.",
+    "admin__mailer__mailer__logs__clear" => "Claro",
+    "admin__mailer__mailer__mailboxes_from_name" => "Nombre del remitente",
+    "admin__mailer__mailer__mailboxes_not_defined" => "Indefinido",
+    "admin__mailer__mailer__mailboxes__timeout" => "Tiempo de espera en segundos",
+    "appnetos__mailer__error_email_in_blacklist" => "La dirección de correo electrónico está en la lista negra",
+    "appnetos__mailer__error_email_to_blacklist" => "Demasiadas solicitudes de correo electrónico. La dirección de correo electrónico se ha establecido en la lista negra",
+    "appnetos__mailer__error_id_set" => "La identificación del remitente no está establecida",
+    "appnetos__mailer__error_mailbox_set" => "Buzón no configurado",
+    "appnetos__mailer__error_to_addr_set" => "Dirección de correo electrónico del destinatario no establecida",
+    "appnetos__mailer__error_body_set" => "Contenido no establecido",
+    "appnetos__mailer__error_id_match" => "La identificación del remitente no coincide",
+    "appnetos__mailer__error_to_addr" => "La dirección de correo electrónico del destinatario es incorrecta",
+    "appnetos__mailer__error_mailbox_ex" => "Buzón no existe",
+    "appnetos__mailer__error_phpmailer" => "Error de PHP Mailer",
+    "appnetos__mailer__error_ip_in_blacklist" => "La dirección de correo electrónico está en la lista negra",
+    "appnetos__mailer__error_ip_to_blacklist" => "Demasiadas solicitudes de correo electrónico. La dirección de correo electrónico se ha establecido en la lista negra",
+    "appnetos__mailer__error_no_settings" => "No hay configuración de correo disponible.",
+    "appnetos__mailer__error_no_mailboxes" => "No hay buzones de correo.",
+];

@@ -1,0 +1,13 @@
+Consentire agli utenti di scegliere la lingua se si utilizzano più lingue per l'applicazione Web. Questa applicazione è l'ideale per questo.
+È facile da integrare e viene eseguito completamente automaticamente. L'app fornisce agli utenti le lingue definite nelle impostazioni tra cui scegliere. Come app contenitore, può essere installata in qualsiasi posizione. Può anche essere facilmente inserito in altre applicazioni.
+
+- Menu Lingue facili da includere
+- Completamente automatico, l'utente dà la selezione delle lingue definite nelle impostazioni
+- App contenitore. Dimensioni configurabili tramite le impostazioni dell'app
+- Installazione e configurazione multiple possibili
+- Gratis per progetti commerciali e non commerciali
+
+Utilizzare:
+- Installare in un luogo adatto o integrare tramite un'altra applicazione
+
+- Macchina tradotta -

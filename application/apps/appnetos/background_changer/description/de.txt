@@ -1,0 +1,15 @@
+Machen Sie Ihre Webanwendung zu einem Blickfang.
+Mit der Hintergrundwechsler App lassen sich einfach wechselnde Hintergründe erzeugen.
+Die Hintergründe können eine einfache Farbe haben oder ein Hintergrundbild. Bei einem Hintergrundbild können Wiederholung und Größe konfiguriert werden. Die Hintergründe können entweder einzeln oder wechselnd den fluid-containern, container oder apps zugewiesen werden. Die App erzeugt dafür die notwendigen CSS Klassen. Diese müssen in den App Einstellungen den Apps hinzugefügt werden. Verwenden Sie diese App als Statisch App oder fügen Sie sie im CMS Manager der verwendenden Seite hinzu.
+
+- Einfacher Einbau
+- Einfache Konfiguration über die App Administrator Einstellungen
+- Hintergründe können einzeln oder wechselnd hinzugefügt werden
+- Administrator-Bereich in 6 Sprachen. Englisch, deutsch, spanisch, französisch, italienisch, russisch
+- Mehrfachinstallation und konfiguration möglich
+- Kostenlos für kommerzielle und nicht kommerzielle Projekte
+
+Verwendung:
+Entweder zu den statischen Apps hinzufügen oder als App in der verwendeten Seite hinzufügen.
+Hintergründe in den App Administrator Einstellungen konfigurieren.
+Bei den App Einstellungen, der Apps die Hintergründe verwenden, die erzeugten CSS Klassen hinzufügen.

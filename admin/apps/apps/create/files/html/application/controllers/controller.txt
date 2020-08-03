@@ -1,0 +1,69 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     HTML Template App.
+ */
+
+// Namespace.
+namespace appnetos\html\***FORMATTED_NAME***;
+
+// Use.
+use core\objects;
+
+// Controller.
+class ***FORMATTED_NAME*** {
+
+    /**
+     * Template.
+     *
+     * @var string.
+     */
+    public $template = null;
+
+    /**
+     * constructor.
+     */
+    public function __construct()
+    {
+        // Get languages by object "core\languages".
+        $languages = objects::get("languages");
+        $active = $languages->active;
+        $default = $languages->default;
+
+        // Get view.
+        $dir = str_replace(DIRECTORY_SEPARATOR, "/", __DIR__);
+        if (substr($dir, -1 ) != '/') {
+            $dir .= '/';
+        }
+        $dir = str_replace("controllers", "", $dir) . "views/";
+        if (file_exists($dir . $active . ".tpl")) {
+            $this->template = $dir . $active . ".tpl";
+        }
+        else if (file_exists($dir . $default . ".tpl")) {
+            $this->template = $dir . $default . ".tpl";
+        }
+        else if (file_exists($dir . "global.tpl")) {
+            $this->template = $dir . "global.tpl";
+        }
+    }
+}

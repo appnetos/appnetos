@@ -1,0 +1,160 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     config.inc.php ->    APPNET OS settings.
+ */
+
+// Database settings.
+$this->dbType = '***DBTYPE***';         // Database type -> mysql.
+$this->dbHost = '***DBHOST***';         // Host name.
+$this->dbName = '***DBNAME***';         // Database name.
+$this->dbUser = '***DBUSER***';         // User name.
+$this->dbPass = '***DBPASS***';         // Password.
+$this->dbPort = '***DBPORT***';         // Database port.
+$this->dbCharset = '***DBCHARSET***';   // Database charset.
+
+
+
+// Database table, COOKIE and SESSION prefix -> If using more than one APPNET OS with one database.
+$this->prefix = '***PREFIX***';
+
+
+
+// "index.php" url without "index.php".
+$this->url = '***URL***';
+
+// "index.php" directory without "index.php".
+$this->dir = '***DIR***';
+
+// Cache directory -> URI path from "index.php".
+$this->cacheDir = '***CACHEDIR***';
+
+// Temporary directory -> URI path from "index.php".
+$this->tmpDir = '***TMPDIR***';
+
+// Log directory -> URI path from "index.php".
+$this->logDir = '***LOGDIR***';
+
+// Smarty and twig compile directory -> URI path from "index.php".
+$this->compileDir = '***SMARTYCOMPILEDIR***';
+
+// Smarty and twig configuration directory -> URI path from "index.php".
+$this->configDir = '***SMARTYCONFIGDIR***';
+
+
+
+// Use app cache.
+$this->appCache = ***APPCACHE***;
+
+// Global app cache expire time in seconds.
+$this->cacheExpire = ***CACHEEXPIRE***;
+
+// Use file cache.
+$this->fileCache = ***FILECACHE***;
+
+// Use directory cache.
+$this->directoryCache = ***DIRECTORYCACHE***;
+
+// Use string cache.
+$this->stringCache = ***STRINGCACHE***;
+
+// Use JavaScript cache -> Generate "main.min.js" file of all apps and set it to header.
+$this->jsCache = ***JSCACHE***;
+
+// Use CSS cache -> Generate "main.min.css" file of all apps and set it to header.
+$this->cssCache = ***CSSCACHE***;
+
+// Minify styles and script when cache is not active.
+$this->minify = ***MINIFY***;
+
+// HTML source code compressor.
+$this->compressor = ***COMPRESSOR***;
+
+// JavaScript head includes.
+$this->includeJs = [];
+
+// CSS head includes.
+$this->includeCss = [];
+
+// Autoloader directories.
+$this->directories = [];
+
+
+
+// Sign in error count. Lock user by email address or user name.
+$this->signInErrorCount = ***SIGNINERRORCOUNT***;
+
+// Reset password link expire time in seconds.
+$this->resetPasswordExpire = ***RESETPASSWORDEXPIRE***;
+
+// Use COOKIE to unlock to set COOKIES -> If true, COOKIE "APPNETOS_COOKIE" must set to set COOKIES -> If false, COOKIES can set always.
+$this->cookieLock = ***COOKIELOCK***;
+
+
+
+// Verify username regular expression pattern for application users as array or string.
+$this->userRegexApplication = ['/^(?=.{5,32}$).*/', '/^(?!.*  )/'];
+
+// Verify password regular expression pattern for application users as array or string.
+$this->passRegexApplication = ['/\d/', '/[^a-zA-Z\d]/', '/^(?=.{8,32}$).*/'];
+
+// Disable groups application.
+$this->disableGroupsApplication = ***DISABLEGROUPSAPPLICATION***;
+
+// Authentication lifetime in seconds application.
+$this->authenticationLifetimeApplication = ***AUTHENTICATIONLIFETIMEAPPLICATION***;
+
+// SESSION timeout in seconds application.
+$this->sessionTimeoutApplication = ***SESSIONTIMEOUTAPPLICATION***;
+
+
+
+
+// Use expert mode admin section -> Editing of CSS and JavaScript in admin section is possible.
+$this->expertModeAdmin = ***EXPERTMODE***;
+
+// Verify username regular expression pattern for admin users as array or string.
+$this->userRegexAdmin = ['/^(?=.{5,32}$).*/', '/^(?!.*  )/'];
+
+// Verify password regular expression pattern for admin users as array or string.
+$this->passRegexAdmin = ['/\d/', '/[^a-zA-Z\d]/', '/^(?=.{8,32}$).*/'];
+
+// File manager accepted directories.
+$this->filesDirectories = ['out/img', 'out/css', 'out/js'];
+
+// File manager accepted file types.
+$this->filesTypes = ['svg', 'png', 'jpg', 'jpeg', 'gif', 'css', 'js'];
+
+// Disable groups admin section.
+$this->disableGroupsAdmin = ***DISABLEGROUPSADMIN***;
+
+// Admin section SESSION timeout in seconds.
+$this->sessionTimeoutAdmin = ***SESSIONTIMEADMIN***;
+
+
+
+// Debug -> Throws any exceptions or write exceptions to error log.
+$this->debug = ***DEBUG***;
+
+// Debug AJAX -> Displays AJAX ID on bottom of application.
+$this->debugAjax = ***DEBUGAJAX***;

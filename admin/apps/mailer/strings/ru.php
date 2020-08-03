@@ -1,0 +1,150 @@
+<?php
+/**
+ * START LICENSE HEADER
+ *
+ * The license header may not be removed.
+ *
+ * This file is a part of APPNET OS (Application Internet Operating System).
+ * @link            http://www.appnetos.com
+ * @mail            info@appnetos.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @copyright       (C) xtrose Media Studio 2019
+ * @author          Moses Rivera
+ *                  Im Wiesengrund 24
+ *                  73540 Heubach
+ * @mail            media.studio@xtrose.de
+ *
+ * END LICENSE HEADER
+ *
+ * @description     Mailer logs, blacklist, settings, mailboxes.
+ */
+
+// Language strings.
+$strings = [
+    "admin__mailer__mailer__logs__info" => "APPNET OS Mailer — это простая система управления сложной отправкой почты. Почтовые ящики создаются в General Mailer. Эти почтовые ящики могут быть использованы для отправки сообщений приложений. Отправка работает исключительно на Приложение Mailer. Приложение Mailer имеет несколько мер по защите от спама. Приложение Mailer должно быть установлено в том же URI перед приложением, которое отправляет письмо. Приложение Mailer генерирует идентификатор почтового ящика, который должен быть передан для каждой отправки. Этот идентификатор изменяется при каждой отправленной почте или любой попытке отправить электронное письмо. Таким образом, гарантируется, что форма роботов не может быть скопирована для отправки спама. Приложение Mailer генерирует журнал, который можно зачитать через область админ для каждой отправленной почты и для каждой неудачной доставки. Любая попытка отправить сообщение сопоставляется с журналом доставки. Пользователь пытается отправить слишком много писем, электронная почта используется адрес в черный список, который никакой другой доставки почты не представляется возможным. Черный список может быть изменен в любое время в области админ.",
+    "admin__mailer__mailer__logs__header_error" => "Регистрация ошибок",
+    "admin__mailer__mailer__logs__header_confirm" => "Подтвердить журнал",
+    "admin__mailer__mailer__logs__datetime" => "Дата-время",
+    "admin__mailer__mailer__logs__address" => "Адрес",
+    "admin__mailer__mailer__logs__message" => "Сообщение",
+    "admin__mailer__mailer__logs__word_info" => "Информация",
+    "admin__mailer__mailer__logs__clear_error" => "Четкий журнал ошибок",
+    "admin__mailer__mailer__logs__clear_confirm" => "Четкое подтверждение журнала",
+    "admin__mailer__mailer__logs__conf_clear" => "Бревна были очищены",
+    "admin__mailer__mailer__logs__blacklist" => "Черный список соответствия",
+    "admin__mailer__mailer__settings__info" => "APPNET OS Mailer — это простая система управления сложной отправкой почты. Почтовые ящики создаются в General Mailer. Эти почтовые ящики могут быть использованы для отправки сообщений приложений. Отправка работает исключительно на Приложение Mailer. Приложение Mailer имеет несколько мер по защите от спама. Приложение Mailer должно быть установлено в том же URI перед приложением, которое отправляет письмо. Приложение Mailer генерирует идентификатор почтового ящика, который должен быть передан для каждой отправки. Этот идентификатор изменяется при каждой отправленной почте или любой попытке отправить электронное письмо. Таким образом, гарантируется, что форма роботов не может быть скопирована для отправки спама. Приложение Mailer генерирует журнал, который можно зачитать через область админ для каждой отправленной почты и для каждой неудачной доставки. Любая попытка отправить сообщение сопоставляется с журналом доставки. Пользователь пытается отправить слишком много писем, электронная почта используется адрес в черный список, который никакой другой доставки почты не представляется возможным. Черный список может быть изменен в любое время в области админ.",
+    "admin__mailer__mailer__settings__log_error" => "Регистрация ошибок размера",
+    "admin__mailer__mailer__settings__log_confirm" => "Размер подтвердить журнал",
+    "admin__mailer__mailer__settings__emails" => "отправлено электронной почты",
+    "admin__mailer__mailer__settings__mailbox" => "Стандартный почтовый ящик",
+    "admin__mailer__mailer__settings__confirm" => "Настройки были отредактированы",
+    "admin__mailer__mailer__settings__never" => "Нвер",
+    "admin__mailer__mailer__settings__unlimited" => "Неограниченное",
+    "admin__mailer__mailer__blacklist__info" => "APPNET OS Mailer — это простая система управления сложной отправкой почты. Почтовые ящики создаются в General Mailer. Эти почтовые ящики могут быть использованы для отправки сообщений приложений. Отправка работает исключительно на Приложение Mailer. Приложение Mailer имеет несколько мер по защите от спама. Приложение Mailer должно быть установлено в том же URI перед приложением, которое отправляет письмо. Приложение Mailer генерирует идентификатор почтового ящика, который должен быть передан для каждой отправки. Этот идентификатор изменяется при каждой отправленной почте или любой попытке отправить электронное письмо. Таким образом, гарантируется, что форма роботов не может быть скопирована для отправки спама. Приложение Mailer генерирует журнал, который можно зачитать через область админ для каждой отправленной почты и для каждой неудачной доставки. Любая попытка отправить сообщение сопоставляется с журналом доставки. Пользователь пытается отправить слишком много писем, электронная почта используется адрес в черный список, который никакой другой доставки почты не представляется возможным. Черный список может быть изменен в любое время в области админ.",
+    "admin__mailer__mailer__blacklist__edit_info" => "Заблокированные адреса электронной почты, разделенные запятой (; )",
+    "admin__mailer__mailer__blacklist__confirm" => "Черный список был отредактирован",
+    "admin__mailer__mailer__mailboxes__info" => "APPNET OS Mailer — это простая система управления сложной отправкой почты. Почтовые ящики создаются в General Mailer. Эти почтовые ящики могут быть использованы для отправки сообщений приложений. Отправка работает исключительно на Приложение Mailer. Приложение Mailer имеет несколько мер по защите от спама. Приложение Mailer должно быть установлено в том же URI перед приложением, которое отправляет письмо. Приложение Mailer генерирует идентификатор почтового ящика, который должен быть передан для каждой отправки. Этот идентификатор изменяется при каждой отправленной почте или любой попытке отправить электронное письмо. Таким образом, гарантируется, что форма роботов не может быть скопирована для отправки спама. Приложение Mailer генерирует журнал, который можно зачитать через область админ для каждой отправленной почты и для каждой неудачной доставки. Любая попытка отправить сообщение сопоставляется с журналом доставки. Пользователь пытается отправить слишком много писем, электронная почта используется адрес в черный список, который никакой другой доставки почты не представляется возможным. Черный список может быть изменен в любое время в области админ.",
+    "admin__mailer__mailer__mailboxes__add" => "Добавление почтового ящика",
+    "admin__mailer__mailer__mailboxes__name" => "Имя почтового ящика",
+    "admin__mailer__mailer__mailboxes__mail" => "Адрес электронной почты",
+    "admin__mailer__mailer__mailboxes__host" => "Узла",
+    "admin__mailer__mailer__mailboxes__user" => "Имя пользователя",
+    "admin__mailer__mailer__mailboxes__pass" => "Пароль",
+    "admin__mailer__mailer__mailboxes__is_smtp" => "Отправить как SMTP",
+    "admin__mailer__mailer__mailboxes__smtp_auth" => "SMTP требует аутентификации",
+    "admin__mailer__mailer__mailboxes__err_no_name" => "Имя не введено",
+    "admin__mailer__mailer__mailboxes__err_name_exists" => "Уже есть почтовый ящик с таким именем",
+    "admin__mailer__mailer__mailboxes__err_mail" => "Адрес электронной почты не может быть использован",
+    "admin__mailer__mailer__mailboxes__err_host" => "Хозяин не введен",
+    "admin__mailer__mailer__mailboxes__err_user" => "Имя пользователя не введено",
+    "admin__mailer__mailer__mailboxes__err_pass" => "Пароль не введен",
+    "admin__mailer__mailer__mailboxes__conf_add" => "Почтовый ящик добавлен",
+    "admin__mailer__mailer__mailboxes__edit" => "Отодвитете почтовый ящик",
+    "admin__mailer__mailer__mailboxes__edit_info" => "Будьте осторожны при изменении имен почтовых ящиков. Если правило дистрибьютора использует этот почтовый ящик, он больше не будет отправлять электронные письма. При изменении имени дистрибьютор должен быть перенастроен.",
+    "admin__mailer__mailer__mailboxes__conf_edit" => "Почтовый ящик был отредактирован",
+    "admin__mailer__mailer__mailboxes__delete_info" => "Будьте осторожны при удалянии почтовых ящиков. Если почтовый ящик удален и дистрибьютор использует этот почтовый ящик, он больше не сможет отправлять почту. Затем дистрибьютор должен быть перенастроен.",
+    "admin__mailer__mailer__mailboxes__conf_delete" => "Почтовый ящик удален",
+    "admin__mailer__mailer__mailboxes__delete" => "Удаление почтового ящика",
+    "admin__mailer__mailer__mailboxes__err_delete" => "Почтовый ящик не может быть удален",
+    "admin__mailer__mailer__mailboxes__port" => "Порт",
+    "admin__mailer__mailer__mailboxes__secure" => "SMTP Безопасный",
+    "admin__mailer__mailer__mailboxes__none" => "Ни один",
+    "admin__mailer__mailer__mailboxes__sent" => "Отправлено",
+    "admin__mailer__mailer__mailboxes__failed" => "Сбой при",
+    "admin__mailer__mailer__menu_header" => "Почтовой",
+    "admin__mailer__mailer__menu_logs" => "Журналы",
+    "admin__mailer__mailer__menu_blacklist" => "Черного списка",
+    "admin__mailer__mailer__menu_whitelist" => "Белого списка",
+    "admin__mailer__mailer__menu_settings" => "Параметры",
+    "admin__mailer__mailer__menu_mailboxes" => "Почтовых ящиков",
+    "admin__mailer__mailer__menu_header_logs" => "Мейлер журналы",
+    "admin__mailer__mailer__menu_header_blacklist" => "Почтовый черный список",
+    "admin__mailer__mailer__menu_header_whitelist" => "Мейлер белый список",
+    "admin__mailer__mailer__menu_header_settings" => "Настройки Мейлера",
+    "admin__mailer__mailer__menu_header_mailboxes" => "Почтовые ящики для мейлеров",
+    "admin__mailer__mailer__menu_save" => "Сохранить",
+    "admin__mailer__mailer__settings_log_conf" => "Сохранить",
+    "admin__mailer__mailer__settings_ip_lock" => "Опубликовать IP в черный список",
+    "admin__mailer__mailer__minute" => "Минуту",
+    "admin__mailer__mailer__minutes" => "Минут",
+    "admin__mailer__mailer__requests" => "Запросы в",
+    "admin__mailer__mailer__settings_ip_expire" => "Удалить IP из черного списка",
+    "admin__mailer__mailer__hour" => "Час",
+    "admin__mailer__mailer__hours" => "Часов",
+    "admin__mailer__mailer__manually" => "Вручную",
+    "admin__mailer__mailer__settings_mail_lock" => "Опубликовать адрес электронной почты в черный список",
+    "admin__mailer__mailer__add" => "Добавить",
+    "admin__mailer__mailer__close" => "Закрыть",
+    "admin__mailer__mailer__mailboxes_no_mailboxes" => "Рассылка пока не настроена",
+    "admin__mailer__mailer__mailboxes_firewall" => "Мейлер Брандмауэр",
+    "admin__mailer__mailer__mailboxes_firewall_true" => "Брандмауэр активирован",
+    "admin__mailer__mailer__mailboxes_firewall_false" => "Брандмауэр отключен",
+    "admin__mailer__mailer__mailboxes_delete_header" => "Удаление почтового ящика",
+    "admin__mailer__mailer__delete" => "Удалить",
+    "admin__mailer__mailer__edit" => "Редактировать",
+    "admin__mailer__mailer__properties" => "Вариантов размещения",
+    "admin__mailer__mailer__pass_info" => "Оставьте пустым без изменений",
+    "admin__mailer__mailer__settings__none" => "Ни один",
+    "admin__mailer__mailer__settings__error" => "Настройки не удалось сохранить",
+    "admin__mailer__mailer__whitelist__info" => "APPNET OS Mailer имеет брандмауэр для защиты от спама. Брандмауэр автоматически блокирует адреса электронной почты и IP-адреса, которые слишком часто пытаются отправлять сообщения. Заблокированные адреса электронной почты и IP-адреса внесены в черный список. IP-адреса и адреса электронной почты, входят в белый список, исключаются из брандмауэра.",
+    "admin__mailer__mailer__email_or_ip" => "IP или адрес электронной почты",
+    "admin__mailer__mailer__no_entries" => "Нет доступных записей",
+    "admin__mailer__mailer__list_add_err" => "Запись не может быть добавлена",
+    "admin__mailer__mailer__list_add_conf" => "Запись добавлена",
+    "admin__mailer__mailer__address" => "Адрес",
+    "admin__mailer__mailer__type" => "Тип",
+    "admin__mailer__mailer__email" => "Адрес электронной почты",
+    "admin__mailer__mailer__ip" => "Ip",
+    "admin__mailer__mailer__remove" => "Удалить",
+    "admin__mailer__mailer__err_exists" => "Запись уже существует",
+    "admin__mailer__mailer__list_remove_err" => "Запись не может быть удалена",
+    "admin__mailer__mailer__list_remove_conf" => "Запись удалена",
+    "admin__mailer__mailer__blacklist_static" => "Постоянно блокировка",
+    "admin__mailer__mailer__static" => "Постоянно",
+    "admin__mailer__mailer__expiration" => "Истечения срока действия",
+    "admin__mailer__mailer__mailbox" => "Почтовых ящиков",
+    "admin__mailer__mailer__logs__clear_info" => "Будьте осторожны при опорожнении журналов. Адреса сообщений электронной почты сопоставляются с журналами. Это определяет количество сообщений, отправленных для настроек черного списка.",
+    "admin__mailer__mailer__logs__clear" => "Ясно",
+    "admin__mailer__mailer__mailboxes_from_name" => "Имя отправителя",
+    "admin__mailer__mailer__mailboxes_not_defined" => "Неопределенный",
+    "admin__mailer__mailer__mailboxes__timeout" => "Тайм-аут в секундах",
+    "appnetos__mailer__error_ip_in_blacklist" => "IP-адрес в черном списке",
+    "appnetos__mailer__error_ip_to_blacklist" => "Слишком много запросов. IP-адрес внесен в черный список",
+    "appnetos__mailer__error_id_set" => "Идентификатор Мейлера не установлен",
+    "appnetos__mailer__error_mailbox_set" => "Почтовый ящик не установлен",
+    "appnetos__mailer__error_to_addr_set" => "Адрес электронной почты получателя не установлен",
+    "appnetos__mailer__error_body_set" => "Содержимое не установлено",
+    "appnetos__mailer__error_id_match" => "Идентификатор Мейлера не совпадает",
+    "appnetos__mailer__error_to_addr" => "Адрес электронной почты получателя неправильный",
+    "appnetos__mailer__error_mailbox_ex" => "Почтовый ящик не существует",
+    "appnetos__mailer__error_phpmailer" => "Ошибка PHP Mailer",
+    "appnetos__mailer__error_email_in_blacklist" => "Адрес электронной почты находится в черном списке",
+    "appnetos__mailer__error_email_to_blacklist" => "Слишком много запросов по электронной почте. Адрес электронной почты был установлен в черном списке",
+    "appnetos__mailer__error_no_settings" => "Настройки почтового рассылки недоступны.",
+    "appnetos__mailer__error_no_mailboxes" => "Почтовых ящиков нет.",
+];
