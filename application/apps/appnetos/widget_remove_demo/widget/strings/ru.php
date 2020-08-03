@@ -26,25 +26,9 @@
 
 // Strings.
 $strings = [
-    "appnetos__widgets__cache__header" => "кэш",
-    "appnetos__widgets__cache__apps" => "Кэш приложения",
-    "appnetos__widgets__cache__file" => "Файловый кеш",
-    "appnetos__widgets__cache__js" => "Кэш JavaScript",
-    "appnetos__widgets__cache__css" => "CSS кэш",
-    "appnetos__widgets__cache__directory" => "Кэш каталога",
-    "appnetos__widgets__cache__string" => "String Cache",
-    "appnetos__widgets__cache__type" => "Тип",
-    "appnetos__widgets__cache__active" => "активный",
-    "appnetos__widgets__cache__exists" => "Существует",
-    "appnetos__widgets__cache__clear" => "Очистить",
-    "appnetos__widgets__cache__clear_data" => "Очистить кеш приложения",
-    "appnetos__widgets__cache__clear_compile" => "Очистить файлы компиляции Smarty",
-    "appnetos__widgets__cache__clear_file" => "Очистить файловый кеш",
-    "appnetos__widgets__cache__clear_js" => "Очистить кеш JavaScript",
-    "appnetos__widgets__cache__clear_css" => "Очистить кэш CSS",
-    "appnetos__widgets__cache__clear_directory" => "Очистить кеш каталога",
-    "appnetos__widgets__cache__clear_string" => "Очистить кеш строк",
-    "appnetos__widgets__cache__clear_all" => "Очистить все кэши",
-    "appnetos__widgets__cache__confirm" => "Кеш был опустошен",
-
+    "appnetos__widgets__remove_demo__header" => "Удаление демо-данных",
+    "appnetos__widgets__remove_demo__text" => "Это приложение сбрасывает APPNET OS и удаляет все демо-данные. При сбросе все демо-приложения удаляются. Система CMS сбрасывается на пустой стенд. Пользователи сохраняются.",
+    "appnetos__widgets__remove_demo__remove" => "Сброс",
+    "appnetos__widgets__remove_demo__close" => "Закрыть",
+    "appnetos__widgets__remove_demo__warning" => "Будьте осторожны при сбросе APPNET OS. При сбросе все созданные приложения и данные CMS теряются. Все демо-приложения удаляются из системы. Пользователи сохраняются.",
 ];

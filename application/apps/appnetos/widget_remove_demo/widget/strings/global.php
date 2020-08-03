@@ -26,9 +26,9 @@
 
 // Strings.
 $strings = [
-    "appnetos__widgets__remove_demo__header" => "Demo-Daten löschen",
-    "appnetos__widgets__remove_demo__text" => "Diese App setzt APPNET OS zurück und löscht alle Demo-Daten. Beim zurücksetzen werden alle Demo-Apps gelöscht. Das CMS system wird auf einen leeren Stand zurückgesetzt. Die Benutzer bleiben erhalten.",
-    "appnetos__widgets__remove_demo__remove" => "Zurücksetzten",
-    "appnetos__widgets__remove_demo__close" => "Schließen",
-    "appnetos__widgets__remove_demo__warning" => "Vorsicht beim zurücksetzten von APPNET OS. Beim zurücksetzten gehen alle angelegten App und CMS Daten verloren. Alle Demo-Apps werden vom System gelöscht. Die Benuzter bleiben erhalten.",
+    "appnetos__widgets__remove_demo__header" => "Deleting demo data",
+    "appnetos__widgets__remove_demo__text" => "This app resets APPNET OS and deletes all demo data. When you reset, all demo apps are deleted. The CMS system is reset to an empty stand. Users are retained.",
+    "appnetos__widgets__remove_demo__remove" => "Reset",
+    "appnetos__widgets__remove_demo__close" => "Close",
+    "appnetos__widgets__remove_demo__warning" => "Be careful when resetting APPNET OS. When reset, all created app and CMS data are lost. All demo apps are deleted from the system. Users are retained.",
 ];
