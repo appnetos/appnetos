@@ -1,9 +1,10 @@
-## **Application Internet Operating System**
+# **Application Internet Operating System**
 
 ![APPNET OS](https://www.appnetos.com/out/img/github/appnetos.svg)
 
-Web: [https://www.appnetos.com](https://www.appnetos.com)
+Web: [https://www.appnetos.com](https://www.appnetos.com)\
 Mail: [info@appnetos.com](mailto:info@apnetos.com)
+
 
 ## The app based operating system for web applications sets new standards in development.
 
@@ -32,31 +33,44 @@ No matter how you like to process your output, APPNET OS can handle anything. Sm
 
 
 ## **Requirements**
-Apache HTTP Server
-PHP > 7.0
-MySQL or MariaDB Database
+
+- Apache HTTP Server
+- PHP > 7.0
+    - PHP extension curl
+    - PHP extension gd
+    - PHP extension mysqli
+    - PHP extension pdo_mysqli
+- MySQL or MariaDB Database
 
 
 ## **Installation**
-**Clone repository to your web or development directory**
+
+**Clone repository to your web or development directory**\
 git clone https://github.com/appnetos/appnetos.git
 
-**or download the .zip file and copy the content to your server web directory by using a FTP client**  
+**or download the .zip file and copy the content to your server web directory by using a FTP client**\
 [https://github.com/appnetos/appnetos/archive/master.zip](https://github.com/appnetos/appnetos/archive/master.zip)
 
-**Set the APPNET OS directory owner to your Apache user (www-data)**
+**Set the APPNET OS directory owner to your Apache user (www-data)**\
 sudo chown -R www-data:www-data /my/appnetos/web/directory
 
-**Install APPNET OS by using the APPNET OS installer**
+**Install APPNET OS by using the APPNET OS installer**\
 https://my-appnetos-web-application/install
+
+**After installation, you can reach your new web application at**\
+Application section: https://my-appnetos-web-application  
+Administration section: https://my-appnetos-web-application/admin
+
+**Happy Coding**
 
 
 ## **Powered by**
+
 ![xtrose Media Studio](https://www.appnetos.com/out/img/github/xtrose.svg)
 
-**xtrose Media Studio**
-Im Wiesengrung 24
-73540 Heubach
-Germany
-Web: [https://www.xtrose.com](https://www.xtrose.com)
+**xtrose Media Studio**\
+Im Wiesengrund 24\
+73540 Heubach\
+Germany\
+Web: [https://www.xtrose.com](https://www.xtrose.com)\
 Autor: Moses Rivera
