@@ -145,7 +145,7 @@ Class users extends base
 
         // Return user information if information exists.
         if (isset($this->users->{$id}->{$data})) {
-            $this->users->{$id}->{$data};
+            return $this->users->{$id}->{$data};
         }
 
         // Return user data if information not exists.
